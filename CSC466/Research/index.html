@@ -1,0 +1,112 @@
+---
+layout: page
+title: "CSC466 Research Project"
+description: "Harry Scells 2015"
+---
+{% include JB/setup %}
+
+<h1>Stage One - Noise Detection</h1>
+<p>
+   I wanted to start looking at how to use my image processing library and this
+   was a good introduction or 'hello world' into image processing with lisp.
+   <img src="starry_noise.png" alt="" />
+   This is the result of the noise detection algorithm. It estimates the amount
+   of noise in an image by applying a
+   <a href="http://en.wikipedia.org/wiki/Convolution">discrete convolution
+   matrix </a>over the image. The matrix looks like this:
+   <table>
+      <tr>
+         <td>
+            1
+         </td>
+         <td>
+            -2
+         </td>
+         <td>
+            1
+         </td>
+      </tr>
+      <tr>
+         <td>
+            -2
+         </td>
+         <td>
+            4
+         </td>
+         <td>
+            -2
+         </td>
+      </tr>
+      <tr>
+         <td>
+            1
+         </td>
+         <td>
+            -2
+         </td>
+         <td>
+            1
+         </td>
+      </tr>
+   </table>
+   An equation is then used to calculate the level of noise in the image. This
+   number is calculated using the following formulae:
+</p>
+
+<h1>Stage Two - Edge Detection</h1>
+<p>
+   The next step of the process is to detect the brush strokes from an image.
+   The process that I used for this includes multiple image manipulation
+   processes, but the main act of the show is edge detection.
+   <ol>
+      <li>
+         The image is converted to greyscale, because it make the operations
+         faster and easier to manage.
+      </li>
+      <li>
+         The image is blurred to make features stand out more.
+      </li>
+      <li>
+         The image is then dilated to accentuate the brush strokes within.
+      </li>
+      <li>
+         The image then undergoes the edge detection process, this happens via
+         another discrete convolution, with a different matrix.
+      </li>
+      <li>
+         A k-means of ```K=2``` is then applied to the image so that edges will
+         link together better.
+      </li>
+      <li>
+         The image is then transformed from a greyscale image to a binary 2 bit
+         image via a threshold function.
+      </li>
+      <li>
+         The edges are then thinned and any loose pixels are cleaned up.
+      </li>
+   </ol>
+   <img src="starry_night_edge.png" alt="" />
+</p>
+
+<h1>Stage Three - Feature Extraction</h1>
+<p>
+   The library that I use to perform the more complicated aspects of this
+   project contains a <a href="http://en.wikipedia.org/wiki/K-means_clustering">
+   k-means</a> function, but it dosen't perform how I want it to.
+   For this, I modified it so that it would output an image based on what the K
+   values was. For feature extraction of the brush strokes, k-means does all of
+   the heavy lifting out of getting nice clusters of pixels.
+   <img src="starry_night_blob.png" alt="" />
+   The edge detection is overlayed on top of a slightly processed reference
+   image. While this does not extract all the strokes that I want it to, and
+   there are large clusters which impact the outcome of the data, this is good
+   for now.
+</p>
+<h1>Stage Four - Starting to paint a picture</h1>
+<p>
+   I don't have too much to say about this, but here is an origional image side
+   by side against the same image with an image filter trained on "The Scream":
+   <img src="lenna.png" alt="" />
+   <img src="lenna_painting_scream.png" alt="" />
+   It's only a little disturbing.
+</p>
