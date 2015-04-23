@@ -16,6 +16,7 @@ description: "Harry Scells 2015"
    of noise in an image by applying a
    <a href="http://en.wikipedia.org/wiki/Convolution">discrete convolution
    matrix </a>over the image. The matrix looks like this:
+</p>
    <table>
       <tr>
          <td>
@@ -51,6 +52,7 @@ description: "Harry Scells 2015"
          </td>
       </tr>
    </table>
+<p>
    An equation is then used to calculate the level of noise in the image. This
    number is calculated using the following formulae:
 </p>
@@ -100,8 +102,9 @@ description: "Harry Scells 2015"
    For this, I modified it so that it would output an image based on what the K
    values was. For feature extraction of the brush strokes, k-means does all of
    the heavy lifting out of getting nice clusters of pixels.
+   <hr/>
    <img src="starry_night_blob.png" alt="" />
-   <br/>
+   <hr/>
    The edge detection is overlayed on top of a slightly processed reference
    image. While this does not extract all the strokes that I want it to, and
    there are large clusters which impact the outcome of the data, this is good
