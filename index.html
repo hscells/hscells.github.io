@@ -53,7 +53,7 @@ body{background-color:#F7F7F7;color:#111111;}h1,h2,h3,h4,h5,h6{font-family:'Oswa
 <div class="underline"></div>
 </div>
 <div class="six columns">
-<h3>TUMBLR</h3>
+<h3>LIFE</h3>
 <div class="tumblr"></div>
 <div class="underline"></div>
 </div>
@@ -67,11 +67,11 @@ body{background-color:#F7F7F7;color:#111111;}h1,h2,h3,h4,h5,h6{font-family:'Oswa
          .success(function(data){
             for(var i = 0, l = data.length; i < l; i++){
                if (data[i].type == "IssueCommentEvent"){
-                  github_payload += "<div class=\"action\"><span class=\"fa fa-edit\"></span>&nbsp;<a href=\"" + data[i].repo.url + "\">" + data[i].repo.name + "</a></div>"
+                  github_payload += "<div class=\"action\"><span class=\"fa fa-edit\"></span>&nbsp;<a href=\"http://github.com/" + data[i].repo.name + "\">" + data[i].repo.name + "</a></div>"
                }
                else if (data[i].type == "PushEvent"){
                   for(var f = 0, len = data[i].payload.commits.length; f < len; f++){
-                     github_payload += "<div class=\"action\"><span class=\"fa fa-code-fork\"></span>&nbsp;<a href=\"" + data[i].repo.url + "\">" + data[i].repo.name + "</a>&nbsp;" + data[i].payload.commits[f].message + "</div>"
+                     github_payload += "<div class=\"action\"><span class=\"fa fa-code-fork\"></span>&nbsp;<a href=\"http://github.com/" + data[i].repo.name + "\">" + data[i].repo.name + "</a>&nbsp;" + data[i].payload.commits[f].message + "</div>"
                   }
                }
             }
