@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="res/css/normalize.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="res/css/skeleton.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="res/css/main2.css?v2" media="screen" title="no title" charset="utf-8">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harry Scells</title>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="six columns">
+<h1>HARRY SCELLS</h1>
+<div class="underline"></div>
+<h3><blockquote>&quotThings don't have to change the world to be important.&quot</blockquote></h3>
+</div>
+</div>
+<div class="row">
+<div class="six columns">
+<h3>ME</h3>
+<div class="profile"></div>
+<div class="underline"></div>
+</div>
+<div class="six columns">
+<h3>PROJECTS</h3>
+<ul class="list-no-style">
+<li><a href="http://code.harryscells.net"><i class="fa fa-code"></i> Code</a></li>
+<li><a href="https://github.com/hscells/sheetcms"><i class="fa fa-database"></i> SheetCMS</a></li>
+<li><a href="https://finderies.com"><i class="fa fa-globe"></i> Finderies</a></li>
+</ul>
+<h3>CONNECT</h3>
+<ul class="list-no-style">
+<li><a href="http://github.com/hscells/"><i class="fa fa-github-square"></i> Github</a></li>
+<li><a href="http://twitter.com/hscells"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+<li><a href="http://hscells.tumblr.com/"><i class="fa fa-tumblr-square"></i> Tumblr</a></li>
+<li><a href="http://instagram.com/hscells"><i class="fa fa-instagram"></i> Instagram</a></li>
+<li><a href="https://plus.google.com/+HarryScells"><i class="fa fa-google-plus-square"></i> Google Plus</a></li>
+</ul>
+<div class="underline"></div>
+</div>
+</div>
+<div class="row">
+<div class="six columns">
+<h3>GITHUB</h3>
+<div class="github"></div>
+<div class="underline"></div>
+</div>
+<div class="six columns">
+<h3>TUMBLR</h3>
+<div class="tumblr"></div>
+<div class="underline"></div>
+</div>
+</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+      $(document).ready(function(){
+         var github_payload = ""
+         $.ajax("http://api.github.com/users/hscells/events")
+         .success(function(data){
+            for(var i = 0, l = data.length; i < l; i++){
+               if (data[i].type == "IssueCommentEvent"){
+                  github_payload += "<div class=\"action\"><span class=\"fa fa-edit\"></span>&nbsp;<a href=\"" + data[i].repo.url + "\">" + data[i].repo.name + "</a></div>"
+               }
+               else if (data[i].type == "PushEvent"){
+                  for(var f = 0, len = data[i].payload.commits.length; f < len; f++){
+                     github_payload += "<div class=\"action\"><span class=\"fa fa-code-fork\"></span>&nbsp;<a href=\"" + data[i].repo.url + "\">" + data[i].repo.name + "</a>&nbsp;" + data[i].payload.commits[f].message + "</div>"
+                  }
+               }
+            }
+            $(".github").html(github_payload);
+         })
+         var tumblr_payload = "";
+         $.ajax({url:"http://api.tumblr.com/v2/blog/hscells.tumblr.com/posts/photo?api_key=hLOitSZluOU0LwWZSFc8Zu5aj0KoQith0rVl0bytowzgEXM76z&limit=1",dataType:"jsonp"})
+         .success(function(data){
+            for(var i = 0, l = data.response.posts[0].photos.length; i < l; i++){
+               tumblr_payload += "<img src=\"" + data.response.posts[0].photos[i].original_size.url + "\" width=\"100%\">"
+            }
+            tumblr_payload += data.response.posts[0].caption
+            $(".tumblr").html(tumblr_payload)
+         })
+         $.ajax({url:"http://api.tumblr.com/v2/blog/hscells.tumblr.com/avatar/512?api_key=hLOitSZluOU0LwWZSFc8Zu5aj0KoQith0rVl0bytowzgEXM76z&limit=1",dataType:"jsonp"})
+         .success(function(data){
+            console.log(data)
+            $(".profile").html("<img src=\"" + data.response.avatar_url + "\" class=\"profile-pic\" width=\"100%\">")
+         })
+      })
+   </script>
+</body>
+</html>
