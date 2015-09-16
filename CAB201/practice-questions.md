@@ -9,11 +9,11 @@ description: ""
 ## Warmup
 Write a method which takes no parameters, but which reads two numbers from stdin and returns the sum of those two numbers. The method signature is given below.
 
-```C#
+{% highlight C# %}
 public static int sumInputs() {
 
 }
-```
+{% highlight %}
 
 ## Question 1 (Easy)
 Write a method which will count the number of occurrences of a character in a string. The method signature is given below.
