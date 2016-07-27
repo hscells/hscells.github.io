@@ -40,6 +40,8 @@ This is the process of quantifying of the likeliness of an event to occur. Proba
 | 0.15 | 0.25 | .6   |
 
 Sample space is denoted as:
+
+
 $$
 
 
@@ -50,10 +52,14 @@ $$
 
 $$
 It contains all possible values of a variable. A possible value (event, state, sample point) is denoted by:
+
+
 $$
 \omega \in \Omega
 $$
 Every probability in the distribution must add up to one, such that:
+
+
 $$
 
 \omega \in \Omega, 0 \leq P(\omega) \leq 1
