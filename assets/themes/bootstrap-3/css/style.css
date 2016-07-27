@@ -15,12 +15,15 @@
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #f22430;
+  color: #212121;
 }
 #footer {
-  background-color: #fdcd60;
+  background-color: #039BE5;
 }
 
+.img {
+  width: 100%;
+}
 
 
 /* posts index */
