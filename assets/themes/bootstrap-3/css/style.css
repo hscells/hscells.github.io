@@ -43,12 +43,21 @@ td {
   border: 1px solid;
 }
 
-.container {
-  padding-left: 152px;
-  padding-right: 152px;
-  padding-top: 64px;
+@media screen and (min-width: 640px) {
+  .container {
+    padding-left: 152px;
+    padding-right: 152px;
+    padding-top: 64px;
+  }
 }
 
+@media screen and (min-width: 640px) {
+  .container {
+    padding-top: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
 
 /* posts index */
 .post > h3.title {
