@@ -292,16 +292,13 @@ $$
 
 ## Bayes' Rule
 
+This rule describes the probability of an event, based on conditions that might be related to the event.
+
 $$
 P(A|B)={P(B|A)P(A)\over P(B)}
 $$
 
-
-The joint probability of $P(A,B)$ does not need to be known.
-
-The posterior probability $P(A|B)$ using the prior belief $P(A)$ and $P(B)$, and the likelihood $P(B|A)$ can be calculated instead.
-
- More conditions can be added and the rule stays the same:
+More conditions can be added and the rule stays the same:
 
 $$
 P(A|B,E)={P(B|A,E)P(A|E)\over P(B|E)}
