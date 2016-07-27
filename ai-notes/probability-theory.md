@@ -48,13 +48,7 @@ This is the process of quantifying of the likeliness of an event to occur. Proba
 | ---- | ---- | ---- |
 | 0.15 | 0.25 | .6   |
 
-Sample space is denoted as:
-
-$$
-\Omega
-$$
-
-It contains all possible values of a variable. A possible value (event, state, sample point) is denoted by:
+Sample space is denoted as $\Omega$. It contains all possible values of a variable. A possible value (event, state, sample point) is denoted by:
 
 $$
 \omega \in \Omega
@@ -285,7 +279,7 @@ $$
 P(A|B, C) = P(A|C)
 $$
 
-Thus, if *A* and *B* are independent given *C*, we have:
+Thus, if $A$ and $B$ are independent given $C$, we have:
 
 $$
 \begin{align}
@@ -302,7 +296,9 @@ $$
 P(A|B)={P(B|A)P(A)\over P(B)}
 $$
 
-The joint probability of P(*A*,*B*) does not need to be known, the posterier probability P(*A*|*B*) using the proir belief P(*A*) and P(*B*), and the likelihood P(*B*|*A*) can be calculated. More conditions can be added and the rule stays the same:
+
+The joint probability of $P(A,B)$ does not need to be known, the posterier probability $P(A|B)$ using the proir belief $P(A)$ and $P(B)$, and the likelihood $P(B|A)$ can be calculated. More conditions can be added and the rule stays the same:
+
 
 $$
 P(A|B,E)={P(B|A,E)P(A|E)\over P(B|E)}
