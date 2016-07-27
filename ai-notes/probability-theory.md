@@ -6,11 +6,22 @@ description: ""
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
+<script type="text/javascript">
+MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    processEscapes: true
+  },
+  displayAlign: "left"
+})
+</script>
+
 Probability theory is the analysis of random phenomena. It is a way of expressing the likelihood of events. This is important in artificial intelligence, as the world is a very uncertain and unpredictable place. This chapter will take a look at agents, uncertainty, probability and Bayes rule. Most of this content is from the book [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) by Russell & Norvig.
 
 ## Rational Agents & Environments
 
-An artificial intelligence is a machine that attempts to replicate how the human brain thinks and acts. These machines are traditionally called agents. These agents all exist in an environment, whether that be physical or imaginary. Rational agents choose actions that maximise performance given the environment they exist in. These agents produce the actions based on a set of inputs. 
+An artificial intelligence is a machine that attempts to replicate how the human brain thinks and acts. These machines are traditionally called agents. These agents all exist in an environment, whether that be physical or imaginary. Rational agents choose actions that maximise performance given the environment they exist in. These agents produce the actions based on a set of inputs.
 
 ![https://upload.wikimedia.org/wikipedia/commons/e/e9/AI-agent-and-environment.jpg](images/ai-agent-and-environment.jpg)
 
@@ -39,25 +50,17 @@ This is the process of quantifying of the likeliness of an event to occur. Proba
 
 Sample space is denoted as:
 
-
-
 $$
 \Omega
 $$
 
-
 It contains all possible values of a variable. A possible value (event, state, sample point) is denoted by:
-
-
 
 $$
 \omega \in \Omega
 $$
 
-
 Every probability in the distribution must add up to one, such that:
-
-
 
 $$
 \omega \in \Omega, 0 \leq P(\omega) \leq 1
@@ -79,32 +82,23 @@ The sample space for a stochastic trial is the set of all outcomes, a **random v
 
 Propositions, or assertions, are random values that are binary (or boolean). propositional random variables are represented with a capital letter.
 
-
 $$
-
 Cavity=true
-
 $$
-
 
 Propositions are usually represented with the following notation (note that the name is lower-case — the values are atomic) for true and false, respectively:
-
 
 $$
 cavity, \neg cavity
 $$
 
-
 A discrete random variable can use propositions to represent a series of events:
-
 
 $$
 \Omega = \{sunny,rain,cloudy,snow\}, Weather = sunny
 $$
 
-
-Propositions have two important logical operators for "and" and "or", respectively:
-
+Propositions have two important logical operators for $and$ and $or$, respectively:
 
 $$
 A\wedge B, A\vee B
@@ -230,7 +224,7 @@ $$
 
 In this example, we sum the probabilities of *toothache* or *cavity*, plus the hidden variable, *Catch.*
 
-$2^n$ probabilities are needed for binary variables; if we want to calculate a joint probability $P(x_1,\ldots ,x_n)$ by enumeration based on the joint probability distribution table. The number of probabilities needed to complete probabilistic reasoning by enumeration is exponential with respect to the number of variables. This makes reasoning based on the full joint distribution difficult to scale up to large domains with many variables.
+$2^n$ probabilities are needed for binary variables; if we want to calculate a joint probability $P(x_1,\ldots,x_n)$ by enumeration based on the joint probability distribution table. The number of probabilities needed to complete probabilistic reasoning by enumeration is exponential with respect to the number of variables. This makes reasoning based on the full joint distribution difficult to scale up to large domains with many variables.
 
 ### Normalisation
 
@@ -244,8 +238,6 @@ P(\neg cavity|toothache) = P(\neg cavity \wedge toothache) / P(toothache)\\\\
 $$
 
 
-
-
 $$
 \begin{align}
 P(cavity|toothache) = P(cavity \wedge toothache) / P(toothache)\\\\
@@ -253,8 +245,6 @@ P(cavity|toothache) = P(cavity \wedge toothache) / P(toothache)\\\\
 &=0.6
 \end{align}
 $$
-
-
 
 
 $$
@@ -269,27 +259,21 @@ P(Cavity|toothache) \\\\
 \end{align}
 $$
 
-
-
 Because we know that P(*toothache*) is 0.2, *a* = 1/P(*toothache*)
 
 ### Independence
 
 If you have two events, *A* and *B*, they are only independent if:
 
-
 $$
 P(A|B) = P(A)
 $$
 
-
 This means that:
-
 
 $$
 P(A,B) = P(A)P(B)
 $$
-
 
 Independence allows us to decompose the number of probabilities needed in inference.
 
@@ -297,14 +281,11 @@ Independence allows us to decompose the number of probabilities needed in infere
 
 While with independence, it is possible to reduce the complexity of probabalistic reasoning by decomposing a joint distribution, in the real world absolute independence is rare. A more common approach is conditional independence. The size of the representation of the joint distribution is reduced from exponential to linear in most cases. *A* and *B* are conditionally independent given *C* if and only if:
 
-
 $$
 P(A|B, C) = P(A|C)
 $$
 
-
 Thus, if *A* and *B* are independent given *C*, we have:
-
 
 $$
 \begin{align}
@@ -315,30 +296,23 @@ P(A, B|C) \\\\
 \end{align}
 $$
 
-
-
 ## Bayes' Rule
 
 $$
 P(A|B)={P(B|A)P(A)\over P(B)}
 $$
 
-
-
 The joint probability of P(*A*,*B*) does not need to be known, the posterier probability P(*A*|*B*) using the proir belief P(*A*) and P(*B*), and the likelihood P(*B*|*A*) can be calculated. More conditions can be added and the rule stays the same:
-
 
 $$
 P(A|B,E)={P(B|A,E)P(A|E)\over P(B|E)}
 $$
-
 
 Bayes' rule is most helpful in solving diagnoses-type problems. The process of arguing from effet to cause is what the rule is good for. It can be used to estimate the probability of causes given some effects.
 
 ### Naïve Bayes Model
 
 If a cause directly influences *n* effects, and these effects are conditionally independent from each other given the cause, the full joint distribution becomes:
-
 
 $$
 \begin{align}
