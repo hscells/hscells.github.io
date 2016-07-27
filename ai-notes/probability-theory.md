@@ -6,8 +6,6 @@ description: ""
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-# Probability Theory
-
 Probability theory is the analysis of random phenomena. It is a way of expressing the likelihood of events. This is important in artificial intelligence, as the world is a very uncertain and unpredictable place. This chapter will take a look at agents, uncertainty, probability and Bayes rule. Most of this content is from the book [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) by Russell & Norvig.
 
 ## Rational Agents & Environments
@@ -42,34 +40,31 @@ This is the process of quantifying of the likeliness of an event to occur. Proba
 Sample space is denoted as:
 
 
+
 $$
-
-
-
 \Omega
-
-
-
 $$
+
+
 It contains all possible values of a variable. A possible value (event, state, sample point) is denoted by:
+
 
 
 $$
 \omega \in \Omega
 $$
+
+
 Every probability in the distribution must add up to one, such that:
 
 
-$$
 
+$$
 \omega \in \Omega, 0 \leq P(\omega) \leq 1
-
 $$
 
 $$
-
 \sum_{\omega \in \Omega}P(\omega) = 1
-
 $$
 
 ### Random  Variables
@@ -83,44 +78,70 @@ The sample space for a stochastic trial is the set of all outcomes, a **random v
 ### Propositions
 
 Propositions, or assertions, are random values that are binary (or boolean). propositional random variables are represented with a capital letter.
-$$
 
+
+$$
 
 Cavity=true
 
-
 $$
+
+
 Propositions are usually represented with the following notation (note that the name is lower-case — the values are atomic) for true and false, respectively:
+
+
 $$
 cavity, \neg cavity
 $$
+
+
 A discrete random variable can use propositions to represent a series of events:
+
+
 $$
 \Omega = \{sunny,rain,cloudy,snow\}, Weather = sunny
 $$
+
+
 Propositions have two important logical operators for "and" and "or", respectively:
+
+
 $$
 A\wedge B, A\vee B
 $$
 
+
+
 ### Probability Distribution
 
 A probability distribution is how all possible valies of a random variable is represented. For example, The probability distribution of *A* with *n* values can be represented as:
+
+
 $$
 <P(A=a_1),\ldots,P(A=a_n)>
 $$
-and it must obey the rule that the sum of all probabilities equal 1:
+
+
+and it must obey the rule that the sum of all probabilities equal one:
+
+
 $$
 \sum_{i=1}^nP(A=a_i) = 1
 $$
+
+
 Probability distributions are always represented as vectors; the order matters. This means that probability distributions can be transposed without any loss of information.
 
 ### Joint Probability Distribution
 
 One may also want to find the probability given some arbitrary number of random variables. This is called the joint probability distribution, and is represented by:
+
+
 $$
 P(A_1,\ldots,A_k)
 $$
+
+
 Where there are *k* random variables.
 
 If there are two binary random variables *Cavity* and *Toothache*, and the domain is *{true, false}*, then P(*Cavity*, *Toothache*) can be represented by:
@@ -133,10 +154,16 @@ If there are two binary random variables *Cavity* and *Toothache*, and the domai
 These combinations are mutually exclusive and exhaustive.
 
 Like probability distributions, joint probability distributions must also sum to 1.
+
+
 $$
 0.04+0.01+0.06+0.89=1
 $$
+
+
 Inferences about the random variables can also be made by looking at the table of joint probabilities.
+
+
 $$
 \begin{align}
 P(Cavity=true)\\\\
@@ -145,29 +172,42 @@ P(Cavity=true)\\\\
 \end{align}
 $$
 
-$$
 
+
+
+$$
 \begin{align}
 P(Toothache=true)\\\\
 & = P(Toothache=true, Cavity=true) + P(Toothache=true, Cavity=true)\\\\
 & = 0.05
 \end{align}
-
 $$
+
+
 
 ### Conditional Probability
 
 This is the probability of an event given some known events. The conditional probability of *A* given *B* is denoted as:
+
+
 $$
 P(A|B)={P(A,B)\over P(B)}\\\\
 \text{if }P(B)\ne0\\\\
 P(A,B) \text{ or } P(A\wedge B) \text{ is the joint probability of A and B}
 $$
+
+
 if
+
+
 $$
 A:\Omega\rightarrow\{a_1\ldots a_n\}
 $$
+
+
 then
+
+
 $$
 P(A=a_1|B)+\ldots+P(A=a_n|B) = 1
 $$
@@ -177,6 +217,8 @@ $$
 We can also infer through enumeration. The probability of a proposition is the sum of probabilitys of the events in which the proposition hold true.
 
 ![http://images.slideplayer.com/13/3936653/slides/slide_31.jpg](images\infer-full-joint-dist.png)
+
+
 $$
 \begin{align}
 P(cavity\vee toothache) \\\\
@@ -184,6 +226,8 @@ P(cavity\vee toothache) \\\\
 & = 0.28
 \end{align}
 $$
+
+
 In this example, we sum the probabilities of *toothache* or *cavity*, plus the hidden variable, *Catch.*
 
 $2^n$ probabilities are needed for binary variables; if we want to calculate a joint probability $P(x_1,\ldots ,x_n)$ by enumeration based on the joint probability distribution table. The number of probabilities needed to complete probabilistic reasoning by enumeration is exponential with respect to the number of variables. This makes reasoning based on the full joint distribution difficult to scale up to large domains with many variables.
@@ -199,6 +243,9 @@ P(\neg cavity|toothache) = P(\neg cavity \wedge toothache) / P(toothache)\\\\
 \end{align}
 $$
 
+
+
+
 $$
 \begin{align}
 P(cavity|toothache) = P(cavity \wedge toothache) / P(toothache)\\\\
@@ -206,6 +253,9 @@ P(cavity|toothache) = P(cavity \wedge toothache) / P(toothache)\\\\
 &=0.6
 \end{align}
 $$
+
+
+
 
 $$
 \begin{align}
@@ -219,29 +269,43 @@ P(Cavity|toothache) \\\\
 \end{align}
 $$
 
+
+
 Because we know that P(*toothache*) is 0.2, *a* = 1/P(*toothache*)
 
 ### Independence
 
 If you have two events, *A* and *B*, they are only independent if:
-$$
 
+
+$$
 P(A|B) = P(A)
-
 $$
+
+
 This means that:
+
+
 $$
 P(A,B) = P(A)P(B)
 $$
+
+
 Independence allows us to decompose the number of probabilities needed in inference.
 
 ### Conditional Independence
 
 While with independence, it is possible to reduce the complexity of probabalistic reasoning by decomposing a joint distribution, in the real world absolute independence is rare. A more common approach is conditional independence. The size of the representation of the joint distribution is reduced from exponential to linear in most cases. *A* and *B* are conditionally independent given *C* if and only if:
+
+
 $$
 P(A|B, C) = P(A|C)
 $$
+
+
 Thus, if *A* and *B* are independent given *C*, we have:
+
+
 $$
 \begin{align}
 P(A, B|C) \\\\
@@ -251,21 +315,31 @@ P(A, B|C) \\\\
 \end{align}
 $$
 
+
+
 ## Bayes' Rule
 
 $$
 P(A|B)={P(B|A)P(A)\over P(B)}
 $$
 
+
+
 The joint probability of P(*A*,*B*) does not need to be known, the posterier probability P(*A*|*B*) using the proir belief P(*A*) and P(*B*), and the likelihood P(*B*|*A*) can be calculated. More conditions can be added and the rule stays the same:
+
+
 $$
 P(A|B,E)={P(B|A,E)P(A|E)\over P(B|E)}
 $$
+
+
 Bayes' rule is most helpful in solving diagnoses-type problems. The process of arguing from effet to cause is what the rule is good for. It can be used to estimate the probability of causes given some effects.
 
 ### Naïve Bayes Model
 
 If a cause directly influences *n* effects, and these effects are conditionally independent from each other given the cause, the full joint distribution becomes:
+
+
 $$
 \begin{align}
 P(Cause, Effect_1,\ldots,Effect_n)\\\\
