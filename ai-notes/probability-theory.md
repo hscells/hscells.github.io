@@ -17,7 +17,7 @@ MathJax.Hub.Config({
 })
 </script>
 
-Probability theory is the analysis of random phenomena. It is a way of expressing the likelihood of events. This is important in artificial intelligence, as the world is a very uncertain and unpredictable place. This chapter will take a look at agents, uncertainty, probability and Bayes rule. Most of this content is from the book [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) by Russell & Norvig.
+Probability theory is the analysis of random phenomena. It is a way of expressing the likelihood of events. This is important in artificial intelligence, as the world is a very uncertain and unpredictable place. This chapter will take a look at agents, uncertainty, probability and Bayes' rule. Most of this content is from the book [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) by Russell & Norvig.
 
 ## Rational Agents & Environments
 
@@ -42,7 +42,7 @@ Uncertainty is the notion of imperfect information about the environment and act
 
 ## Probability
 
-This is the process of quantifying of the likeliness of an event to occur. Probability has a natural frequency interpretation; and is a relative frequency. This is just a fancy way of saying if something happens *k* times, 15% of the time action A is taken, 25% of the time action B is taken and 60% of the time action C is taken, the probability ditributions will be:
+This is the process of quantifying of the likeliness of an event to occur. Probability has a natural frequency interpretation; and is a relative frequency. This is just a fancy way of saying if something happens *k* times, 15% of the time action A is taken, 25% of the time action B is taken and 60% of the time action C is taken, the probability distributions will be:
 
 | A    | B    | C    |
 | ---- | ---- | ---- |
@@ -102,7 +102,7 @@ $$
 
 ### Probability Distribution
 
-A probability distribution is how all possible valies of a random variable is represented. For example, The probability distribution of *A* with *n* values can be represented as:
+A probability distribution is how all possible values of a random variable is represented. For example, The probability distribution of *A* with *n* values can be represented as:
 
 
 $$
@@ -202,7 +202,7 @@ $$
 
 ### Inference Using Full Joint Distribution
 
-We can also infer through enumeration. The probability of a proposition is the sum of probabilitys of the events in which the proposition hold true.
+We can also infer through enumeration. The probability of a proposition is the sum of probabilities of the events in which the proposition hold true.
 
 ![http://images.slideplayer.com/13/3936653/slides/slide_31.jpg](images\infer-full-joint-dist.png)
 
@@ -273,7 +273,7 @@ Independence allows us to decompose the number of probabilities needed in infere
 
 ### Conditional Independence
 
-While with independence, it is possible to reduce the complexity of probabalistic reasoning by decomposing a joint distribution, in the real world absolute independence is rare. A more common approach is conditional independence. The size of the representation of the joint distribution is reduced from exponential to linear in most cases. *A* and *B* are conditionally independent given *C* if and only if:
+While with independence, it is possible to reduce the complexity of probabilistic reasoning by decomposing a joint distribution, in the real world absolute independence is rare. A more common approach is conditional independence. The size of the representation of the joint distribution is reduced from exponential to linear in most cases. *A* and *B* are conditionally independent given *C* if and only if:
 
 $$
 P(A|B, C) = P(A|C)
@@ -297,14 +297,17 @@ P(A|B)={P(B|A)P(A)\over P(B)}
 $$
 
 
-The joint probability of $P(A,B)$ does not need to be known, the posterier probability $P(A|B)$ using the proir belief $P(A)$ and $P(B)$, and the likelihood $P(B|A)$ can be calculated. More conditions can be added and the rule stays the same:
+The joint probability of $P(A,B)$ does not need to be known.
 
+The posterior probability $P(A|B)$ using the prior belief $P(A)$ and $P(B)$, and the likelihood $P(B|A)$ can be calculated instead.
+
+ More conditions can be added and the rule stays the same:
 
 $$
 P(A|B,E)={P(B|A,E)P(A|E)\over P(B|E)}
 $$
 
-Bayes' rule is most helpful in solving diagnoses-type problems. The process of arguing from effet to cause is what the rule is good for. It can be used to estimate the probability of causes given some effects.
+Bayes' rule is most helpful in solving diagnoses-type problems. The process of arguing from effect to cause is what the rule is good for. It can be used to estimate the probability of causes given some effects.
 
 ### Naïve Bayes Model
 
