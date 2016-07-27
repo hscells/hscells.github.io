@@ -21,8 +21,14 @@ h1, h2, h3, h4 {
   background-color: #039BE5;
 }
 
-.img {
+img {
   width: 100%;
+}
+
+.container {
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-top: 64px;
 }
 
 
