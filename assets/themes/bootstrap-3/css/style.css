@@ -25,6 +25,19 @@ img {
   width: 100%;
 }
 
+table {
+  width: 100%;
+  border: 1px solid;
+}
+
+tr {
+  border: 1px solid;
+}
+
+td {
+  border: 1px solid;
+}
+
 .container {
   padding-left: 152px;
   padding-right: 152px;
