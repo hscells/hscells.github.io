@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PICO Collection</title>
+
+    <link href="spectre.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section class="container grid-960">
+    <div class="columns">
+        <div class="column col-xs-12 col-sm-12 col-md-12 col-3">
+            <dl>
+                <dt>Download the collection</dt>
+                <dd><a href="https://github.com/ielab/SIGIR2017-PICO-Collection">https://github.com/ielab/SIGIR2017-PICO-Collection</a>
+                </dd>
+
+                <dt>Read the paper</dt>
+                <dd><a href="">TODO</a></dd>
+            </dl>
+        </div>
+        <div class="column col-xs-12 col-sm-12 col-md-12 col-9">
+            <h1 align="center">A Test Collection for Evaluating Retrieval of Studies for Inclusion in Systematic
+                Reviews</h1>
+            <h2>About</h2>
+            <p>We introduce a test collection for evaluating the effectiveness of different methods used to
+                retrieve research studies for inclusion in systematic reviews. Systematic reviews appraise and
+                synthesise studies that meet specific inclusion criteria. Systematic reviews intended for a biomedical
+                science audience use boolean queries with many, often complex, search clauses to retrieve studies; these
+                are then manually screened to determine eligibility for inclusion in the review. This process is
+                expensive and time consuming. The development of systems that improve retrieval effectiveness will have
+                an immediate impact by reducing the complexity and resources required for this process. Our test
+                collection consists of approximately 26 million research studies extracted from the freely available
+                MEDLINE database, 94 review (query) topics extracted from Cochrane systematic reviews, and corresponding
+                relevance assessments. Tasks for which the collection can be used for information retrieval system
+                evaluation are described and the use of the collection to evaluate common baselines within one such task
+                is demonstrated. See the links to this side of this page for links to the paper and to download the
+                collection.</p>
+            <h2>Files</h2>
+            <dl>
+                <dt>systematic_reviews.json</dt>
+                <dd>A list of urls pointing to the systematic reviews used in this collection.</dd>
+
+                <dt>citations.json</dt>
+                <dd>A list of citations that correspond to the systematic reviews. The document_id refers to the id in
+                    systematic_reviews.json. The included field is true if the study was included in the review.
+                </dd>
+
+                <dt>queries_unannotated.json</dt>
+                <dd>A list of queries as they appear in their respective systematic reviews. The document_id refers to
+                    the id in systematic_reviews.json. The annotator_id refers to who collected the query.
+                </dd>
+
+                <dt>queries_annotated.json</dt>
+                <dd>A list of queries that have been manually transformed. The document_id refers to the id in
+                    systematic_reviews.json. The annotator_id refers to who annotated the query with PICO.
+                </dd>
+
+                <dt>queries_elastic_bool.json and queries_elastic_pico.json</dt>
+                <dd>Both files are lists of Elasticsearch queries in the same format as queries_annotated.json.</dd>
+            </dl>
+            <h2>Cite</h2>
+            <pre>
+@inproceedings{scells2017collection,
+Author = {Scells, Harrisen and Zuccon, Guido and Koopman, Bevan and Deacon, Anthony and Geva, Shlomo and Azzopardi, Leif},
+Booktitle = {Proceedings of the 40th international ACM SIGIR conference on Research and development in Information Retrieval},
+Organization = {ACM},
+Title = {A Test Collection for Evaluating Retrieval of Studies for Inclusion in Systematic Reviews},
+Year = {2017}
+}
+            </pre>
+        </div>
+    </div>
+</section>
+</body>
+</html>
