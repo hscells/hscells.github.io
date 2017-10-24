@@ -1,0 +1,34 @@
+* {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #333;
+}
+a {
+    color: #003bb3;
+}
+a:visited {
+    color: #9933aa;
+}
+body {
+    border-top: 2px solid #333;
+    margin: 4em 5em 5em;
+}
+.authors {
+    font-weight: bold;
+}
+.meta {
+    font-style: italic;
+}
+img {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+@media (max-width: 500px) {
+    body {
+        margin: 2em 1.5em 1.5em;
+    }
+    li, h3, p {
+        font-size: 1.3em;
+    }
+}
