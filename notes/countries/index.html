@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>Countries with [and, the, of, and in] in their names</title>
+    <!--<link href="spectre.min.css" rel="stylesheet" type="text/css">-->
+    <link href="../../home.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+<script src="datamaps.all.min.js"></script>
+<script src="vue.js"></script>
+<h1>List of country names with <i>and</i>, <i>the</i>, <i>of</i>, and <i>in</i> in their names.</h1>
+<hr>
+<div id="container" style="height: 500px; width: 800px"></div>
+
+<ul id="list">
+    <li v-for="(country, code) in countries"><a v-bind:href="toWiki(country.country)">{{country.country}}</a></li>
+</ul>
+
+<i>The full list of countries is not shown in the map because the visualisation library doesn't seem to support certain
+    country codes.</i>
+
+
+<script>
+  var map = new Datamap({
+    element        : document.getElementById('container'),
+    scope:"world",
+    projection     : 'mercator',
+    fills          : {
+      defaultFill: "#eeeeee",
+      contains   : "#333333",
+      noData   : "#333333",
+      highlightOnHover: false
+    },
+    geographyConfig: {
+      popupTemplate: function (geo, data) {
+        return '<div class="hoverinfo">' + data.country + '<\div>';
+      }
+    },
+    data           : {
+      ATG: {fillKey: "contains", country: "Antigua and Barbuda"},
+      BES: {fillKey: "contains", country: "Bonaire, Sint Eustatius and Saba"},
+      BIH: {fillKey: "contains", country: "Bosnia and Herzegovina"},
+      BOL: {fillKey: "contains", country: "Bolivia, Plurinational State of"},
+      COD: {fillKey: "contains", country: "Congo, the Democratic Republic of the"},
+      FSM: {fillKey: "contains", country: "Micronesia, Federated States of"},
+      HMD: {fillKey: "contains", country: "Heard Island and McDonald Islands"},
+      IMN: {fillKey: "contains", country: "Isle of Man"},
+      IRN: {fillKey: "contains", country: "Iran, Islamic Republic of"},
+      KNA: {fillKey: "contains", country: "Saint Kitts and Nevis"},
+      KOR: {fillKey: "contains", country: "Korea, Republic of"},
+      MDA: {fillKey: "contains", country: "Moldova, Republic of"},
+      MKD: {fillKey: "contains", country: "Macedonia, the former Yugoslav Republic of"},
+      PRK: {fillKey: "contains", country: "Korea, Democratic People's Republic of"},
+      PSE: {fillKey: "contains", country: "Palestine, State of"},
+      SGS: {fillKey: "contains", country: "South Georgia and the South Sandwich Islands"},
+      SHN: {fillKey: "contains", country: "Saint Helena, Ascension and Tristan da Cunha"},
+      SJM: {fillKey: "contains", country: "Svalbard and Jan Mayen"},
+      SPM: {fillKey: "contains", country: "Saint Pierre and Miquelon"},
+      STP: {fillKey: "contains", country: "Sao Tome and Principe"},
+      TCA: {fillKey: "contains", country: "Turks and Caicos Islands"},
+      TTO: {fillKey: "contains", country: "Trinidad and Tobago"},
+      TWN: {fillKey: "contains", country: "Taiwan, Province of China"},
+      TZA: {fillKey: "contains", country: "Tanzania, United Republic of"},
+      USA: {fillKey: "contains", country: "United States of America"},
+      VCT: {fillKey: "contains", country: "Saint Vincent and the Grenadines"},
+      VEN: {fillKey: "contains", country: "Venezuela, Bolivarian Republic of"},
+      WLF: {fillKey: "contains", country: "Wallis and Futuna"}
+    }
+  });
+
+  var vue = new Vue({
+    el     : "#list",
+    data   : {countries: map.options.data},
+    methods: {
+      toWiki: function (name) {
+        return "https://wikipedia.org/wiki/" + name.split(" ").join("_")
+      }
+    }
+  })
+</script>
+</body>
+</html>

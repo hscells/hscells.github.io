@@ -56,6 +56,10 @@ h1 {
     clear: right;
 }
 
+h1 > i {
+    color: #eeeeee;
+}
+
 
 h2 {
     margin: 0;
