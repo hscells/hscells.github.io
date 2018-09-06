@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Harry Scells</title>
+    <link>/publication_types/1/</link>
+    <description>Recent content in 1 on Harry Scells</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Information Retrieval Experiment Framework for Domain Specific Applications</title>
+      <link>/publication/sigir2018_framework/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sigir2018_framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Better Queries for Systematic Reviews</title>
+      <link>/publication/sigir2018_generating/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sigir2018_generating/</guid>
+      <description>Systematic reviews form the cornerstone of evidence based medicine, aiming to answer complex medical questions based on all evidence currently available. Key to the effectiveness of a systematic review is an (often large) Boolean query used to search large publication repositories. These Boolean queries are carefully crafted by researchers and information specialists, and often reviewed by a panel of experts. However, little is known about the effectiveness of the Boolean queries at the time of formulation.</description>
+    </item>
+    
+    <item>
+      <title>Query Variation Performance Prediction for Systematic Reviews</title>
+      <link>/publication/sigir2018_qvpp/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sigir2018_qvpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews</title>
+      <link>/publication/cikm2018_searchrefiner/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/cikm2018_searchrefiner/</guid>
+      <description>We present an open source tool, searchrefiner, for researchers that conduct medical systematic reviews to assist in formulating, visualising, and understanding Boolean queries. The searchrefiner web interface allows researchers to explore how Boolean queries retrieve citations in existing, popular query syntaxes used in systematic review literature search. The web interface allows researchers to perform tasks such as using validation citations to ensure queries are retrieving a minimum set of known relevant citations, and editing Boolean queries by dragging and dropping clauses in a structured editor.</description>
+    </item>
+    
+    <item>
+      <title>A Test Collection for Evaluating Retrieval of Studies for Inclusion in Systematic Reviews</title>
+      <link>/publication/sigir2017_collection/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sigir2017_collection/</guid>
+      <description>We introduce a test collection for evaluating the effectiveness of different methods used to retrieve research studies for inclusion in systematic reviews. Systematic reviews appraise and synthesise studies that meet specific inclusion criteria. Systematic reviews intended for a biomedical science audience use boolean queries with many, often complex, search clauses to retrieve studies; these are then manually screened to determine eligibility for inclusion in the review. This process is expensive and time consuming.</description>
+    </item>
+    
+    <item>
+      <title>Integrating the Framing of Clinical Questions via PICO into the Retrieval of Medical Literature for Systematic Reviews</title>
+      <link>/publication/cikm2017_pico/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/cikm2017_pico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QUT ielab at CLEF eHealth 2017 Technology Assisted Reviews Track: Initial Experiments with Learning To Rank</title>
+      <link>/publication/clef2017_tar/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/clef2017_tar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reducing Workload of Systematic Review Searching and Screening Processes</title>
+      <link>/publication/fdia2017_essir/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/fdia2017_essir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QUT at the NTCIR Lifelog Semantic Access Task</title>
+      <link>/publication/ntcir2016_lifelog/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/ntcir2016_lifelog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

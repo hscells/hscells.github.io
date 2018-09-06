@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/hs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://scells.me
+  * I am hs (https://keybase.io/hs) on keybase.
+  * I have a public key with fingerprint 784C 0AB5 40DF 3A16 8C5D  A630 E24C 7ABB 3CAB 2732
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ecc7836a5e61e000039fcff5ffc6001d959bb4d0e40f26be9c0bac906d8f27a00a",
+      "fingerprint": "784c0ab540df3a168c5da630e24c7abb3cab2732",
+      "host": "keybase.io",
+      "key_id": "e24c7abb3cab2732",
+      "kid": "01011771fb2a03f0394523966dd183ac1340b025468e93cac963e0090748adcb907a0a",
+      "uid": "780f86745746934c7b4b0421ceb9d219",
+      "username": "hs"
+    },
+    "service": {
+      "hostname": "scells.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1536197779,
+  "expire_in": 157680000,
+  "prev": "827d69002d576eab6ecf4409baedfbbda483c62eabc1abe9980122bd2e9172c0",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMNxAnicbVJtUFRVGN41ZWmLERRLcgi4hthGzLnf966UaPKVgE6oianLPfeeC3dY
+dpfd5UsiRRgBx6IB0aaQYBLGED+i1BDIwQhwojFqQDNEBSOhciAlUNS6l7HpT+fP
+ed/zPs9znvect8PrCZ1RPxS3oyX8aAih/7a9LFP31vtFFXkYtEu5mDkPS0OzG7JK
+yOW2pCkSZsYADnAkiixHMgKNGBwBdZG8LMoyLcsiAwAu8TQPISUBRAGZYCDiRQAF
+kQeMxMkEKwAgYKGYrNhSkNPhVGxuVZblKBEIkKaAJJMCznAiLQkMCRBBiawAISkK
+kGBJQiWm2l0aQzUHBRcKU+zqmZpYZu39D/4/3zjL4jIkBEDKqmWKJkieYSQJ50hB
+xEkKQEDQFMMhXmWLPEOqvfGApThBEqEaCLO+M2flWA7IHMNSNEsxPKneCSkIKAIX
+EeQlAuc1oAs5bUI6UtGpLiw/FFPzLEVE2pNqPTyuuURktbrC1DgUczjtbrtot2oU
+t9vhMms0d65Dw2UjaHmsYIGKTVKfT2VkIadLsdswM64iRbeiSeI0yeA8y7J8KIZy
+HIoTWRQNQbMMp/2Wdg/KUiU5gpUYHgBCUktIgAwSZYoCPBSQJEMoCRRHigyhVkRc
+UL+R5wBOEFAiEI+zhAgwracMmx0zE7jqU0jR2lFSbII704mw/PPtW+fq9Eadx7w5
+2lzpjE96/zttuyPnz3icu/Ra/LNVZwZ3BDS1B0R5+Dx4ZuM6917rrwpIuFt5cdij
+hGrXHcwtL6+NfjgUVVZ0urrgNHE98kSCb5X3c/l+rua7hf1585Krj67PPDa+Ym3B
+xNrKnd/9/uKCel1nj3mf/gHRszSyocg5HeFz5MCYqXHn8sFUz7ZRj9HrxuFbH3BL
+Ctw5hy+OtTSO+70z8+iXbYlWuY2eDCo98v1PXziXje27WdNwOS5krCZw4qq+YW7D
+l8bx8I+W+H410jrhKP6r7Ix54UT5fKzrb8LPMRC8uin/0TFDUYqpt7MyP8gzbVVz
+8a4rUftXvERvT354P+CFc2WT8W/Tz389qutbZKNv27oET/+fY5KzN6ZfuFM1E97d
+bTbAYNNTV/03XfM5b/jzeH9Q5PiCN2NGWgMjEj59pdT381UdVVvW99wq/jH37Gju
+/oN3Dry7oZTAB6YN5oaupKSh7O2vm8w+lz/eYPjj3sL+eLt3fkHjkG9wZ617oOqU
+Y8uhurKYsOOFo1MZplcTaxZdK/XeyoRULAUXTlbrP6yo9/qkr3YyLjLpVF9FyebD
+tWTvyell7d3bVp/oaYlNW9wx+FvvYv85/fdavTYZ98buupGVeLtkynL2aa+pK+kr
+DS9/c39kuDO6UHnDFL9uuil22mtzXcJw8JrhjEs/rDk0052Dl0dN7a674VMfsTK+
+rSc6cE9z4XvL7TcNnyX9Az9FwUI=
+=CRdo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hs
+
+==================================================================
