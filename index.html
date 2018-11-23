@@ -94,7 +94,7 @@
   <meta property="og:description" content="PhD Candidate">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-10-15T00:00:00&#43;10:00">
+  <meta property="og:updated_time" content="2017-10-15T00:00:00&#43;02:00">
   
 
   
@@ -235,13 +235,7 @@
         
         <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
           
-          <span itemprop="name">Queensland University of Technology</span>
-          
-        </h3>
-        
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          
-          <span itemprop="name">University of Queensland</span>
+          <span itemprop="name">The University of Queensland</span>
           
         </h3>
         
@@ -324,9 +318,13 @@
 
 <h1 id="biography">Biography</h1>
 
+<p>I am currently completing my PhD under the supervision of <a href="http://zuccon.net/" target="_blank">Guido Zuccon</a> at The University of Queensland in Australia.</p>
+
 <p>I am researching how to improve medical systematic review creation with Information Retrieval.
-The focus of my research is developing methods to assist librarians create more effective queries in shorter periods of time.
+My research focuses on developing methods to assist information specialists create more effective queries in shorter periods of time.
 To do this I am investigating automatic methods of query formulation, and query visualisation and understandability tools.</p>
+
+<p>On this page please find a list of my publications with links to project pages, where relevant.</p>
 
 
     <div class="row">
@@ -493,10 +491,10 @@ To do this I am investigating automatic methods of query formulation, and query 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="/pdf/cikm2018_searchrefiner.pdf" target="_blank" rel="noopener">
-  Preprint
-</a>
 
+<a class="btn btn-primary btn-outline btn-xs" href="/pdf/cikm2018_searchrefiner.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -686,10 +684,10 @@ To do this I am investigating automatic methods of query formulation, and query 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="/pdf/cikm2018_searchrefiner.pdf" target="_blank" rel="noopener">
-  Preprint
-</a>
 
+<a class="btn btn-primary btn-outline btn-xs" href="/pdf/cikm2018_searchrefiner.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -957,7 +955,7 @@ To do this I am investigating automatic methods of query formulation, and query 
 
     <div id="search-box">
       
-      <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+      
       
     </div>
 
@@ -970,14 +968,14 @@ To do this I am investigating automatic methods of query formulation, and query 
 
 
 
-<script id="search-hit-fuse-template" type="text/x-template">
-  <div class="search-hit" id="summary-{{key}}">
+<script id="search-hit-algolia-template" type="text/html">
+  <div class="search-hit">
     <div class="search-hit-content">
       <div class="search-hit-name">
-        <a href="{{relpermalink}}">{{title}}</a>
-        <div class="article-metadata search-hit-type">{{type}}</div>
-        <p class="search-hit-description">{{snippet}}</p>
+        <a href="{{relpermalink}}">{{{_highlightResult.title.value}}}</a>
       </div>
+      <div class="article-metadata search-hit-type">{{type}}</div>
+      <p class="search-hit-description">{{{_highlightResult.summary.value}}}</p>
     </div>
   </div>
 </script>
@@ -1137,27 +1135,8 @@ To do this I am investigating automatic methods of query formulation, and query 
     
 
     
-    
-    <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'no_results': "No results found"
-      };
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks"
-        };
-    </script>
-    
 
     
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    <script src="/js/search.js"></script>
     
 
     
