@@ -11,6 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Automatic Boolean Query Refinement for Systematic Review Literature Search</title>
+      <link>/publication/www2019_boolean/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/www2019_boolean/</guid>
+      <description>&lt;p&gt;In the medical domain, systematic reviews are a highly trustworthy evidence source used to inform clinical diagnosis and treatment, and governmental policy making. Systematic reviews must be complete in that &lt;em&gt;all relevant&lt;/em&gt; literature for the research question of the review must be synthesised in order to produce a recommendation. To identify the literature to screen for inclusion in systematic reviews, information specialists construct complex Boolean queries that capture the information needs defined by the research questions of the systemic review.
+However, in the quest for total recall, these Boolean queries return many non relevant results.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we propose automatic methods for Boolean query refinement in the context of systematic review literature retrieval with the aim of alleviating this high recall-low precision problem. To do this, we build upon current literature and define additional semantic transformations for Boolean queries in the form of query expansion and reduction. Empirical evaluation is done on a set of real systematic review queries to show how our method performs in a realistic setting.
+We found that query refinement strategies produced queries that were more effective than the original in terms of six information retrieval evaluation measures. In particular, queries were refined  to increase precision, while maintaining, or even increasing, recall &amp;mdash; this, in turn, translates into both time and cost savings when creating laborious and expensive systematic reviews.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An Information Retrieval Experiment Framework for Domain Specific Applications</title>
       <link>/publication/sigir2018_framework/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
