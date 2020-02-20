@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>5 on Harry Scells</title>
+    <title>5 | Harry Scells</title>
     <link>/publication_types/5/</link>
-    <description>Recent content in 5 on Harry Scells</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language>
-    <copyright>&amp;copy; 1995-2019</copyright>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/publication_types/5/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/publication_types/5/index.xml" rel="self" type="application/rss+xml" />
+    <description>5</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>5</title>
+      <link>/publication_types/5/</link>
+    </image>
     
     <item>
       <title>Investigating Methods Of Annotating Lifelogs For Use In Search</title>
       <link>/publication/honours_thesis/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>/publication/honours_thesis/</guid>
       <description></description>
     </item>

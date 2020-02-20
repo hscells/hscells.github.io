@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Harry Scells</title>
@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 1995-2019</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jul 2018 00:00:00 +1000</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -28,7 +28,8 @@
       
       <guid>/home/about/</guid>
       <description>Biography I am currently completing my PhD under the supervision of Guido Zuccon at The University of Queensland in Australia.
-I am researching how to improve medical systematic review creation with Information Retrieval. My research focuses on developing methods to assist information specialists create more effective queries in shorter periods of time. To do this I am investigating automatic methods of query formulation, and query visualisation and understandability tools.</description>
+I am researching how to improve medical systematic review creation with Information Retrieval. My research focuses on developing methods to assist information specialists create more effective queries in shorter periods of time. To do this I am investigating automatic methods of query formulation, and query visualisation and understandability tools.
+On this page please find a list of my publications with links to project pages, where relevant.</description>
     </item>
     
     <item>
