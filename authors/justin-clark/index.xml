@@ -5,9 +5,9 @@
     <link>/authors/justin-clark/</link>
       <atom:link href="/authors/justin-clark/index.xml" rel="self" type="application/rss+xml" />
     <description>Justin Clark</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>/images/icon_hu304f1acb77bf86c451cd3e9846c8be03_968531_512x512_fill_lanczos_center_2.png</url>
       <title>Justin Clark</title>
       <link>/authors/justin-clark/</link>
     </image>
@@ -26,7 +26,7 @@
       <link>/publication/www2020_conceptual/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/publication/www2020_conceptual/</guid>
-      <description>&lt;p&gt;Formulating Boolean queries for systematic review literature search is a challenging task. Commonly, queries are formulated by information specialists using the protocol specified in the review and interactions with the research team. Information specialists have in-depth experience on how to formulate queries in this domain, but may not have in-depth knowledge about the reviews&amp;rsquo; topics. Query formulation requires a significant amount of time and effort, and is performed interactively; specialists repeatedly formulate queries, attempt to validate their results, and reformulate specific Boolean clauses. In this paper, we investigate the possibility of automatically formulating a Boolean query from the systematic review protocol. We propose a novel five-step approach to automatic query formulation, specific to Boolean queries in this domain, which approximates the process by which information specialists formulate queries. In this process, we use syntax parsing to derive the logical structure of high-level concepts in a query, automatically extract and map concepts to entities in order to perform entity expansion, and finally apply post-processing operations (such as stemming and search filters).&lt;/p&gt;
+      <description>&lt;p&gt;Formulating Boolean queries for systematic review literature search is a challenging task. Commonly, queries are formulated by information specialists using the protocol specified in the review and interactions with the research team. Information specialists have in-depth experience on how to formulate queries in this domain, but may not have in-depth knowledge about the reviews&#39; topics. Query formulation requires a significant amount of time and effort, and is performed interactively; specialists repeatedly formulate queries, attempt to validate their results, and reformulate specific Boolean clauses. In this paper, we investigate the possibility of automatically formulating a Boolean query from the systematic review protocol. We propose a novel five-step approach to automatic query formulation, specific to Boolean queries in this domain, which approximates the process by which information specialists formulate queries. In this process, we use syntax parsing to derive the logical structure of high-level concepts in a query, automatically extract and map concepts to entities in order to perform entity expansion, and finally apply post-processing operations (such as stemming and search filters).&lt;/p&gt;
 &lt;p&gt;Automatic query formulation for systematic review literature search has several benefits: (i) it can provide reviewers with an indication of the types of studies that will be retrieved, without the involvement of an information specialist, (ii) it can provide information specialists with an initial query to begin the formulation process, (iii) it can provide researchers that perform rapid reviews with a method to quickly perform searches.&lt;/p&gt;
 </description>
     </item>
