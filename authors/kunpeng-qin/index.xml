@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kunpeng Qin | Harry Scells</title>
+    <link>/authors/kunpeng-qin/</link>
+      <atom:link href="/authors/kunpeng-qin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kunpeng Qin</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu304f1acb77bf86c451cd3e9846c8be03_968531_512x512_fill_lanczos_center_2.png</url>
+      <title>Kunpeng Qin</title>
+      <link>/authors/kunpeng-qin/</link>
+    </image>
+    
+    <item>
+      <title>PECAN: A Platform for Searching Chat Conversations</title>
+      <link>/publication/sigir2021_pecan/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/sigir2021_pecan/</guid>
+      <description>&lt;p&gt;Often, existing chat services that organisations and individuals use today provide a way to search through previously sent messages. However, many of these chat services provide far-limited search functionalities, typically exact matching on individual messages. In this paper, we introduce a new task for addressing this problem, called \textit{searching for conversations}, whereby the aim is to retrieve and rank groups of related messages given a search query. We promote this task by providing a platform for research and development called PECAN. Our platform provides all the necessary functionality researchers need to conduct experiments on searching for conversations. Our system is also generic so as to support organisations and individuals who wish to search through their chat message archives.&lt;/p&gt;
+&lt;p&gt;We release PECAN to the wider community as an Open Source project available for download at &lt;a href=&#34;https://github.com/ielab/pecan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/ielab/pecan&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kunpeng Qin | Harry Scells</title><link>/authors/kunpeng-qin/</link><atom:link href="/authors/kunpeng-qin/index.xml" rel="self" type="application/rss+xml"/><description>Kunpeng Qin</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu304f1acb77bf86c451cd3e9846c8be03_968531_512x512_fill_lanczos_center_3.png</url><title>Kunpeng Qin</title><link>/authors/kunpeng-qin/</link></image><item><title>PECAN: A Platform for Searching Chat Conversations</title><link>/publication/sigir2021_pecan/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/publication/sigir2021_pecan/</guid><description>&lt;p>Often, existing chat services that organisations and individuals use today provide a way to search through previously sent messages. However, many of these chat services provide far-limited search functionalities, typically exact matching on individual messages. In this paper, we introduce a new task for addressing this problem, called \textit{searching for conversations}, whereby the aim is to retrieve and rank groups of related messages given a search query. We promote this task by providing a platform for research and development called PECAN. Our platform provides all the necessary functionality researchers need to conduct experiments on searching for conversations. Our system is also generic so as to support organisations and individuals who wish to search through their chat message archives.&lt;/p>
+&lt;p>We release PECAN to the wider community as an Open Source project available for download at &lt;a href="https://github.com/ielab/pecan" target="_blank" rel="noopener">https://github.com/ielab/pecan&lt;/a>.&lt;/p></description></item></channel></rss>
+>>>>>>> a97c381dd957cd8e6b5ed781f1aad54d7d3c56ac

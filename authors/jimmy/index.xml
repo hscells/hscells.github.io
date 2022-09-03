@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jimmy | Harry Scells</title>
+    <link>/authors/jimmy/</link>
+      <atom:link href="/authors/jimmy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jimmy</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu304f1acb77bf86c451cd3e9846c8be03_968531_512x512_fill_lanczos_center_2.png</url>
+      <title>Jimmy</title>
+      <link>/authors/jimmy/</link>
+    </image>
+    
+    <item>
+      <title>Big Brother: A Drop-In Website Interaction Logging Service</title>
+      <link>/publication/sigir2021_bigbro/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/sigir2021_bigbro/</guid>
+      <description>&lt;p&gt;Fine-grained logging of interactions in user studies is important for studying user behaviour, among other reasons. However, in many research scenarios, the way interactions are logged are usually tied to a monolithic system. We present a generic, application-independent service for logging interactions in web-pages, specifically targetting user studies. Our service, Big Brother, can be dropped-in to existing user interfaces with almost no configuration required by researchers. Big Brother has already been used in several user studies to record interactions in a number of user study research scenarios, such as lab-based and crowdsourcing environments. We further demonstrate the ability for Big Brother to scale to very large user studies through benchmarking experiments. Big Brother also provides a number of additional tools for visualising and analysing interactions.&lt;/p&gt;
+&lt;p&gt;Big Brother significantly lowers the barrier to entry for logging user interactions by providing a minimal but powerful, no configuration necessary, service for researchers and practitioners of user studies that can scale to thousands of concurrent sessions. We have made the source code and releases for Big Brother available for download at &lt;a href=&#34;https://github.com/hscells/bigbro&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/hscells/bigbro&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jimmy | Harry Scells</title><link>/authors/jimmy/</link><atom:link href="/authors/jimmy/index.xml" rel="self" type="application/rss+xml"/><description>Jimmy</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu304f1acb77bf86c451cd3e9846c8be03_968531_512x512_fill_lanczos_center_3.png</url><title>Jimmy</title><link>/authors/jimmy/</link></image><item><title>Big Brother: A Drop-In Website Interaction Logging Service</title><link>/publication/sigir2021_bigbro/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/publication/sigir2021_bigbro/</guid><description>&lt;p>Fine-grained logging of interactions in user studies is important for studying user behaviour, among other reasons. However, in many research scenarios, the way interactions are logged are usually tied to a monolithic system. We present a generic, application-independent service for logging interactions in web-pages, specifically targetting user studies. Our service, Big Brother, can be dropped-in to existing user interfaces with almost no configuration required by researchers. Big Brother has already been used in several user studies to record interactions in a number of user study research scenarios, such as lab-based and crowdsourcing environments. We further demonstrate the ability for Big Brother to scale to very large user studies through benchmarking experiments. Big Brother also provides a number of additional tools for visualising and analysing interactions.&lt;/p>
+&lt;p>Big Brother significantly lowers the barrier to entry for logging user interactions by providing a minimal but powerful, no configuration necessary, service for researchers and practitioners of user studies that can scale to thousands of concurrent sessions. We have made the source code and releases for Big Brother available for download at &lt;a href="https://github.com/hscells/bigbro" target="_blank" rel="noopener">https://github.com/hscells/bigbro&lt;/a>.&lt;/p></description></item></channel></rss>
+>>>>>>> a97c381dd957cd8e6b5ed781f1aad54d7d3c56ac

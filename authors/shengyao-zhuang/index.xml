@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shengyao Zhuang on Harry Scells</title>
+    <link>/authors/shengyao-zhuang/</link>
+    <description>Recent content in Shengyao Zhuang on Harry Scells</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/authors/shengyao-zhuang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reduce, Reuse, Recycle: Green Information Retrieval Research</title>
+      <link>/publication/sigir2022_greenir/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sigir2022_greenir/</guid>
+      <description>Awarded Best Paper Honorable Mention!
+Recent advances in Information Retrieval utilise energy-intensive hardware to produce state-of-the-art results. In areas of research highly related to Information Retrieval, such as Natural Language Processing and Machine Learning, there have been efforts to quantify and reduce the power and emissions produced by methods that depend on such hardware. Research that is conscious of the environmental impacts of its experimentation and takes steps to mitigate some of these impacts is considered &amp;lsquo;Green&amp;rsquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

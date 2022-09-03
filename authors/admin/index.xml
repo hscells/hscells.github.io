@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -5,12 +6,15 @@
     <link>/authors/admin/</link>
       <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Harry Scells</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>/images/icon_hu304f1acb77bf86c451cd3e9846c8be03_968531_512x512_fill_lanczos_center_2.png</url>
       <title>Harry Scells</title>
       <link>/authors/admin/</link>
     </image>
     
   </channel>
 </rss>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harry Scells</title><link>/authors/admin/</link><atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml"/><description>Harry Scells</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><image><url>/authors/admin/avatar_hu99b6bd17664227af59e8e5bab9b1206f_310007_270x270_fill_q90_lanczos_center.jpeg</url><title>Harry Scells</title><link>/authors/admin/</link></image></channel></rss>
+>>>>>>> a97c381dd957cd8e6b5ed781f1aad54d7d3c56ac

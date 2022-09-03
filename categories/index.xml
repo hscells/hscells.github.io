@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories | Harry Scells</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Categories</title>
-      <link>/categories/</link>
-    </image>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories | Harry Scells</title><link>/categories/</link><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml"/><description>Categories</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Harry Scells</copyright><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu304f1acb77bf86c451cd3e9846c8be03_968531_512x512_fill_lanczos_center_3.png</url><title>Categories</title><link>/categories/</link></image></channel></rss>
