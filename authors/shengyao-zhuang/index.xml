@@ -1,21 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Shengyao Zhuang on Harry Scells</title>
-    <link>/authors/shengyao-zhuang/</link>
-    <description>Recent content in Shengyao Zhuang on Harry Scells</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/authors/shengyao-zhuang/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Reduce, Reuse, Recycle: Green Information Retrieval Research</title>
-      <link>/publication/sigir2022_greenir/</link>
-      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/sigir2022_greenir/</guid>
-      <description>Awarded Best Paper Honorable Mention!
-Recent advances in Information Retrieval utilise energy-intensive hardware to produce state-of-the-art results. In areas of research highly related to Information Retrieval, such as Natural Language Processing and Machine Learning, there have been efforts to quantify and reduce the power and emissions produced by methods that depend on such hardware. Research that is conscious of the environmental impacts of its experimentation and takes steps to mitigate some of these impacts is considered &amp;lsquo;Green&amp;rsquo;.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shengyao Zhuang | Harry Scells</title><link>https://scells.me/authors/shengyao-zhuang/</link><atom:link href="https://scells.me/authors/shengyao-zhuang/index.xml" rel="self" type="application/rss+xml"/><description>Shengyao Zhuang</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>https://scells.me/media/icon_hu304f1acb77bf86c451cd3e9846c8be03_968531_512x512_fill_lanczos_center_3.png</url><title>Shengyao Zhuang</title><link>https://scells.me/authors/shengyao-zhuang/</link></image><item><title>Reduce, Reuse, Recycle: Green Information Retrieval Research</title><link>https://scells.me/publication/sigir2022_greenir/</link><pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate><guid>https://scells.me/publication/sigir2022_greenir/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+&lt;strong>Awarded Best Paper Honorable Mention!&lt;/strong>
+&lt;/div>
+&lt;/div>
+&lt;p>Recent advances in Information Retrieval utilise energy-intensive hardware to produce state-of-the-art results. In areas of research highly related to Information Retrieval, such as Natural Language Processing and Machine Learning, there have been efforts to quantify and reduce the power and emissions produced by methods that depend on such hardware. Research that is conscious of the environmental impacts of its experimentation and takes steps to mitigate some of these impacts is considered &amp;lsquo;Green&amp;rsquo;. Given the continuous demand for more data and power-hungry techniques, Green research is likely to become more important within the broader research community. Therefore, within the Information Retrieval community, the consequences of non-Green (in other words, Red) research should at least be considered and acknowledged. As such, the aims of this perspective paper are fourfold: (1) to review the Green literature not only for Information Retrieval but also for related domains in order to identify transferable Green techniques; (2) to provide measures for quantifying the power usage and emissions of Information Retrieval research; (3) to report the power usage and emission impacts for various current IR methods; and (4) to provide a framework to guide Green Information Retrieval research, taking inspiration from &amp;lsquo;reduce, reuse, recycle&amp;rsquo; waste management campaigns, including salient examples from the literature that implement these concepts.&lt;/p></description></item></channel></rss>
