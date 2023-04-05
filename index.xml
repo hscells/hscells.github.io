@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harry Scells</title><link>https://scells.me/</link><atom:link href="https://scells.me/index.xml" rel="self" type="application/rss+xml"/><description>Harry Scells</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>https://scells.me/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Harry Scells</title><link>https://scells.me/</link></image><item><title>Invited Talk at Johannes Kepler University Linz</title><link>https://scells.me/post/2023-01-19-greenir/</link><pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate><guid>https://scells.me/post/2023-01-19-greenir/</guid><description>&lt;p>I gave a talk at &lt;a href="https://www.jku.at/en" target="_blank" rel="noopener">Johannes Kepler University Linz&lt;/a> on Janurary 19, 2023 about my &lt;a href="https://scells.me/publication/sigir2022_greenir/">SIGIR'22 paper&lt;/a> entitled &lt;em>Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/em>. This talk gave an overview of the paper and discussed the current state of Green IR research, as well as some future directions.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harry Scells</title><link>https://scells.me/</link><atom:link href="https://scells.me/index.xml" rel="self" type="application/rss+xml"/><description>Harry Scells</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Apr 2023 13:45:38 +0200</lastBuildDate><image><url>https://scells.me/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Harry Scells</title><link>https://scells.me/</link></image><item><title>Four papers accepted to SIGIR 2023</title><link>https://scells.me/post/2023-04-05-sigir/</link><pubDate>Wed, 05 Apr 2023 13:45:38 +0200</pubDate><guid>https://scells.me/post/2023-04-05-sigir/</guid><description>&lt;p>This year, I was fortunate enough to be involved in four papers accepted at SIGIR (2 full papers, 1 resource paper, and 1 demo paper).&lt;/p>
+&lt;hr>
+&lt;ul>
+&lt;li>[resource] &lt;strong>The Archive Query Log: Mining Millions of Search Result Pages of Hundreds of Search Engines from 25 Years of Web Archives&lt;/strong>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2304.00413" target="_blank" rel="noopener">arxiv preprint&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/webis_de/status/1643366684382621696" target="_blank" rel="noopener">twitter thread&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[full paper] &lt;strong>Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/strong>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2302.03495" target="_blank" rel="noopener">arxiv preprint&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/hscells/status/1643558762152701954" target="_blank" rel="noopener">twitter thread&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[demo] &lt;strong>&lt;code>pybool_ir&lt;/code>: A Toolkit for Domain-Specific Search Experiments&lt;/strong>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/hscells/status/1642838058188906498" target="_blank" rel="noopener">twitter thread&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/hscells/pybool_ir" target="_blank" rel="noopener">github&lt;/a>&lt;/li>
+&lt;li>preprint coming soon!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[full paper] &lt;strong>Smooth Operators for Effective Systematic Review Queries&lt;/strong>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/hscells/status/1643570084693127172" target="_blank" rel="noopener">twitter thread&lt;/a>&lt;/li>
+&lt;li>preprint coming soon!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Thank you to all of my co-authors, for which this would not have been possible without you!&lt;/p></description></item><item><title>Invited Talk at Johannes Kepler University Linz</title><link>https://scells.me/post/2023-01-19-greenir/</link><pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate><guid>https://scells.me/post/2023-01-19-greenir/</guid><description>&lt;p>I gave a talk at &lt;a href="https://www.jku.at/en" target="_blank" rel="noopener">Johannes Kepler University Linz&lt;/a> on Janurary 19, 2023 about my &lt;a href="https://scells.me/publication/sigir2022_greenir/">SIGIR'22 paper&lt;/a> entitled &lt;em>Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/em>. This talk gave an overview of the paper and discussed the current state of Green IR research, as well as some future directions.&lt;/p>
 &lt;p>The slides are available for download &lt;a href="https://scells.me/files/green-ir-talk-23.pdf">here&lt;/a>.&lt;/p>
 &lt;p>Thank you very much &lt;a href="https://navid-rekabsaz.github.io/" target="_blank" rel="noopener">Navid&lt;/a> for the invitation!&lt;/p></description></item><item><title>Australia–Germany Joint Research Cooperation Scheme</title><link>https://scells.me/project/ua-daad-ppp-23/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate><guid>https://scells.me/project/ua-daad-ppp-23/</guid><description/></item><item><title>Universities Australia – DAAD Joint Research Co-operation Scheme</title><link>https://scells.me/post/2022-11-22-daadppp/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate><guid>https://scells.me/post/2022-11-22-daadppp/</guid><description>&lt;p>We are &lt;a href="https://www.universitiesaustralia.edu.au/wp-content/uploads/2022/11/2022-UA-Website-Update-Successful-Applications.pdf" target="_blank" rel="noopener">one of the 45 projects&lt;/a> awarded funding under the &lt;a href="https://www.universitiesaustralia.edu.au/policy-submissions/international/australia-germany-joint-research-co-operation-scheme/" target="_blank" rel="noopener">Universities Australia – DAAD Joint Research Co-operation Scheme&lt;/a>. This scheme facilitates the exchange of early career researchers in Australia and Germany from early 2023 until the end of 2024. The &lt;a href="https://ielab.io" target="_blank" rel="noopener">ielab&lt;/a> and &lt;a href="https://webis.de" target="_blank" rel="noopener">webis&lt;/a> research groups will be hosting researchers from Australia and Germany for two months at a time. The following researchers will be visiting ielab and webis across the two years:&lt;/p>
 &lt;p>2023:&lt;/p>
