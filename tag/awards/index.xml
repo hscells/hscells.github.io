@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Awards | Harry Scells</title><link>https://scells.me/tag/awards/</link><atom:link href="https://scells.me/tag/awards/index.xml" rel="self" type="application/rss+xml"/><description>Awards</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>https://scells.me/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Awards</title><link>https://scells.me/tag/awards/</link></image><item><title>Reduce, Reuse, Recycle: Green Information Retrieval Research</title><link>https://scells.me/publication/sigir2022_greenir/</link><pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate><guid>https://scells.me/publication/sigir2022_greenir/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+&lt;strong>Awarded Best Paper Honorable Mention!&lt;/strong>
+&lt;/div>
+&lt;/div>
+&lt;p>Recent advances in Information Retrieval utilise energy-intensive hardware to produce state-of-the-art results. In areas of research highly related to Information Retrieval, such as Natural Language Processing and Machine Learning, there have been efforts to quantify and reduce the power and emissions produced by methods that depend on such hardware. Research that is conscious of the environmental impacts of its experimentation and takes steps to mitigate some of these impacts is considered &amp;lsquo;Green&amp;rsquo;. Given the continuous demand for more data and power-hungry techniques, Green research is likely to become more important within the broader research community. Therefore, within the Information Retrieval community, the consequences of non-Green (in other words, Red) research should at least be considered and acknowledged. As such, the aims of this perspective paper are fourfold: (1) to review the Green literature not only for Information Retrieval but also for related domains in order to identify transferable Green techniques; (2) to provide measures for quantifying the power usage and emissions of Information Retrieval research; (3) to report the power usage and emission impacts for various current IR methods; and (4) to provide a framework to guide Green Information Retrieval research, taking inspiration from &amp;lsquo;reduce, reuse, recycle&amp;rsquo; waste management campaigns, including salient examples from the literature that implement these concepts.&lt;/p></description></item><item><title>MeSH Term Suggestion for Systematic Review Literature Search</title><link>https://scells.me/publication/adcs2021_mesh/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://scells.me/publication/adcs2021_mesh/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+&lt;strong>Awarded Best Student Paper!&lt;/strong>
+&lt;/div>
+&lt;/div>
+&lt;p>High-quality medical systematic reviews require comprehensive literature searches to ensure the recommendations and outcomes are sufficiently reliable. Indeed, searching for relevant medical literature is a key phase in constructing systematic reviews and often involves domain (medical researchers) and search (information specialists) experts in developing the search queries. Queries in this context are highly complex, based on Boolean logic, include free-text terms and index terms from standardised terminologies (e.g., MeSH), and are difficult and time-consuming to build. The use of MeSH terms, in particular, has been shown to improve the quality of the search results. However, identifying the correct MeSH terms to include in a query is difficult: information experts are often unfamiliar with the MeSH database and unsure about the appropriateness of MeSH terms for a query. Naturally, the full value of the MeSH terminology is often not fully exploited.&lt;/p>
+&lt;p>This paper investigates methods to suggest MeSH terms based on an initial Boolean query that includes only free-text terms. These methods promise to automatically identify highly effective MeSH terms for inclusion in a systematic review query. Our study contributes an empirical evaluation of several MeSH term suggestion methods. We perform an extensive analysis of the retrieval, ranking, and refinement of MeSH term suggestions for each method and how these suggestions impact the effectiveness of Boolean queries.&lt;/p></description></item><item><title>Attending the Analytics on Medical and Healthcare Data ADMA Workshop</title><link>https://scells.me/post/2019-11-24-adma/</link><pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate><guid>https://scells.me/post/2019-11-24-adma/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+&lt;strong>Awarded Best Presentation!&lt;/strong>
+&lt;/div>
+&lt;/div>
+&lt;p>I attended the 2019 ADMA workshop entitled &amp;ldquo;Analytics on Medical and Healthcare Data&amp;rdquo; in Dalian, China. At the workshop, I gave a talk entitled &amp;ldquo;Improving Systematic Review Creation With Information Retrieval&amp;rdquo;, which won the best presentation award!&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="award" srcset="
+/post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_4ac7aaca1ba20d6d5f794b83ca10cd67.webp 400w,
+/post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_9f44a857bfa739c17d62d87dc4bc782d.webp 760w,
+/post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://scells.me/post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_4ac7aaca1ba20d6d5f794b83ca10cd67.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The slides of the talk can be downloaded &lt;a href="https://scells.me/files/adma19-talk.pdf">here&lt;/a>.&lt;/p></description></item></channel></rss>
