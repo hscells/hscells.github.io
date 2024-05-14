@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Invited Talks | Harry Scells</title><link>https://scells.me/tag/invited-talks/</link><atom:link href="https://scells.me/tag/invited-talks/index.xml" rel="self" type="application/rss+xml"/><description>Invited Talks</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate><image><url>https://scells.me/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Invited Talks</title><link>https://scells.me/tag/invited-talks/</link></image><item><title>Invited Workshop at Information Retrieval Meeting 2024</title><link>https://scells.me/post/2024-04-26-irm/</link><pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate><guid>https://scells.me/post/2024-04-26-irm/</guid><description>&lt;p>I ran a workshop at the &lt;a href="https://www.iqwig.de/en/events/information-retrieval-meeting/" target="_blank" rel="noopener">IQWiG Information Retrieval Meeting 2024&lt;/a> about using APIs for evidence identification.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Invited Talks | Harry Scells</title><link>/tag/invited-talks/</link><atom:link href="/tag/invited-talks/index.xml" rel="self" type="application/rss+xml"/><description>Invited Talks</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Invited Talks</title><link>/tag/invited-talks/</link></image><item><title>Invited Workshop at Information Retrieval Meeting 2024</title><link>/post/2024-04-26-irm/</link><pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate><guid>/post/2024-04-26-irm/</guid><description>&lt;p>I ran a workshop at the &lt;a href="https://www.iqwig.de/en/events/information-retrieval-meeting/" target="_blank" rel="noopener">IQWiG Information Retrieval Meeting 2024&lt;/a> about using APIs for evidence identification.&lt;/p>
 &lt;p>More and more APIs (application programming interfaces) are used as programmatic interfaces for certain databases or data sets. This workshop explains what an API is and what knowledge is necessary to use them, for example:&lt;/p>
 &lt;ul>
 &lt;li>what APIs are and how they work&lt;/li>
@@ -12,19 +12,19 @@
 &lt;li>
 &lt;div class="view-list view-list-item">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="https://scells.me/publication/sigir2023_chatgpt/" >Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/a>
+&lt;a href="/publication/sigir2023_chatgpt/" >Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/a>
 &lt;div class="article-metadata">
 &lt;span >
-&lt;a href="https://scells.me/authors/shuai-wang/">Shuai Wang&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/bevan-koopman/">Bevan Koopman&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
+&lt;a href="/authors/shuai-wang/">Shuai Wang&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/bevan-koopman/">Bevan Koopman&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
 &lt;/div>
 &lt;div class="btn-links">
 &lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3539618.3591703" target="_blank" rel="noopener">
 PDF
 &lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://scells.me/project/ua-daad-ppp-23/">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ua-daad-ppp-23/">
 Project
 &lt;/a>
 &lt;/div>
@@ -33,11 +33,11 @@ Project
 &lt;li>
 &lt;div class="view-list view-list-item">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="https://scells.me/publication/sigir2023_pyboolir/" >pybool_ir: A Toolkit for Domain-Specific Search Experiments&lt;/a>
+&lt;a href="/publication/sigir2023_pyboolir/" >pybool_ir: A Toolkit for Domain-Specific Search Experiments&lt;/a>
 &lt;div class="article-metadata">
 &lt;span >
-&lt;a href="https://scells.me/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>
 &lt;/div>
 &lt;div class="btn-links">
 &lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3539618.3591819" target="_blank" rel="noopener">
@@ -46,7 +46,7 @@ PDF
 &lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hscells/pybool_ir" target="_blank" rel="noopener">
 Code
 &lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://scells.me/project/alive/">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/alive/">
 Project
 &lt;/a>
 &lt;/div>
@@ -55,11 +55,11 @@ Project
 &lt;li>
 &lt;div class="view-list view-list-item">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="https://scells.me/publication/cikm2018_searchrefiner/" >searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews&lt;/a>
+&lt;a href="/publication/cikm2018_searchrefiner/" >searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews&lt;/a>
 &lt;div class="article-metadata">
 &lt;span >
-&lt;a href="https://scells.me/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
 &lt;/div>
 &lt;div class="btn-links">
 &lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/citation.cfm?id=3269215" target="_blank" rel="noopener">
@@ -74,19 +74,19 @@ Project
 &lt;/div>
 &lt;/div>
 &lt;/li>
-&lt;/ul></description></item><item><title>Invited Talk at TH Köln</title><link>https://scells.me/post/2024-04-24-irrg/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://scells.me/post/2024-04-24-irrg/</guid><description>&lt;p>I gave a talk to the &lt;a href="https://ir.web.th-koeln.de/" target="_blank" rel="noopener">Information Retrieval Research Group&lt;/a> at TH Köln entitled &lt;em>Efficiency and Energy in Neural Information Retrieval&lt;/em>.&lt;/p>
-&lt;p>The talk can be downloaded &lt;a href="https://scells.me/files/th-koeln-seminar-talk.pdf">here&lt;/a>&lt;/p>
+&lt;/ul></description></item><item><title>Invited Talk at TH Köln</title><link>/post/2024-04-24-irrg/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>/post/2024-04-24-irrg/</guid><description>&lt;p>I gave a talk to the &lt;a href="https://ir.web.th-koeln.de/" target="_blank" rel="noopener">Information Retrieval Research Group&lt;/a> at TH Köln entitled &lt;em>Efficiency and Energy in Neural Information Retrieval&lt;/em>.&lt;/p>
+&lt;p>The talk can be downloaded &lt;a href="/files/th-koeln-seminar-talk.pdf">here&lt;/a>&lt;/p>
 &lt;p>The talk covered Green IR and a recent listwise neural IR model. The papers that were discussed in the talk are:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;div class="view-list view-list-item">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="https://scells.me/publication/sigir2022_greenir/" >Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/a>
+&lt;a href="/publication/sigir2022_greenir/" >Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/a>
 &lt;div class="article-metadata">
 &lt;span >
-&lt;a href="https://scells.me/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/shengyao-zhuang/">Shengyao Zhuang&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/shengyao-zhuang/">Shengyao Zhuang&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
 &lt;/div>
 &lt;div class="btn-links">
 &lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3477495.3531766" target="_blank" rel="noopener">
@@ -101,18 +101,18 @@ Code
 &lt;li>
 &lt;div class="view-list view-list-item">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="https://scells.me/publication/arxiv2024_setencoder/" >Set-Encoder: Permutation-Invariant Inter-Passage Attention for Listwise Passage Re-Ranking with Cross-Encoders&lt;/a>
+&lt;a href="/publication/arxiv2024_setencoder/" >Set-Encoder: Permutation-Invariant Inter-Passage Attention for Listwise Passage Re-Ranking with Cross-Encoders&lt;/a>
 &lt;div class="article-metadata">
 &lt;span >
-&lt;a href="https://scells.me/authors/ferdinand-schlatt/">Ferdinand Schlatt&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/maik-frobe/">Maik Fröbe&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/shengyao-zhuang/">Shengyao Zhuang&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/bevan-koopman/">Bevan Koopman&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/benno-stein/">Benno Stein&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/matthias-hagen/">Matthias Hagen&lt;/a>&lt;/span>
+&lt;a href="/authors/ferdinand-schlatt/">Ferdinand Schlatt&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/maik-frobe/">Maik Fröbe&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/shengyao-zhuang/">Shengyao Zhuang&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/bevan-koopman/">Bevan Koopman&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/benno-stein/">Benno Stein&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/matthias-hagen/">Matthias Hagen&lt;/a>&lt;/span>
 &lt;/div>
 &lt;div class="btn-links">
 &lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2404.06912" target="_blank" rel="noopener">
@@ -124,11 +124,11 @@ Code
 &lt;/div>
 &lt;/div>
 &lt;/li>
-&lt;/ul></description></item><item><title>Invited Talk at the University Clinic Leipzig</title><link>https://scells.me/post/2024-01-11-ilm/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://scells.me/post/2024-01-11-ilm/</guid><description>&lt;p>I gave a joint colloquium talk with &lt;a href="https://temir.org/" target="_blank" rel="noopener">Martin Potthast&lt;/a> at the &lt;a href="https://www.uniklinikum-leipzig.de/einrichtungen/labormedizin" target="_blank" rel="noopener">Institut für Laboratoriumsmedizin, Klinische Chemie und Molekulare Diagnostik (ILM)&lt;/a> in Leipzig at the &lt;a href="https://www.uniklinikum-leipzig.de/" target="_blank" rel="noopener">University Clinic&lt;/a> entitled &lt;em>ChatGPT and Large Language Models for Medical Applications&lt;/em>.&lt;/p>
-&lt;p>The talk can be downloaded &lt;a href="https://scells.me/files/ilm23-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Invited Talk at University of Sheffield</title><link>https://scells.me/post/2023-11-03-sheffield/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><guid>https://scells.me/post/2023-11-03-sheffield/</guid><description>&lt;p>I gave a talk at the &lt;a href="https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing" target="_blank" rel="noopener">University of Sheffield Natural Language Processing Research Group&lt;/a> entitled &lt;em>Query Automation for Systematic Reviews&lt;/em>. This talk gave an overview of the papers &lt;a href="https://scells.me/post/2023-04-05-sigir">accepted at SIGIR'23&lt;/a> this year.&lt;/p>
+&lt;/ul></description></item><item><title>Invited Talk at the University Clinic Leipzig</title><link>/post/2024-01-11-ilm/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>/post/2024-01-11-ilm/</guid><description>&lt;p>I gave a joint colloquium talk with &lt;a href="https://temir.org/" target="_blank" rel="noopener">Martin Potthast&lt;/a> at the &lt;a href="https://www.uniklinikum-leipzig.de/einrichtungen/labormedizin" target="_blank" rel="noopener">Institut für Laboratoriumsmedizin, Klinische Chemie und Molekulare Diagnostik (ILM)&lt;/a> in Leipzig at the &lt;a href="https://www.uniklinikum-leipzig.de/" target="_blank" rel="noopener">University Clinic&lt;/a> entitled &lt;em>ChatGPT and Large Language Models for Medical Applications&lt;/em>.&lt;/p>
+&lt;p>The talk can be downloaded &lt;a href="/files/ilm23-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Invited Talk at University of Sheffield</title><link>/post/2023-11-03-sheffield/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><guid>/post/2023-11-03-sheffield/</guid><description>&lt;p>I gave a talk at the &lt;a href="https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing" target="_blank" rel="noopener">University of Sheffield Natural Language Processing Research Group&lt;/a> entitled &lt;em>Query Automation for Systematic Reviews&lt;/em>. This talk gave an overview of the papers &lt;a href="/post/2023-04-05-sigir">accepted at SIGIR'23&lt;/a> this year.&lt;/p>
 &lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Thanks to &lt;a href="https://twitter.com/hscells?ref_src=twsrc%5Etfw">@hscells&lt;/a> for today’s excellent &lt;a href="https://twitter.com/SheffieldNLP?ref_src=twsrc%5Etfw">@SheffieldNLP&lt;/a> seminar “Query Automation for Systematic Reviews”&lt;/p>&amp;mdash; Mark Stevenson (@drmarkstevenson) &lt;a href="https://twitter.com/drmarkstevenson/status/1720505087577993430?ref_src=twsrc%5Etfw">November 3, 2023&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;p>The slides are available for download &lt;a href="https://scells.me/files/sheffield23-sysrev-queries-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Invited Talk at Glasgow University IR Seminar</title><link>https://scells.me/post/2023-07-10-glasgow/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><guid>https://scells.me/post/2023-07-10-glasgow/</guid><description>&lt;p>I gave a talk at the &lt;a href="https://samoa.dcs.gla.ac.uk/events/viewtalk.jsp?id=18997" target="_blank" rel="noopener">Glasgow University IR Seminar&lt;/a> entitled &lt;em>Query Automation for Systematic Reviews&lt;/em>. This talk gave an overview of the papers &lt;a href="https://scells.me/post/2023-04-05-sigir">accepted at SIGIR'23&lt;/a> this year.&lt;/p>
+&lt;p>The slides are available for download &lt;a href="/files/sheffield23-sysrev-queries-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Invited Talk at Glasgow University IR Seminar</title><link>/post/2023-07-10-glasgow/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><guid>/post/2023-07-10-glasgow/</guid><description>&lt;p>I gave a talk at the &lt;a href="https://samoa.dcs.gla.ac.uk/events/viewtalk.jsp?id=18997" target="_blank" rel="noopener">Glasgow University IR Seminar&lt;/a> entitled &lt;em>Query Automation for Systematic Reviews&lt;/em>. This talk gave an overview of the papers &lt;a href="/post/2023-04-05-sigir">accepted at SIGIR'23&lt;/a> this year.&lt;/p>
 &lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">An excellent talk by Harry Scells &lt;a href="https://twitter.com/hscells?ref_src=twsrc%5Etfw">@hscells&lt;/a> to end our 2022-2023 seminar series. Thanks to all our inspiring speakers this year, as well as to &lt;a href="https://twitter.com/hitarth_08?ref_src=twsrc%5Etfw">@hitarth_08&lt;/a> and &lt;a href="https://twitter.com/asash?ref_src=twsrc%5Etfw">@asash&lt;/a> for coordinating the series. The new seminar series will start in September. Happy summer everyone! &lt;a href="https://twitter.com/hashtag/IRTalk?src=hash&amp;amp;ref_src=twsrc%5Etfw">#IRTalk&lt;/a> &lt;a href="https://t.co/XVvrqXxE4m">https://t.co/XVvrqXxE4m&lt;/a>&lt;/p>&amp;mdash; Glasgow IR Group (@ir_glasgow) &lt;a href="https://twitter.com/ir_glasgow/status/1678686426949402627?ref_src=twsrc%5Etfw">July 11, 2023&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;p>The slides are available for download &lt;a href="https://scells.me/files/glasgow23-sysrev-queries-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Invited Talk at Johannes Kepler University Linz</title><link>https://scells.me/post/2023-01-19-greenir/</link><pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate><guid>https://scells.me/post/2023-01-19-greenir/</guid><description>&lt;p>I gave a talk at &lt;a href="https://www.jku.at/en" target="_blank" rel="noopener">Johannes Kepler University Linz&lt;/a> on Janurary 19, 2023 about my &lt;a href="https://scells.me/publication/sigir2022_greenir/">SIGIR'22 paper&lt;/a> entitled &lt;em>Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/em>. This talk gave an overview of the paper and discussed the current state of Green IR research, as well as some future directions.&lt;/p>
-&lt;p>The slides are available for download &lt;a href="https://scells.me/files/green-ir-talk-23.pdf">here&lt;/a>.&lt;/p>
+&lt;p>The slides are available for download &lt;a href="/files/glasgow23-sysrev-queries-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Invited Talk at Johannes Kepler University Linz</title><link>/post/2023-01-19-greenir/</link><pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate><guid>/post/2023-01-19-greenir/</guid><description>&lt;p>I gave a talk at &lt;a href="https://www.jku.at/en" target="_blank" rel="noopener">Johannes Kepler University Linz&lt;/a> on Janurary 19, 2023 about my &lt;a href="/publication/sigir2022_greenir/">SIGIR'22 paper&lt;/a> entitled &lt;em>Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/em>. This talk gave an overview of the paper and discussed the current state of Green IR research, as well as some future directions.&lt;/p>
+&lt;p>The slides are available for download &lt;a href="/files/green-ir-talk-23.pdf">here&lt;/a>.&lt;/p>
 &lt;p>Thank you very much &lt;a href="https://navid-rekabsaz.github.io/" target="_blank" rel="noopener">Navid&lt;/a> for the invitation!&lt;/p></description></item></channel></rss>

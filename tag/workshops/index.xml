@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workshops | Harry Scells</title><link>https://scells.me/tag/workshops/</link><atom:link href="https://scells.me/tag/workshops/index.xml" rel="self" type="application/rss+xml"/><description>Workshops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate><image><url>https://scells.me/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Workshops</title><link>https://scells.me/tag/workshops/</link></image><item><title>Invited Workshop at Information Retrieval Meeting 2024</title><link>https://scells.me/post/2024-04-26-irm/</link><pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate><guid>https://scells.me/post/2024-04-26-irm/</guid><description>&lt;p>I ran a workshop at the &lt;a href="https://www.iqwig.de/en/events/information-retrieval-meeting/" target="_blank" rel="noopener">IQWiG Information Retrieval Meeting 2024&lt;/a> about using APIs for evidence identification.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workshops | Harry Scells</title><link>/tag/workshops/</link><atom:link href="/tag/workshops/index.xml" rel="self" type="application/rss+xml"/><description>Workshops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Workshops</title><link>/tag/workshops/</link></image><item><title>Invited Workshop at Information Retrieval Meeting 2024</title><link>/post/2024-04-26-irm/</link><pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate><guid>/post/2024-04-26-irm/</guid><description>&lt;p>I ran a workshop at the &lt;a href="https://www.iqwig.de/en/events/information-retrieval-meeting/" target="_blank" rel="noopener">IQWiG Information Retrieval Meeting 2024&lt;/a> about using APIs for evidence identification.&lt;/p>
 &lt;p>More and more APIs (application programming interfaces) are used as programmatic interfaces for certain databases or data sets. This workshop explains what an API is and what knowledge is necessary to use them, for example:&lt;/p>
 &lt;ul>
 &lt;li>what APIs are and how they work&lt;/li>
@@ -12,19 +12,19 @@
 &lt;li>
 &lt;div class="view-list view-list-item">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="https://scells.me/publication/sigir2023_chatgpt/" >Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/a>
+&lt;a href="/publication/sigir2023_chatgpt/" >Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/a>
 &lt;div class="article-metadata">
 &lt;span >
-&lt;a href="https://scells.me/authors/shuai-wang/">Shuai Wang&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/bevan-koopman/">Bevan Koopman&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
+&lt;a href="/authors/shuai-wang/">Shuai Wang&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/bevan-koopman/">Bevan Koopman&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
 &lt;/div>
 &lt;div class="btn-links">
 &lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3539618.3591703" target="_blank" rel="noopener">
 PDF
 &lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://scells.me/project/ua-daad-ppp-23/">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ua-daad-ppp-23/">
 Project
 &lt;/a>
 &lt;/div>
@@ -33,11 +33,11 @@ Project
 &lt;li>
 &lt;div class="view-list view-list-item">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="https://scells.me/publication/sigir2023_pyboolir/" >pybool_ir: A Toolkit for Domain-Specific Search Experiments&lt;/a>
+&lt;a href="/publication/sigir2023_pyboolir/" >pybool_ir: A Toolkit for Domain-Specific Search Experiments&lt;/a>
 &lt;div class="article-metadata">
 &lt;span >
-&lt;a href="https://scells.me/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>
 &lt;/div>
 &lt;div class="btn-links">
 &lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3539618.3591819" target="_blank" rel="noopener">
@@ -46,7 +46,7 @@ PDF
 &lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hscells/pybool_ir" target="_blank" rel="noopener">
 Code
 &lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://scells.me/project/alive/">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/alive/">
 Project
 &lt;/a>
 &lt;/div>
@@ -55,11 +55,11 @@ Project
 &lt;li>
 &lt;div class="view-list view-list-item">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="https://scells.me/publication/cikm2018_searchrefiner/" >searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews&lt;/a>
+&lt;a href="/publication/cikm2018_searchrefiner/" >searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews&lt;/a>
 &lt;div class="article-metadata">
 &lt;span >
-&lt;a href="https://scells.me/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="https://scells.me/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
 &lt;/div>
 &lt;div class="btn-links">
 &lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/citation.cfm?id=3269215" target="_blank" rel="noopener">
