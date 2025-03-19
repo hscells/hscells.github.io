@@ -1,249 +1,1126 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harry Scells</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Harry Scells</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Harry Scells</title><link>/</link></image><item><title>Keynote at Information Retrieval for Climate Impact Workshop at SIGIR'24</title><link>/post/2024-07-18-manila/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>/post/2024-07-18-manila/</guid><description>&lt;p>I gave a keynote at the &lt;a href="https://sites.google.com/view/ir-for-climate-impact/home" target="_blank" rel="noopener">Information Retrieval for Climate Impact Workshop&lt;/a> at &lt;a href="https://sigir.org/sigir2024" target="_blank" rel="noopener">SIGIR'24&lt;/a> entitled &lt;em>Automating Systematic Reviews with Information Retrieval&lt;/em>.&lt;/p>
-&lt;p>See the links above for more information and to download the slides.&lt;/p></description></item><item><title>Evaluating Generative Ad Hoc Information Retrieval</title><link>/publication/sigir2024_evaluating/</link><pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate><guid>/publication/sigir2024_evaluating/</guid><description>&lt;p>Recent advances in large language models have enabled the development of viable generative retrieval systems. Instead of a traditional document ranking, generative retrieval systems often directly return a grounded generated text as a response to a query. Quantifying the utility of the textual responses is essential for appropriately evaluating such generative ad hoc retrieval. Yet, the established evaluation methodology for ranking-based ad hoc retrieval is not suited for the reliable and reproducible evaluation of generated responses. To lay a foundation for developing new evaluation methods for generative retrieval systems, we survey the relevant literature from the fields of information retrieval and natural language processing, identify search tasks and system architectures in generative retrieval, develop a new user model, and study its operationalization.&lt;/p></description></item><item><title>Resources for Combining Teaching and Research in Information Retrieval Coursework</title><link>/publication/sigir2024_teaching/</link><pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate><guid>/publication/sigir2024_teaching/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-&lt;strong>Nominated for best resource paper award!&lt;/strong>
-&lt;/div>
-&lt;/div>
-&lt;p>A recent study showed that students in IR courses are especially motivated and learn more effectively when they participate in shared tasks as part of their coursework. To support teachers in integrating such activities, we present Web IDE-based applications and tutorials that employ TIREx and ir_datasets to cover the process of a typical shared task in IR: from creating test collections over developing retrieval systems to making relevance judgments and finally statistically analyzing the results. Using our tools, students can gain hands-on experience with empirical IR research by working on some current shared task, by working on earlier collections, or by creating new ones. Our experiences in implementing the cor- responding teaching concept in four IR courses at two universities confirm that students are very motivated to conduct research, and we also find that some of the resulting artifacts (e.g., students’ test collections and retrieval approaches) are of really good quality.&lt;/p></description></item><item><title>Invited Workshop at Information Retrieval Meeting 2024</title><link>/post/2024-04-26-irm/</link><pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate><guid>/post/2024-04-26-irm/</guid><description>&lt;p>I ran a workshop at the &lt;a href="https://www.iqwig.de/en/events/information-retrieval-meeting/" target="_blank" rel="noopener">IQWiG Information Retrieval Meeting 2024&lt;/a> about using APIs for evidence identification.&lt;/p>
-&lt;p>More and more APIs (application programming interfaces) are used as programmatic interfaces for certain databases or data sets. This workshop explains what an API is and what knowledge is necessary to use them, for example:&lt;/p>
-&lt;ul>
-&lt;li>what APIs are and how they work&lt;/li>
-&lt;li>offline versus online APIs&lt;/li>
-&lt;li>using APIs via Python&lt;/li>
-&lt;/ul>
-&lt;p>The focus of this workshop is to present use cases especially for frequently used APIs. This workshop explains what API use cases exist, what they are used for and how information specialists can use them in their daily workflows.&lt;/p>
-&lt;p>Above, you can find links to the &lt;a href="https://github.com/hscells/apis-for-evidence-identification/blob/main/README.md" target="_blank" rel="noopener">supplementary material&lt;/a> for the workshop which contains interactive notebooks that can be run in your browser. The notebooks let you edit and play with the code and data that are used in the workshop.&lt;/p>
-&lt;p>Finally, please find a list of related publications to this workshop below:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;div class="view-list view-list-item">
-&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="/publication/sigir2023_chatgpt/" >Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/a>
-&lt;div class="article-metadata">
-&lt;span >
-&lt;a href="/authors/shuai-wang/">Shuai Wang&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/bevan-koopman/">Bevan Koopman&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
-&lt;/div>
-&lt;div class="btn-links">
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3539618.3591703" target="_blank" rel="noopener">
-PDF
-&lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ua-daad-ppp-23/">
-Project
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;div class="view-list view-list-item">
-&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="/publication/sigir2023_pyboolir/" >pybool_ir: A Toolkit for Domain-Specific Search Experiments&lt;/a>
-&lt;div class="article-metadata">
-&lt;span >
-&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>
-&lt;/div>
-&lt;div class="btn-links">
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3539618.3591819" target="_blank" rel="noopener">
-PDF
-&lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hscells/pybool_ir" target="_blank" rel="noopener">
-Code
-&lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/alive/">
-Project
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;div class="view-list view-list-item">
-&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="/publication/cikm2018_searchrefiner/" >searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews&lt;/a>
-&lt;div class="article-metadata">
-&lt;span >
-&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
-&lt;/div>
-&lt;div class="btn-links">
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/citation.cfm?id=3269215" target="_blank" rel="noopener">
-PDF
-&lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/ielab/searchrefiner" target="_blank" rel="noopener">
-Code
-&lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ielab.io/searchrefiner/" target="_blank" rel="noopener">
-Project
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ul></description></item><item><title>Invited Talk at TH Köln</title><link>/post/2024-04-24-irrg/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>/post/2024-04-24-irrg/</guid><description>&lt;p>I gave a talk to the &lt;a href="https://ir.web.th-koeln.de/" target="_blank" rel="noopener">Information Retrieval Research Group&lt;/a> at TH Köln entitled &lt;em>Efficiency and Energy in Neural Information Retrieval&lt;/em>.&lt;/p>
-&lt;p>The talk can be downloaded &lt;a href="/files/th-koeln-seminar-talk.pdf">here&lt;/a>&lt;/p>
-&lt;p>The talk covered Green IR and a recent listwise neural IR model. The papers that were discussed in the talk are:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;div class="view-list view-list-item">
-&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="/publication/sigir2022_greenir/" >Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/a>
-&lt;div class="article-metadata">
-&lt;span >
-&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/shengyao-zhuang/">Shengyao Zhuang&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
-&lt;/div>
-&lt;div class="btn-links">
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3477495.3531766" target="_blank" rel="noopener">
-PDF
-&lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/ielab/green-ir" target="_blank" rel="noopener">
-Code
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;div class="view-list view-list-item">
-&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="/publication/arxiv2024_setencoder/" >Set-Encoder: Permutation-Invariant Inter-Passage Attention for Listwise Passage Re-Ranking with Cross-Encoders&lt;/a>
-&lt;div class="article-metadata">
-&lt;span >
-&lt;a href="/authors/ferdinand-schlatt/">Ferdinand Schlatt&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/maik-frobe/">Maik Fröbe&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/shengyao-zhuang/">Shengyao Zhuang&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/bevan-koopman/">Bevan Koopman&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/benno-stein/">Benno Stein&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/matthias-hagen/">Matthias Hagen&lt;/a>&lt;/span>
-&lt;/div>
-&lt;div class="btn-links">
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2404.06912" target="_blank" rel="noopener">
-Preprint
-&lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/webis-de/set-encoder" target="_blank" rel="noopener">
-Code
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ul></description></item><item><title>Set-Encoder: Permutation-Invariant Inter-Passage Attention for Listwise Passage Re-Ranking with Cross-Encoders</title><link>/publication/arxiv2024_setencoder/</link><pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate><guid>/publication/arxiv2024_setencoder/</guid><description>&lt;p>Cross-encoders are effective passage re-rankers. But when re-ranking multiple passages at once, existing cross-encoders inefficiently optimize the output ranking over several input permutations, as their passage interactions are not permutation-invariant. Moreover, their high memory footprint constrains the number of passages during listwise training. To tackle these issues, we propose the Set-Encoder, a new cross-encoder architecture that (1) introduces inter-passage attention with parallel passage processing to ensure permutation invariance between input passages, and that (2) uses fused-attention kernels to enable training with more passages at a time. In experiments on TREC Deep Learning and TIREx, the Set-Encoder is more effective than previous cross-encoders with a similar number of parameters. Compared to larger models, the Set-Encoder is more efficient and either on par or even more effective.&lt;/p></description></item><item><title>Zero-shot Generative Large Language Models for Systematic Review Screening Automation</title><link>/publication/ecir2024_zero/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><guid>/publication/ecir2024_zero/</guid><description>&lt;p>Systematic reviews are crucial for evidence-based medicine as they comprehensively analyse published research findings on specific questions. Conducting such reviews is often resource- and time-intensive, especially in the screening phase, where abstracts of publications are assessed for inclusion in a review. This study investigates the effectiveness of using zero-shot large language models (LLMs) for automatic screening. We evaluate the effectiveness of eight different LLMs and investigate a calibration technique that uses a predefined recall threshold to determine whether a publication should be included in a systematic review. Our comprehensive evaluation using five standard test collections shows that instruction fine-tuning plays an important role in screening, that calibration renders LLMs practical for achieving a targeted recall, and that combining both with an ensemble of zero-shot models saves significant screening time compared to state-of-the-art approaches.&lt;/p></description></item><item><title>Invited Talk at the University Clinic Leipzig</title><link>/post/2024-01-11-ilm/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>/post/2024-01-11-ilm/</guid><description>&lt;p>I gave a joint colloquium talk with &lt;a href="https://temir.org/" target="_blank" rel="noopener">Martin Potthast&lt;/a> at the &lt;a href="https://www.uniklinikum-leipzig.de/einrichtungen/labormedizin" target="_blank" rel="noopener">Institut für Laboratoriumsmedizin, Klinische Chemie und Molekulare Diagnostik (ILM)&lt;/a> in Leipzig at the &lt;a href="https://www.uniklinikum-leipzig.de/" target="_blank" rel="noopener">University Clinic&lt;/a> entitled &lt;em>ChatGPT and Large Language Models for Medical Applications&lt;/em>.&lt;/p>
-&lt;p>The talk can be downloaded &lt;a href="/files/ilm23-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Invited Talk at University of Sheffield</title><link>/post/2023-11-03-sheffield/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><guid>/post/2023-11-03-sheffield/</guid><description>&lt;p>I gave a talk at the &lt;a href="https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing" target="_blank" rel="noopener">University of Sheffield Natural Language Processing Research Group&lt;/a> entitled &lt;em>Query Automation for Systematic Reviews&lt;/em>. This talk gave an overview of the papers &lt;a href="/post/2023-04-05-sigir">accepted at SIGIR'23&lt;/a> this year.&lt;/p>
-&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Thanks to &lt;a href="https://twitter.com/hscells?ref_src=twsrc%5Etfw">@hscells&lt;/a> for today’s excellent &lt;a href="https://twitter.com/SheffieldNLP?ref_src=twsrc%5Etfw">@SheffieldNLP&lt;/a> seminar “Query Automation for Systematic Reviews”&lt;/p>&amp;mdash; Mark Stevenson (@drmarkstevenson) &lt;a href="https://twitter.com/drmarkstevenson/status/1720505087577993430?ref_src=twsrc%5Etfw">November 3, 2023&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;p>The slides are available for download &lt;a href="/files/sheffield23-sysrev-queries-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Generating Natural Language Queries for More Effective Systematic Review Screening Prioritisation</title><link>/publication/sigirap2023_generating/</link><pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate><guid>/publication/sigirap2023_generating/</guid><description>&lt;p>Screening prioritisation in medical systematic reviews aims to rank the set of documents retrieved by complex Boolean queries. Prioritising the most important documents ensures that subsequent review steps can be carried out more efficiently and effectively. The current state of the art uses the final title of the review as a query to rank the documents using BERT-based neural rankers. However, the final title is only formulated at the end of the review process, which makes this approach impractical as it relies on ex post facto information. At the time of screening, only a rough working title is available, with which the BERT-based ranker performs significantly worse than with the final title. In this paper, we explore alternative sources of queries for prioritising screening, such as the Boolean query used to retrieve the documents to be screened and queries generated by instruction-based generative large-scale language models such as ChatGPT and Alpaca. Our best approach is not only viable based on the information available at the time of screening, but also has similar effectiveness to the final title.&lt;/p></description></item><item><title>Attending the 2023 Heidelberg Laureate Forum</title><link>/post/2023-09-29-hlf/</link><pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate><guid>/post/2023-09-29-hlf/</guid><description>&lt;p>I was selected to attend the 2023 &lt;a href="https://www.heidelberg-laureate-forum.org/" target="_blank" rel="noopener">Heidelberg Laureate Forum&lt;/a> as a young researcher in the field of computer science. The event was held from September 24 - 29, 2023 in &lt;a href="https://en.wikipedia.org/wiki/Heidelberg" target="_blank" rel="noopener">Heidelberg&lt;/a>, Germany. Attendees included young researchers and laureates of the Abel Prize, ACM A.M. Turing Award, ACM Prize in Computing, Fields Medal, IMU Abacus Medal and Nevanlinna Prize.&lt;/p>
-&lt;p>The event was a unique mix of academic and cultural exploration, fostering interdisciplinary discussions and encouraging collaboration. Connecting with laureates and fellow young researchers, the forum left a lasting impact on me, providing inspiration and valuable connections.&lt;/p>
-&lt;p>I can absolutely recommend anyone interested to &lt;a href="https://application.heidelberg-laureate-forum.org/site/index.php" target="_blank" rel="noopener">apply&lt;/a>!&lt;/p></description></item><item><title>Beyond CO2 Emissions: The Overlooked Impact of Water Consumption of Information Retrieval Models</title><link>/publication/ictir2023_c02/</link><pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate><guid>/publication/ictir2023_c02/</guid><description>&lt;p>As in other fields of artificial intelligence, the information retrieval community has grown interested in investigating the power consumption associated with neural models, particularly models of search. This interest has become particularly relevant as the energy consumption of information retrieval models has risen with new neural models based on large language models, leading to an associated increase of CO2 emissions, albeit relatively low compared to fields such as natural language processing. Consequently, researchers have started exploring the development of a green agenda for sustainable information retrieval research and operation. Previous work, however, has primarily considered energy consumption and associated CO2 emissions alone. In this paper, we seek to draw the information retrieval community&amp;rsquo;s attention to the overlooked aspect of water consumption related to these powerful models. We supplement previous energy consumption estimates with corresponding water consumption estimates, considering both off-site water consumption (required for operating and cooling energy production systems such as carbon and nuclear power plants) and on-site consumption (for cooling the data centres where models are trained and operated). By incorporating water consumption alongside energy consumption and CO2 emissions, we offer a more comprehensive understanding of the environmental impact of information retrieval research and operation.&lt;/p></description></item><item><title>Neural Rankers for Effective Screening Prioritisation in Medical Systematic Review Literature Search</title><link>/publication/adcs2022_neural/</link><pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate><guid>/publication/adcs2022_neural/</guid><description>&lt;p>Medical systematic reviews typically require assessing all the documents retrieved by a search. The reason is two-fold: the task aims for “total recall”; and documents retrieved using Boolean search are an unordered set, and thus it is unclear how an assessor could examine only a subset. Screening prioritisation is the process of ranking the (unordered) set of retrieved documents, allowing assessors to begin the downstream processes of the systematic review creation earlier, leading to earlier completion of the review, or even avoiding screening documents ranked least relevant.&lt;/p>
-&lt;p>Screening prioritisation requires highly effective ranking methods. Pre-trained language models are state-of-the-art on many IR tasks but have yet to be applied to systematic review screening prioritisation. In this paper, we apply several pre-trained language models to the systematic review document ranking task, both directly and fine-tuned. An empirical analysis compares how effective neural methods compare to traditional methods for this task. We also investigate different types of document representations for neural methods and their impact on ranking performance.&lt;/p>
-&lt;p>Our results show that BERT-based rankers outperform the current state-of-the-art screening prioritisation methods. However, BERT rankers and existing methods can actually be complementary, and thus, further improvements may be achieved if used in conjunction.&lt;/p></description></item><item><title>Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?</title><link>/publication/sigir2023_chatgpt/</link><pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate><guid>/publication/sigir2023_chatgpt/</guid><description>&lt;p>Systematic reviews are comprehensive literature reviews for a highly focused research question. These reviews are considered the highest form of evidence in medicine. Complex Boolean queries are developed as part of the systematic review creation process to retrieve literature, as they permit reproducibility and understandability. However, it is difficult and time-consuming to develop high-quality Boolean queries, often requiring the expertise of expert searchers like librarians. Recent advances in transformer-based generative models have shown their ability to effectively follow user instructions and generate answers based on these instructions. In this paper, we investigate ChatGPT as a means for automatically formulating and refining complex Boolean queries for systematic review literature search. Overall, our research finds that ChatGPT has the potential to generate effective Boolean queries. The ability of ChatGPT to follow complex instructions and generate highly precise queries makes it a tool of potential value for researchers conducting systematic reviews, particularly for rapid reviews where time is a constraint and where one can trade off higher precision for lower recall. We also identify several caveats in using ChatGPT for this task, highlighting that this technology needs further validation before it is suitable for widespread uptake.&lt;/p></description></item><item><title>pybool_ir: A Toolkit for Domain-Specific Search Experiments</title><link>/publication/sigir2023_pyboolir/</link><pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate><guid>/publication/sigir2023_pyboolir/</guid><description>&lt;p>Undertaking research in domain-specific scenarios such as systematic review literature search, legal search, and patent search can often have a high barrier of entry due to complicated indexing procedures and complex Boolean query syntax. Indexing and searching document collections like PubMed in off-the-shelf tools such as Elasticsearch and Lucene often yields less accurate (and less effective) results than the PubMed search engine, i.e., retrieval results do not match what would be retrieved if one issued the same query to PubMed. Furthermore, off-the-shelf tools have their own nuanced query languages and do not allow directly using the often large and complicated Boolean queries seen in domain-specific search scenarios. The pybool_ir toolkit aims to address these problems and to lower the barrier to entry for developing new methods for domain-specific search. The toolkit is an open source package available at &lt;a href="https://github.com/hscells/pybool_ir" target="_blank" rel="noopener">https://github.com/hscells/pybool_ir&lt;/a>.&lt;/p></description></item><item><title>Smooth Operators for Effective Systematic Review Queries</title><link>/publication/sigir2023_smooth/</link><pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate><guid>/publication/sigir2023_smooth/</guid><description>&lt;p>Effective queries are crucial to minimising the time and cost of medical systematic reviews, as all retrieved documents must be judged for relevance. Boolean queries, developed by expert librarians, are the standard for systematic reviews. They guarantee reproducible and verifiable retrieval and more control than free-text queries. However, the result sets of Boolean queries are unranked and difficult to control due to the strict Boolean operators. We address these problems in a single unified retrieval model by formulating a class of smooth operators that are compatible with and extend existing Boolean operators. Our smooth operators overcome several shortcomings of previous extensions of the Boolean retrieval model. In particular, our operators are independent of the underlying ranking function, so that exact-match and large language model rankers can be combined in the same query. We found that replacing Boolean operators with equivalent or similar smooth operators often improves the effectiveness of queries. Their properties make tuning a query to precision or recall intuitive and allow greater control over how documents are retrieved. This additional control leads to more effective queries and reduces the cost of systematic reviews.&lt;/p></description></item><item><title>The Archive Query Log: Mining Millions of Search Result Pages of Hundreds of Search Engines from 25 Years of Web Archives</title><link>/publication/sigir2023_aql/</link><pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate><guid>/publication/sigir2023_aql/</guid><description>&lt;p>The Archive Query Log (AQL) is a previously unused, comprehensive query log collected at the Internet Archive over the last 25 years. Its first version includes 356 million queries, 137 million search result pages, and 1.4 billion search results across 550 search providers. Although many query logs have been studied in the literature, the search providers that own them generally do not publish their logs to protect user privacy and vital business data. Of the few query logs publicly available, none combines size, scope, and diversity. The AQL is the first to do so, enabling research on new retrieval models and (diachronic) search engine analyses. Provided in a privacy-preserving manner, it promotes open research as well as more transparency and accountability in the search industry.&lt;/p></description></item><item><title>Invited Talk at Glasgow University IR Seminar</title><link>/post/2023-07-10-glasgow/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><guid>/post/2023-07-10-glasgow/</guid><description>&lt;p>I gave a talk at the &lt;a href="https://samoa.dcs.gla.ac.uk/events/viewtalk.jsp?id=18997" target="_blank" rel="noopener">Glasgow University IR Seminar&lt;/a> entitled &lt;em>Query Automation for Systematic Reviews&lt;/em>. This talk gave an overview of the papers &lt;a href="/post/2023-04-05-sigir">accepted at SIGIR'23&lt;/a> this year.&lt;/p>
-&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">An excellent talk by Harry Scells &lt;a href="https://twitter.com/hscells?ref_src=twsrc%5Etfw">@hscells&lt;/a> to end our 2022-2023 seminar series. Thanks to all our inspiring speakers this year, as well as to &lt;a href="https://twitter.com/hitarth_08?ref_src=twsrc%5Etfw">@hitarth_08&lt;/a> and &lt;a href="https://twitter.com/asash?ref_src=twsrc%5Etfw">@asash&lt;/a> for coordinating the series. The new seminar series will start in September. Happy summer everyone! &lt;a href="https://twitter.com/hashtag/IRTalk?src=hash&amp;amp;ref_src=twsrc%5Etfw">#IRTalk&lt;/a> &lt;a href="https://t.co/XVvrqXxE4m">https://t.co/XVvrqXxE4m&lt;/a>&lt;/p>&amp;mdash; Glasgow IR Group (@ir_glasgow) &lt;a href="https://twitter.com/ir_glasgow/status/1678686426949402627?ref_src=twsrc%5Etfw">July 11, 2023&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;p>The slides are available for download &lt;a href="/files/glasgow23-sysrev-queries-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Four papers accepted to SIGIR 2023</title><link>/post/2023-04-05-sigir/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><guid>/post/2023-04-05-sigir/</guid><description>&lt;p>This year, I was fortunate enough to be involved in four papers accepted at SIGIR (2 full papers, 1 resource paper, and 1 demo paper).&lt;/p>
-&lt;hr>
-&lt;ul>
-&lt;li>[resource] &lt;strong>The Archive Query Log: Mining Millions of Search Result Pages of Hundreds of Search Engines from 25 Years of Web Archives&lt;/strong>
-&lt;ul>
-&lt;li>&lt;a href="https://doi.org/10.1145/3539618.3591890" target="_blank" rel="noopener">read paper&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/abs/2304.00413" target="_blank" rel="noopener">arxiv preprint&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://twitter.com/webis_de/status/1643366684382621696" target="_blank" rel="noopener">twitter thread&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>[full paper] &lt;strong>Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/strong>
-&lt;ul>
-&lt;li>&lt;a href="https://doi.org/10.1145/3539618.3591703" target="_blank" rel="noopener">read paper&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/abs/2302.03495" target="_blank" rel="noopener">arxiv preprint&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://twitter.com/hscells/status/1643558762152701954" target="_blank" rel="noopener">twitter thread&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>[demo] &lt;strong>&lt;code>pybool_ir&lt;/code>: A Toolkit for Domain-Specific Search Experiments&lt;/strong>
-&lt;ul>
-&lt;li>&lt;a href="https://doi.org/10.1145/3539618.3591819" target="_blank" rel="noopener">read paper&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://twitter.com/hscells/status/1642838058188906498" target="_blank" rel="noopener">twitter thread&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/hscells/pybool_ir" target="_blank" rel="noopener">github&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>[full paper] &lt;strong>Smooth Operators for Effective Systematic Review Queries&lt;/strong>
-&lt;ul>
-&lt;li>&lt;a href="https://doi.org/10.1145/3539618.3591768" target="_blank" rel="noopener">read paper&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://twitter.com/hscells/status/1643570084693127172" target="_blank" rel="noopener">twitter thread&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;p>Thank you to all of my co-authors, for which this would not have been possible without you!&lt;/p></description></item><item><title>Invited Talk at Johannes Kepler University Linz</title><link>/post/2023-01-19-greenir/</link><pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate><guid>/post/2023-01-19-greenir/</guid><description>&lt;p>I gave a talk at &lt;a href="https://www.jku.at/en" target="_blank" rel="noopener">Johannes Kepler University Linz&lt;/a> on Janurary 19, 2023 about my &lt;a href="/publication/sigir2022_greenir/">SIGIR'22 paper&lt;/a> entitled &lt;em>Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/em>. This talk gave an overview of the paper and discussed the current state of Green IR research, as well as some future directions.&lt;/p>
-&lt;p>The slides are available for download &lt;a href="/files/green-ir-talk-23.pdf">here&lt;/a>.&lt;/p>
-&lt;p>Thank you very much &lt;a href="https://navid-rekabsaz.github.io/" target="_blank" rel="noopener">Navid&lt;/a> for the invitation!&lt;/p></description></item><item><title>Australia–Germany Joint Research Cooperation Scheme</title><link>/project/ua-daad-ppp-23/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate><guid>/project/ua-daad-ppp-23/</guid><description/></item><item><title>Universities Australia – DAAD Joint Research Co-operation Scheme</title><link>/post/2022-11-22-daadppp/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate><guid>/post/2022-11-22-daadppp/</guid><description>&lt;p>We are &lt;a href="https://www.universitiesaustralia.edu.au/wp-content/uploads/2022/11/2022-UA-Website-Update-Successful-Applications.pdf" target="_blank" rel="noopener">one of the 45 projects&lt;/a> awarded funding under the &lt;a href="https://www.universitiesaustralia.edu.au/policy-submissions/international/australia-germany-joint-research-co-operation-scheme/" target="_blank" rel="noopener">Universities Australia – DAAD Joint Research Co-operation Scheme&lt;/a>. This scheme facilitates the exchange of early career researchers in Australia and Germany from early 2023 until the end of 2024. The &lt;a href="https://ielab.io" target="_blank" rel="noopener">ielab&lt;/a> and &lt;a href="https://webis.de" target="_blank" rel="noopener">webis&lt;/a> research groups will be hosting researchers from Australia and Germany for two months at a time. The following researchers will be visiting ielab and webis across the two years:&lt;/p>
-&lt;p>2023:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://wshuai190.github.io/" target="_blank" rel="noopener">Shuai Wang&lt;/a> from The University of Queensland, Australia.&lt;/li>
-&lt;li>&lt;a href="https://github.com/fschlatt" target="_blank" rel="noopener">Ferdinand Schlatt&lt;/a> from Friedrich-Schiller-Universität Jena, Germany.&lt;/li>
-&lt;/ul>
-&lt;p>2024:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="http://ielab.io/people/xinyu-mao" target="_blank" rel="noopener">Xinyu Mao&lt;/a> from The University of Queensland, Australia&lt;/li>
-&lt;li>&lt;a href="http://maik-froebe.de/" target="_blank" rel="noopener">Maik Fröbe&lt;/a> from Friedrich-Schiller-Universität Jena, Germany.&lt;/li>
-&lt;/ul>
-&lt;p>The project involves the two groups working together to automate the searching and screening phases of systematic review creation.&lt;/p>
-&lt;p>For news about the project, publications, or other activities, please see the &lt;a href="/project/ua-daad-ppp-23">project website&lt;/a>.&lt;/p></description></item><item><title>Network Meeting of the Alexander von Humboldt Foundation</title><link>/post/2022-11-02-avhnet/</link><pubDate>Wed, 02 Nov 2022 15:37:05 +0100</pubDate><guid>/post/2022-11-02-avhnet/</guid><description>&lt;p>From November 9 - 11 2022, I&amp;rsquo;ll be attending the Network Meeting of the Alexander von Humboldt Foundation where I will give a talk about my AvH fellowship project entitled &amp;ldquo;Finding Answers to Complex Medical Questions&amp;rdquo;.&lt;/p>
-&lt;p>&lt;a href="/pdf/avhnet22-complex-questions-talk.pdf">Click here&lt;/a> to download the slides.&lt;/p></description></item><item><title>Schloss Dagstuhl Seminar</title><link>/post/2022-10-23-dagstuhl/</link><pubDate>Thu, 20 Oct 2022 10:07:13 +0200</pubDate><guid>/post/2022-10-23-dagstuhl/</guid><description>&lt;p>From October 23 - 28 2022, I attended the &lt;a href="https://www.dagstuhl.de/" target="_blank" rel="noopener">Schloss Dagstuhl&lt;/a> seminar entitled &lt;a href="https://www.dagstuhl.de/22432" target="_blank" rel="noopener">Towards a Unified Model of Scholarly Argumentation&lt;/a>.&lt;/p>
-&lt;p>I volunteered to help edit the seminar report, which can be found &lt;a href="https://drops.dagstuhl.de/opus/volltexte/2023/17826/" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item><item><title>Alexander von Humboldt Research Fellowship</title><link>/project/alive/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>/project/alive/</guid><description>&lt;p>How do clinicians become informed to treat their patients? How do governments and institutions make health policy decisions?&lt;/p>
-&lt;p>At heart, the answer to both of these questions is consulting a specific, focused, and comprehensive systematic review of medical literature. In the medical domain, systematic reviews are central to decision-making for both clinical practice (e.g., &amp;ldquo;Does hydrocloroquin treat COVID-19?&amp;rdquo;), as well as institutional and governmental medical policy-making (e.g., &amp;ldquo;Should everyone wear a mask during the COVID-19 pandemic?&amp;rdquo;). Once a review is published. However, new studies and evidence can arise or be retracted, which may change the review&amp;rsquo;s conclusions. In areas of medicine where there is a priority for decision-making, a level of uncertainty in existing studies, and the frequency of new medical studies is high (e.g., identifying the most effective treatment for COVID-19), systematic reviews are infeasible.&lt;/p>
-&lt;p>This infeasibility is primarily due to the lengthy and costly processes involved in creating these systematic reviews. The most expensive and time-intensive aspect is the manual, critical appraisal of studies, which can take several years and cost upwards of 220,000 Euros to complete. Already, several researchers have highlighted that systematic reviews are not sufficient for the pace at which studies are currently being published. Several studies have spawned to address this problem, such as machine learning methods, summarisation of studies, guidelines for building automation tools, and even proposing a new type of &amp;ldquo;living&amp;rdquo; systematic review. However, I will be taking a radically different approach to answer the initial questions posed above in this project. I plan to focus on synthesising direct answers for highly focused, complex medical questions using NLP methods.&lt;/p>
-&lt;p>To this end, I will investigate, apply, and derive new state-of-the-art methods for direct answer synthesis within the medical domain.&lt;/p></description></item><item><title>Automated MeSH Term Suggestion for Effective Query Formulation in Systematic Reviews Literature Search</title><link>/publication/iswa2022_automated/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>/publication/iswa2022_automated/</guid><description>&lt;p>Medical systematic review query formulation is a highly complex task done by trained information specialists. Complexity comes from the reliance on lengthy Boolean queries, which express a detailed research question. To aid query formulation, information specialists use a set of exemplar documents, called ‘seed studies’, prior to query formulation. Seed studies help verify the effectiveness of a query prior to the full assessment of retrieved studies. Beyond this use of seeds, specific IR methods can exploit seed studies for guiding both automatic query formulation and new retrieval models. One major limitation of work to date is that these methods exploit `pseudo seed studies’ through retrospective use of included studies (i.e., relevance assessments). However, we show pseudo seed studies are not representative of real seed studies used by information specialists. Hence, we provide a test collection with real world seed studies used to assist with the formulation of queries. To support our collection, we provide an analysis, previously not possible, on how seed studies impact retrieval and perform several experiments using seed-study based methods to compare the effectiveness of using seed studies versus pseudo seed studies. We make our test collection and the results of all of our experiments and analysis available at &lt;a href="http://github.com/ielab/sysrev-seed-collection" target="_blank" rel="noopener">http://github.com/ielab/sysrev-seed-collection&lt;/a>. High-quality medical systematic reviews require comprehensive literature searches to ensure the recommendations and outcomes are sufficiently reliable. Indeed, searching for relevant medical literature is a key phase in constructing systematic reviews and often involves domain (medical researchers) and search (information specialists) experts in developing the search queries. Queries in this context are highly complex, based on Boolean logic, include free-text terms and index terms from standardised terminologies (e.g., the Medical Subject Headings (MeSH) thesaurus), and are difficult and time-consuming to build. The use of MeSH terms, in particular, has been shown to improve the quality of the search results. However, identifying the correct MeSH terms to include in a query is difficult: information experts are often unfamiliar with the MeSH database and unsure about the appropriateness of MeSH terms for a query. Naturally, the full value of the MeSH terminology is often not fully exploited. This article investigates methods to suggest MeSH terms based on an initial Boolean query that includes only free-text terms. In this context, we devise lexical and pre-trained language models based methods. These methods promise to automatically identify highly effective MeSH terms for inclusion in a systematic review query. Our study contributes an empirical evaluation of several MeSH term suggestion methods. We further contribute an extensive analysis of MeSH term suggestions for each method and how these suggestions impact the effectiveness of Boolean queries.&lt;/p></description></item><item><title>Reduce, Reuse, Recycle: Green Information Retrieval Research</title><link>/publication/sigir2022_greenir/</link><pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate><guid>/publication/sigir2022_greenir/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-&lt;strong>Awarded Best Paper Honorable Mention!&lt;/strong>
-&lt;/div>
-&lt;/div>
-&lt;p>Recent advances in Information Retrieval utilise energy-intensive hardware to produce state-of-the-art results. In areas of research highly related to Information Retrieval, such as Natural Language Processing and Machine Learning, there have been efforts to quantify and reduce the power and emissions produced by methods that depend on such hardware. Research that is conscious of the environmental impacts of its experimentation and takes steps to mitigate some of these impacts is considered &amp;lsquo;Green&amp;rsquo;. Given the continuous demand for more data and power-hungry techniques, Green research is likely to become more important within the broader research community. Therefore, within the Information Retrieval community, the consequences of non-Green (in other words, Red) research should at least be considered and acknowledged. As such, the aims of this perspective paper are fourfold: (1) to review the Green literature not only for Information Retrieval but also for related domains in order to identify transferable Green techniques; (2) to provide measures for quantifying the power usage and emissions of Information Retrieval research; (3) to report the power usage and emission impacts for various current IR methods; and (4) to provide a framework to guide Green Information Retrieval research, taking inspiration from &amp;lsquo;reduce, reuse, recycle&amp;rsquo; waste management campaigns, including salient examples from the literature that implement these concepts.&lt;/p></description></item><item><title>From Little Things Big Things Grow: A Collection with Seed Studies for Medical Systematic Review Literature Search</title><link>/publication/sigir2022_seed/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>/publication/sigir2022_seed/</guid><description>&lt;p>Fine-grained logging of interactions in user studies is important for studying user behaviour, among other reasons. However, in many research scenarios, the way interactions are logged are usually tied to a monolithic system. We present a generic, application-independent service for logging interactions in web-pages, specifically targetting user studies. Our service, Big Brother, can be dropped-in to existing user interfaces with almost no configuration required by researchers. Big Brother has already been used in several user studies to record interactions in a number of user study research scenarios, such as lab-based and crowdsourcing environments. We further demonstrate the ability for Big Brother to scale to very large user studies through benchmarking experiments. Big Brother also provides a number of additional tools for visualising and analysing interactions.&lt;/p>
-&lt;p>Big Brother significantly lowers the barrier to entry for logging user interactions by providing a minimal but powerful, no configuration necessary, service for researchers and practitioners of user studies that can scale to thousands of concurrent sessions. We have made the source code and releases for Big Brother available for download at &lt;a href="https://github.com/hscells/bigbro" target="_blank" rel="noopener">https://github.com/hscells/bigbro&lt;/a>.&lt;/p></description></item><item><title>MeSH Term Suggestion for Systematic Review Literature Search</title><link>/publication/adcs2021_mesh/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>/publication/adcs2021_mesh/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-&lt;strong>Awarded Best Student Paper!&lt;/strong>
-&lt;/div>
-&lt;/div>
-&lt;p>High-quality medical systematic reviews require comprehensive literature searches to ensure the recommendations and outcomes are sufficiently reliable. Indeed, searching for relevant medical literature is a key phase in constructing systematic reviews and often involves domain (medical researchers) and search (information specialists) experts in developing the search queries. Queries in this context are highly complex, based on Boolean logic, include free-text terms and index terms from standardised terminologies (e.g., MeSH), and are difficult and time-consuming to build. The use of MeSH terms, in particular, has been shown to improve the quality of the search results. However, identifying the correct MeSH terms to include in a query is difficult: information experts are often unfamiliar with the MeSH database and unsure about the appropriateness of MeSH terms for a query. Naturally, the full value of the MeSH terminology is often not fully exploited.&lt;/p>
-&lt;p>This paper investigates methods to suggest MeSH terms based on an initial Boolean query that includes only free-text terms. These methods promise to automatically identify highly effective MeSH terms for inclusion in a systematic review query. Our study contributes an empirical evaluation of several MeSH term suggestion methods. We perform an extensive analysis of the retrieval, ranking, and refinement of MeSH term suggestions for each method and how these suggestions impact the effectiveness of Boolean queries.&lt;/p></description></item><item><title>SDR for Systematic Reviews: A Reproducibility Study</title><link>/publication/ecir2022_sdr/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>/publication/ecir2022_sdr/</guid><description>&lt;p>Screening or assessing studies is critical to the quality and outcomes of a systematic review. Typically, a Boolean query retrieves the set of studies to screen. As the set of studies retrieved is unordered, screening all retrieved studies is usually required for high-quality systematic reviews. Screening prioritisation, or in other words, ranking the set of studies, enables downstream activities of a systematic review to begin in parallel. We investigate a method that exploits seed studies – potentially relevant studies used to seed the query formulation process – for screening prioritisation. Our investigation aims to reproduce this method to determine if it is generalisable on recently published datasets and determine the impact of using multiple seed studies on effectiveness. We show that while we could reproduce the original methods, we could not replicate their results exactly. However, we believe this is due to minor differences in document pre-processing, not deficiencies with the original methodology. Our results also indicate that our reproduced screening prioritisation method, (1) is generalisable across datasets of similar and different topicality compared to the original implementation, (2) that when using multiple seed studies, the effectiveness of the method increases using our techniques to enable this, (3) and that the use of multiple seed studies produces more stable rankings compared to single seed studies. Finally, we make our implementation and results publicly available at the following URL: &lt;a href="https://github.com/ielab/sdr" target="_blank" rel="noopener">https://github.com/ielab/sdr&lt;/a>&lt;/p></description></item><item><title>Query Automation for Systematic Reviews</title><link>/publication/phd_thesis/</link><pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate><guid>/publication/phd_thesis/</guid><description>&lt;p>This thesis explores and investigates query automation methods and tools to support more effective study retrieval for the creation of medical systematic reviews. A systematic review is a synthesis of very high-quality medical studies with a stringent protocol to guide creation with minimal bias and error. Modern medicine practice and healthcare policies rely heavily on systematic reviews in order to make decisions on the best available evidence.&lt;/p>
-&lt;p>Systematic review creation is often highly time-intensive and costly. Thus there has been much attention to attempt to automate phases in the creation of a systematic review. In this context, the definition of automation is the encoding of manual tasks into computational procedures. Existing automation research has primarily focused on the phase concerned with the critical appraisal of studies. Prior research has attempted to automate this appraisal phase by, for example, simulating human appraisal, (re-)ranking the retrieved studies, and classifying relevant studies, among others. A major drawback of these approaches is that they all rely on the initial search&amp;rsquo;s retrieval effectiveness, which is contingent on the query&amp;rsquo;s quality. We follow a fresh, new direction of research by investigating methods for query automation.&lt;/p>
-&lt;p>In investigating automatic methods for building effective queries for systematic review creation, this thesis develops three main areas of enquiry: (i) query formulation: the development of Boolean queries suitable for systematic review literature search, (ii) query refinement: the iterative process of improving the search effectiveness of a Boolean query suitable for systematic review literature search, and (iii) query exploitation: the application of methods to Boolean queries in order to improve systematic review literature search effectiveness. For each of these query automation areas, this thesis devises computational methods as well as practical tools.&lt;/p>
-&lt;p>This thesis makes contributions across three main areas of enquiry. They comprise of: (i) computational adaptations of human query formulation methodologies to support the automatic development of complex Boolean queries for systematic review literature search, and practical tools built upon them, (ii) a framework for the generation and identification of more effective query variations to support the automatic refinement of high-quality Boolean queries used in systematic review literature search, as well as tools built upon them, and (iii) methods to exploit intrinsic characteristics of Boolean queries in order to improve the retrieval effectiveness of systematic review literature search. We found that for each of these inquiry areas, query automation was able to improve search effectiveness, reducing the amount of time necessary to create systematic reviews.&lt;/p></description></item><item><title>Big Brother: A Drop-In Website Interaction Logging Service</title><link>/publication/sigir2021_bigbro/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/publication/sigir2021_bigbro/</guid><description>&lt;p>Fine-grained logging of interactions in user studies is important for studying user behaviour, among other reasons. However, in many research scenarios, the way interactions are logged are usually tied to a monolithic system. We present a generic, application-independent service for logging interactions in web-pages, specifically targetting user studies. Our service, Big Brother, can be dropped-in to existing user interfaces with almost no configuration required by researchers. Big Brother has already been used in several user studies to record interactions in a number of user study research scenarios, such as lab-based and crowdsourcing environments. We further demonstrate the ability for Big Brother to scale to very large user studies through benchmarking experiments. Big Brother also provides a number of additional tools for visualising and analysing interactions.&lt;/p>
-&lt;p>Big Brother significantly lowers the barrier to entry for logging user interactions by providing a minimal but powerful, no configuration necessary, service for researchers and practitioners of user studies that can scale to thousands of concurrent sessions. We have made the source code and releases for Big Brother available for download at &lt;a href="https://github.com/hscells/bigbro" target="_blank" rel="noopener">https://github.com/hscells/bigbro&lt;/a>.&lt;/p></description></item><item><title>PECAN: A Platform for Searching Chat Conversations</title><link>/publication/sigir2021_pecan/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/publication/sigir2021_pecan/</guid><description>&lt;p>Often, existing chat services that organisations and individuals use today provide a way to search through previously sent messages. However, many of these chat services provide far-limited search functionalities, typically exact matching on individual messages. In this paper, we introduce a new task for addressing this problem, called \textit{searching for conversations}, whereby the aim is to retrieve and rank groups of related messages given a search query. We promote this task by providing a platform for research and development called PECAN. Our platform provides all the necessary functionality researchers need to conduct experiments on searching for conversations. Our system is also generic so as to support organisations and individuals who wish to search through their chat message archives.&lt;/p>
-&lt;p>We release PECAN to the wider community as an Open Source project available for download at &lt;a href="https://github.com/ielab/pecan" target="_blank" rel="noopener">https://github.com/ielab/pecan&lt;/a>.&lt;/p></description></item><item><title>You Can Teach an Old Dog New Tricks - Rank Fusion applied to Coordination Level Matching for Ranking in Systematic Reviews</title><link>/publication/ecir2020_clf/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>/publication/ecir2020_clf/</guid><description>&lt;p>Coordination level matching is a ranking method originally proposed to rank documents given Boolean queries that is now several decades old. Rank fusion is a relatively recent method for combining runs from multiple systems into a single ranking, and has been shown to significantly improve the ranking. This paper presents a novel extension to coordination level matching, by applying rank fusion to each sub-clause of a Boolean query. We show that, for the tasks of systematic review screening prioritisation and stopping estimation, our method significantly outperforms the state-of-the-art learning to rank and bag-of-words-based systems for this domain. Our fully automatic, unsupervised method has (i) the potential for significant real-world cost savings (ii) does not rely on any intervention from the user, and (iii) is significantly better at ranking documents given only a Boolean query in the context of systematic reviews when compared to other approaches.&lt;/p></description></item><item><title>A Comparison of Automatic Boolean Query Formulation for Systematic Reviews</title><link>/publication/irj2020_comparison/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>/publication/irj2020_comparison/</guid><description>&lt;p>Systematic reviews are comprehensive literature reviews that target a highly focused research question. In the medical domain, complex Boolean queries are used to identify studies. To ensure comprehensiveness, all studies retrieved are screened for inclusion or exclusion in the review. Developing Boolean queries for this task requires the expertise of trained information specialists. However, even for these expert searchers, query formulation can be difficult and lengthy: especially when dealing with areas of medicine that they may not be knowledgeable about. To this end, two computational adaptations of methods information specialists use to formulate Boolean queries have been proposed in prior work.&lt;/p>
-&lt;p>These adaptations can be used to assist information specialists by providing a good starting point for query development. However, a number of limitations with these computational methods have been raised, and a comparison between them has not been made. In this study, we address the limitations of previous work and evaluate the two.&lt;/p>
-&lt;p>We found that, between the two computational adaptions, the objective method is more effective than the conceptual method for query formulation alone, however, the conceptual method provides a better starting point for manual query refinement. This work helps to inform those building search tools that assist with systematic review construction.&lt;/p></description></item><item><title>A Computational Approach for Objectively Derived Systematic Review Search Strategies</title><link>/publication/ecir2020_objective/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>/publication/ecir2020_objective/</guid><description>&lt;p>Searching literature for a systematic review begins with a manually constructed search strategy by an expert information specialist. The typical process of constructing search strategies is often undocumented, ad-hoc, and subject to individual expertise, which may introduce bias in the systematic review. A new method for objectively deriving search strategies has arisen from information specialists attempting to address these shortcomings. However, this proposed method still presents a number of manual, ad-hoc interventions, and trial-and-error processes, potentially still introducing bias into systematic reviews. Moreover, this method has not been rigorously evaluated on a large set of systematic review cases, thus its generalisability is unknown. In this work, we present a computational adaptation of this proposed objective method. Our adaptation removes the human-in-the-loop processes involved in the initial steps of creating a search strategy for a systematic review; reducing bias due to human factors and increasing the objectivity of the originally proposed method. Our proposed computational adaptation further enables a formal and rigorous evaluation over a large set of systematic reviews. We find that our computational adaptation of the original objective method provides an effective starting point for information specialists to continue refining. We also identify a number of avenues for extending and improving our adaptation to further promote supporting information specialists.&lt;/p></description></item><item><title>Automatic Boolean Query Formulation for Systematic Review Literature Search</title><link>/publication/www2020_conceptual/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>/publication/www2020_conceptual/</guid><description>&lt;p>Formulating Boolean queries for systematic review literature search is a challenging task. Commonly, queries are formulated by information specialists using the protocol specified in the review and interactions with the research team. Information specialists have in-depth experience on how to formulate queries in this domain, but may not have in-depth knowledge about the reviews&amp;rsquo; topics. Query formulation requires a significant amount of time and effort, and is performed interactively; specialists repeatedly formulate queries, attempt to validate their results, and reformulate specific Boolean clauses. In this paper, we investigate the possibility of automatically formulating a Boolean query from the systematic review protocol. We propose a novel five-step approach to automatic query formulation, specific to Boolean queries in this domain, which approximates the process by which information specialists formulate queries. In this process, we use syntax parsing to derive the logical structure of high-level concepts in a query, automatically extract and map concepts to entities in order to perform entity expansion, and finally apply post-processing operations (such as stemming and search filters).&lt;/p>
-&lt;p>Automatic query formulation for systematic review literature search has several benefits: (i) it can provide reviewers with an indication of the types of studies that will be retrieved, without the involvement of an information specialist, (ii) it can provide information specialists with an initial query to begin the formulation process, (iii) it can provide researchers that perform rapid reviews with a method to quickly perform searches.&lt;/p></description></item><item><title>Sampling Query Variations for Learning to Rank to Improve Automatic Boolean Query Generation in Systematic Reviews</title><link>/publication/www2020_sampling/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>/publication/www2020_sampling/</guid><description>&lt;p>Searching medical literature for synthesis in a systematic review is a complex and labour intensive task. In this context, expert searchers construct lengthy Boolean queries. The universe of possible query variations can be massive: a single query can be composed of hundreds of field-restricted search terms/phrases or ontological concepts, each grouped by a logical operator nested to depths of sometimes five or more levels deep. With the many choices about how to construct a query, it is difficult to both formulate and recognise effective queries. To address this challenge, automatic methods have recently been explored for generating and selecting effective Boolean query variations for systematic reviews. The limiting factor of these methods is that it is computationally infeasible to process all query variations for training the methods. To overcome this, we propose novel query variation sampling methods for training Learning to Rank models to rank queries. Our results show that query sampling methods do directly impact the ability of a Learning to Rank model to effectively identify good query variations. Thus, selecting appropriate query sampling methods is a key problem for the automatic reformulation of effective Boolean queries for systematic review literature search. We find that the best sampling strategies are those which balance the diversity of queries with the quantity of queries.&lt;/p></description></item><item><title>Attending the Analytics on Medical and Healthcare Data ADMA Workshop</title><link>/post/2019-11-24-adma/</link><pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate><guid>/post/2019-11-24-adma/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-&lt;strong>Awarded Best Presentation!&lt;/strong>
-&lt;/div>
-&lt;/div>
-&lt;p>I attended the 2019 ADMA workshop entitled &amp;ldquo;Analytics on Medical and Healthcare Data&amp;rdquo; in Dalian, China. At the workshop, I gave a talk entitled &amp;ldquo;Improving Systematic Review Creation With Information Retrieval&amp;rdquo;, which won the best presentation award!&lt;/p>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="award" srcset="
-/post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_26f098f64d5bec71d48200ecac6d479b.webp 400w,
-/post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_dc1dd29d790d905b5a0508a504e5073f.webp 760w,
-/post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_1200x1200_fit_q75_h2_lanczos.webp 1200w"
-src="/post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_26f098f64d5bec71d48200ecac6d479b.webp"
-width="760"
-height="570"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;p>The slides of the talk can be downloaded &lt;a href="/files/adma19-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Automatic Boolean Query Refinement for Systematic Review Literature Search</title><link>/publication/cc2019_reformulation/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>/publication/cc2019_reformulation/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/A1GtoNFWN0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>Background: Within the last decade the rise of digital publishing has become widespread, enabling publications to be edited and updated after-the-fact. In the medical domain, systematic reviews are one type of digital document that is often updated after initial publication. This is usually because new evidence has been discovered and must be re-synthesised into the existing review. A problem, however, is that the initial search strategy used to identify the originally relevant studies may not be sufficient in capturing new studies, or may capture too many irrelevant studies. This means that time and effort must be spent reformulating new or variant search strategies. While this problem may be particularly pronounced in “living systematic reviews”, the problem of finding all relevant studies while minimising irrelevant studies for typical systematic reviews is also difficult. This overarching problem signifies a gap to be filled with a system for automatic search strategy reformulation.&lt;/p>
-&lt;p>Objectives: The development of an automatic, interactive search strategy reformulation tool that assists researchers in updating systematic reviews and to improve existing search strategies.&lt;/p>
-&lt;p>Methods: The system proposed uses a recognised and effective theoretical framework which automatically generates search strategy reformulations and selects the most effective variation. In this work, a user interface (Figure 1) is developed with the goal to insert a human-in-the-loop to drive the selection of the most effective search strategy. This interface is capable of: (i) tracking the effectiveness of reformulations over time, allowing users to manage their reformulation history by backtracking and jumping to previous search strategies, (ii) evaluating the effectiveness of reformulations using standard Information Retrieval measures (e.g., precision, recall, F-measure), and domain-specific evaluation measures (e.g., Work Saved) by loading in a validation set of studies, and (iii) filtering out studies which have already been screened (also by loading separately) in order to only show new studies.&lt;/p>
-&lt;p>Results: The theoretical framework for which the generation and selection of search strategy reformulations is based on is shown to significantly improve the effectiveness of existing queries. Queries are shown to increase in effectiveness upwards of 100-200% and beyond depending on the automatic selection process and evaluation measure.&lt;/p>
-&lt;p>Conclusions: A human-in-the-loop for the selection of search strategy reformulation allows users to have fine-grained control over the reformulation process. Allowing humans to drive the selection process in this framework is a new and novel approach, which has not yet been attempted. Finally, automatically generating reformulations removes possible human bias and error, and reduces the time and effort required to update a review.&lt;/p>
-&lt;p>Patient or healthcare consumer involvement: This has no direct involvement with patients or consumers, although improved efficiency of systematic review searches could be beneficial to both groups.&lt;/p></description></item><item><title>Automatic Boolean Query Refinement for Systematic Review Literature Search</title><link>/publication/www2019_boolean/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>/publication/www2019_boolean/</guid><description>&lt;p>In the medical domain, systematic reviews are a highly trustworthy evidence source used to inform clinical diagnosis and treatment, and governmental policy making. Systematic reviews must be complete in that &lt;em>all relevant&lt;/em> literature for the research question of the review must be synthesised in order to produce a recommendation. To identify the literature to screen for inclusion in systematic reviews, information specialists construct complex Boolean queries that capture the information needs defined by the research questions of the systemic review.
-However, in the quest for total recall, these Boolean queries return many non relevant results.&lt;/p>
-&lt;p>In this paper, we propose automatic methods for Boolean query refinement in the context of systematic review literature retrieval with the aim of alleviating this high recall-low precision problem. To do this, we build upon current literature and define additional semantic transformations for Boolean queries in the form of query expansion and reduction. Empirical evaluation is done on a set of real systematic review queries to show how our method performs in a realistic setting.
-We found that query refinement strategies produced queries that were more effective than the original in terms of six information retrieval evaluation measures. In particular, queries were refined to increase precision, while maintaining, or even increasing, recall &amp;mdash; this, in turn, translates into both time and cost savings when creating laborious and expensive systematic reviews.&lt;/p></description></item><item><title>Visualising Systematic Review Search Strategies to Assist Information Specialists</title><link>/publication/cc2019_visualisation/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>/publication/cc2019_visualisation/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HPEQWCrMGWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>Background: Searching for studies to include in systematic reviews involves the construction of complex search strategies. The effectiveness of these search strategies directly impacts the workload associated with conducting a systematic review. More efficient search strategies can reduce the time and resources required to screen studies therefore reducing the total time and cost of the review. Research in Information Retrieval (IR) shows that query visualisation improves the effectiveness of searching for information.&lt;/p>
-&lt;p>Objectives: The development of a visualisation tool that assists information specialists in formulating more effective search strategies.&lt;/p>
-&lt;p>Methods: The visualisation tool (QueryVis) is designed in collaboration with information specialists to cater to the needs of this user group. Currently in QueryVis, it is possible to visualise search strategies using the PubMed database. Searches can be submitted in Ovid MEDLINE format or PubMed format (by automatically translating the Ovid format to PubMed). QueryVis presents queries hierarchically (Figure 1) , showing the impact that each term has on the recall and precision of a search. Recall is shown by the number of studies retrieved from a validation set, loaded via PubMed IDs. Precision is shown by total number of studies found by each term. Search strategies are compared in terms of the overlap in search terms between two searches, the total number of keywords, the total number of each Boolean operator (i.e., AND, OR, NOT), the number of MeSH keywords (and how many are exploded), and the depth in the MeSH ontology in which the MeSH keywords appear (i.e., how broad MeSH keywords are). Furthermore, each search is evaluated in terms of effectiveness: using standard IR evaluation measures (i.e., precision, recall, F-measure) and evaluation measures specific to this domain (e.g., Work Saved), and in terms of efficiency: by recording the total time spent formulating, the number of studies retrieved, and the estimated cost of the search.&lt;/p>
-&lt;p>Results: QueryVis has been tested experimentally in a pilot study. It decreased irrelevant studies by as much as 40% without losing relevant studies. A wider study is planned which aims to involve more participants and capture more data.&lt;/p>
-&lt;p>Conclusions: Improving the query formulation stage can have a significant impact on the rest of the systematic review creation process. An extensive user study will follow using a well-known corpus of systematic reviews with approximately 10 participants to determine precisely what effect visualisation has on the search strategy formulation process. The study will use the aforementioned methods to compare the effect visualisation has on search by comparing search strategies formulated with and without visualisation. If accepted for publication, QueryVis will be demoed during the oral presentation.&lt;/p>
-&lt;p>Patient or healthcare consumer involvement: This has no direct involvement with patients or consumers, although improved efficiency of systematic review searches could be beneficial to both groups.&lt;/p></description></item><item><title>An Information Retrieval Experiment Framework for Domain Specific Applications</title><link>/publication/sigir2018_framework/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>/publication/sigir2018_framework/</guid><description/></item><item><title>Generating Better Queries for Systematic Reviews</title><link>/publication/sigir2018_generating/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>/publication/sigir2018_generating/</guid><description>&lt;p>Systematic reviews form the cornerstone of evidence based medicine, aiming to answer complex medical questions based on all evidence currently available. Key to the effectiveness of a systematic review is an (often large) Boolean query used to search large publication repositories. These Boolean queries are carefully crafted by researchers and information specialists, and often reviewed by a panel of experts. However, little is known about the effectiveness of the Boolean queries at the time of formulation.&lt;/p>
-&lt;p>In this paper we investigate whether a better Boolean query than that defined in the protocol of a systematic review, can be created, and we develop methods for the transformation of a given Boolean query into a more effective one. Our approach involves defining possible transformations of Boolean queries and their clauses. It also involves casting the problem of identifying a transformed query that is better than the original into: (i) a classification problem; and (ii) a learning to rank problem. Empirical experiments are conducted on a real set of systematic reviews. Analysis of results shows that query transformations that are better than the original queries do exist, and that our approaches are able to select more effective queries from the set of possible transformed queries so as to maximise different target effectiveness measures.&lt;/p></description></item><item><title>Query Variation Performance Prediction for Systematic Reviews</title><link>/publication/sigir2018_qvpp/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>/publication/sigir2018_qvpp/</guid><description/></item><item><title>searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews</title><link>/publication/cikm2018_searchrefiner/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>/publication/cikm2018_searchrefiner/</guid><description>&lt;p>We present an open source tool, searchrefiner, for researchers that conduct medical systematic reviews to assist in formulating, visualising, and understanding Boolean queries. The searchrefiner web interface allows researchers to explore how Boolean queries retrieve citations in existing, popular query syntaxes used in systematic review literature search. The web interface allows researchers to perform tasks such as using validation citations to ensure queries are retrieving a minimum set of known relevant citations, and editing Boolean queries by dragging and dropping clauses in a structured editor. In addition, the tools provided by the searchrefiner interface allow researchers to visualise why the queries they formulate retrieve citations, and ways to understand how to refine queries into more effective ones. searchrefiner is targeted at both experts and novices, as a tool for query formulation and refinement, and as a tool for training users to search for literature to compile systematic reviews.&lt;/p>
-&lt;p>The searchrefiner website located at &lt;a href="https://ielab.io/searchrefiner" target="_blank" rel="noopener">https://ielab.io/searchrefiner&lt;/a> contains information about how to download, install, and use the tool, as well as a link to an online hosted version for demonstration purposes.&lt;/p></description></item><item><title>A Test Collection for Evaluating Retrieval of Studies for Inclusion in Systematic Reviews</title><link>/publication/sigir2017_collection/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>/publication/sigir2017_collection/</guid><description>&lt;p>We introduce a test collection for evaluating the effectiveness of different methods used to retrieve research studies for inclusion in systematic reviews. Systematic reviews appraise and synthesise studies that meet specific inclusion criteria. Systematic reviews intended for a biomedical science audience use boolean queries with many, often complex, search clauses to retrieve studies; these are then manually screened to determine eligibility for inclusion in the review. This process is expensive and time consuming. The development of systems that improve retrieval effectiveness will have an immediate impact by reducing the complexity and resources required for this process. Our test collection consists of approximately 26 million research studies extracted from the freely available MEDLINE database, 94 review (query) topics extracted from Cochrane systematic reviews, and corresponding relevance assessments. Tasks for which the collection can be used for information retrieval system evaluation are described and the use of the collection to evaluate common baselines within one such task is demonstrated. See the links to this side of this page for links to the paper and to download the collection.&lt;/p></description></item><item><title>Integrating the Framing of Clinical Questions via PICO into the Retrieval of Medical Literature for Systematic Reviews</title><link>/publication/cikm2017_pico/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>/publication/cikm2017_pico/</guid><description/></item><item><title>QUT ielab at CLEF eHealth 2017 Technology Assisted Reviews Track: Initial Experiments with Learning To Rank</title><link>/publication/clef2017_tar/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>/publication/clef2017_tar/</guid><description/></item><item><title>Reducing Workload of Systematic Review Searching and Screening Processes</title><link>/publication/fdia2017_essir/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>/publication/fdia2017_essir/</guid><description/></item><item><title>Investigating Methods Of Annotating Lifelogs For Use In Search</title><link>/publication/honours_thesis/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>/publication/honours_thesis/</guid><description/></item><item><title>QUT at the NTCIR Lifelog Semantic Access Task</title><link>/publication/ntcir2016_lifelog/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>/publication/ntcir2016_lifelog/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harry Scells</title>
+    <link>//localhost:1313/</link>
+      <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Harry Scells</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url>
+      <title>Harry Scells</title>
+      <link>//localhost:1313/</link>
+    </image>
+    
+    <item>
+      <title>Keynote at Information Retrieval for Climate Impact Workshop at SIGIR&#39;24</title>
+      <link>//localhost:1313/post/2024-07-18-manila/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2024-07-18-manila/</guid>
+      <description>&lt;p&gt;I gave a keynote at the &lt;a href=&#34;https://sites.google.com/view/ir-for-climate-impact/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Information Retrieval for Climate Impact Workshop&lt;/a&gt; at &lt;a href=&#34;https://sigir.org/sigir2024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SIGIR&#39;24&lt;/a&gt; entitled &lt;em&gt;Automating Systematic Reviews with Information Retrieval&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;See the links above for more information and to download the slides.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evaluating Generative Ad Hoc Information Retrieval</title>
+      <link>//localhost:1313/publication/sigir2024_evaluating/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2024_evaluating/</guid>
+      <description>&lt;p&gt;Recent advances in large language models have enabled the development of viable generative retrieval systems. Instead of a traditional document ranking, generative retrieval systems often directly return a grounded generated text as a response to a query. Quantifying the utility of the textual responses is essential for appropriately evaluating such generative ad hoc retrieval. Yet, the established evaluation methodology for ranking-based ad hoc retrieval is not suited for the reliable and reproducible evaluation of generated responses. To lay a foundation for developing new evaluation methods for generative retrieval systems, we survey the relevant literature from the fields of information retrieval and natural language processing, identify search tasks and system architectures in generative retrieval, develop a new user model, and study its operationalization.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Resources for Combining Teaching and Research in Information Retrieval Coursework</title>
+      <link>//localhost:1313/publication/sigir2024_teaching/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2024_teaching/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Nominated for best resource paper award!&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A recent study showed that students in IR courses are especially motivated and learn more effectively when they participate in shared tasks as part of their coursework. To support teachers in integrating such activities, we present Web IDE-based applications and tutorials that employ TIREx and ir_datasets to cover the process of a typical shared task in IR: from creating test collections over developing retrieval systems to making relevance judgments and finally statistically analyzing the results. Using our tools, students can gain hands-on experience with empirical IR research by working on some current shared task, by working on earlier collections, or by creating new ones. Our experiences in implementing the cor- responding teaching concept in four IR courses at two universities confirm that students are very motivated to conduct research, and we also find that some of the resulting artifacts (e.g., students’ test collections and retrieval approaches) are of really good quality.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invited Workshop at Information Retrieval Meeting 2024</title>
+      <link>//localhost:1313/post/2024-04-26-irm/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2024-04-26-irm/</guid>
+      <description>&lt;p&gt;I ran a workshop at the &lt;a href=&#34;https://www.iqwig.de/en/events/information-retrieval-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IQWiG Information Retrieval Meeting 2024&lt;/a&gt; about using APIs for evidence identification.&lt;/p&gt;
+&lt;p&gt;More and more APIs (application programming interfaces) are used as programmatic interfaces for certain databases or data sets. This workshop explains what an API is and what knowledge is necessary to use them, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;what APIs are and how they work&lt;/li&gt;
+&lt;li&gt;offline versus online APIs&lt;/li&gt;
+&lt;li&gt;using APIs via Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The focus of this workshop is to present use cases especially for frequently used APIs. This workshop explains what API use cases exist, what they are used for and how information specialists can use them in their daily workflows.&lt;/p&gt;
+&lt;p&gt;Above, you can find links to the &lt;a href=&#34;https://github.com/hscells/apis-for-evidence-identification/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;supplementary material&lt;/a&gt; for the workshop which contains interactive notebooks that can be run in your browser. The notebooks let you edit and play with the code and data that are used in the workshop.&lt;/p&gt;
+&lt;p&gt;Finally, please find a list of related publications to this workshop below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+&lt;div class=&#34;view-list view-list-item&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  &lt;a href=&#34;//localhost:1313/publication/sigir2023_chatgpt/&#34; &gt;Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/a&gt;
+
+  
+
+  
+  &lt;div class=&#34;article-metadata&#34;&gt;
+    
+
+  &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/shuai-wang/&#34;&gt;Shuai Wang&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/harrisen-scells/&#34;&gt;Harrisen Scells&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/bevan-koopman/&#34;&gt;Bevan Koopman&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/guido-zuccon/&#34;&gt;Guido Zuccon&lt;/a&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  
+
+  
+  &lt;div class=&#34;btn-links&#34;&gt;
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dl.acm.org/doi/10.1145/3539618.3591703&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+
+
+
+
+
+
+
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;//localhost:1313/project/ua-daad-ppp-23/&#34;&gt;
+    Project
+  &lt;/a&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+&lt;div class=&#34;view-list view-list-item&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  &lt;a href=&#34;//localhost:1313/publication/sigir2023_pyboolir/&#34; &gt;pybool_ir: A Toolkit for Domain-Specific Search Experiments&lt;/a&gt;
+
+  
+
+  
+  &lt;div class=&#34;article-metadata&#34;&gt;
+    
+
+  &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/harrisen-scells/&#34;&gt;Harrisen Scells&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/martin-potthast/&#34;&gt;Martin Potthast&lt;/a&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  
+
+  
+  &lt;div class=&#34;btn-links&#34;&gt;
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dl.acm.org/doi/10.1145/3539618.3591819&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+
+
+
+
+  
+  
+    
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/hscells/pybool_ir&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Code
+&lt;/a&gt;
+
+
+
+
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;//localhost:1313/project/alive/&#34;&gt;
+    Project
+  &lt;/a&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+&lt;div class=&#34;view-list view-list-item&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  &lt;a href=&#34;//localhost:1313/publication/cikm2018_searchrefiner/&#34; &gt;searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews&lt;/a&gt;
+
+  
+
+  
+  &lt;div class=&#34;article-metadata&#34;&gt;
+    
+
+  &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/harrisen-scells/&#34;&gt;Harrisen Scells&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/guido-zuccon/&#34;&gt;Guido Zuccon&lt;/a&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  
+
+  
+  &lt;div class=&#34;btn-links&#34;&gt;
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dl.acm.org/citation.cfm?id=3269215&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+
+
+
+
+  
+  
+    
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/ielab/searchrefiner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Code
+&lt;/a&gt;
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://ielab.io/searchrefiner/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Project
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invited Talk at TH Köln</title>
+      <link>//localhost:1313/post/2024-04-24-irrg/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2024-04-24-irrg/</guid>
+      <description>&lt;p&gt;I gave a talk to the &lt;a href=&#34;https://ir.web.th-koeln.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Information Retrieval Research Group&lt;/a&gt; at TH Köln entitled &lt;em&gt;Efficiency and Energy in Neural Information Retrieval&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The talk can be downloaded &lt;a href=&#34;//localhost:1313/files/th-koeln-seminar-talk.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The talk covered Green IR and a recent listwise neural IR model. The papers that were discussed in the talk are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+&lt;div class=&#34;view-list view-list-item&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  &lt;a href=&#34;//localhost:1313/publication/sigir2022_greenir/&#34; &gt;Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/a&gt;
+
+  
+
+  
+  &lt;div class=&#34;article-metadata&#34;&gt;
+    
+
+  &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/harrisen-scells/&#34;&gt;Harrisen Scells&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/shengyao-zhuang/&#34;&gt;Shengyao Zhuang&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/guido-zuccon/&#34;&gt;Guido Zuccon&lt;/a&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  
+
+  
+  &lt;div class=&#34;btn-links&#34;&gt;
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dl.acm.org/doi/pdf/10.1145/3477495.3531766&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+
+
+
+
+  
+  
+    
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/ielab/green-ir&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Code
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+&lt;div class=&#34;view-list view-list-item&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  &lt;a href=&#34;//localhost:1313/publication/arxiv2024_setencoder/&#34; &gt;Set-Encoder: Permutation-Invariant Inter-Passage Attention for Listwise Passage Re-Ranking with Cross-Encoders&lt;/a&gt;
+
+  
+
+  
+  &lt;div class=&#34;article-metadata&#34;&gt;
+    
+
+  &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/ferdinand-schlatt/&#34;&gt;Ferdinand Schlatt&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/maik-frobe/&#34;&gt;Maik Fröbe&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/harrisen-scells/&#34;&gt;Harrisen Scells&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/shengyao-zhuang/&#34;&gt;Shengyao Zhuang&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/bevan-koopman/&#34;&gt;Bevan Koopman&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/guido-zuccon/&#34;&gt;Guido Zuccon&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/benno-stein/&#34;&gt;Benno Stein&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/martin-potthast/&#34;&gt;Martin Potthast&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;//localhost:1313/authors/matthias-hagen/&#34;&gt;Matthias Hagen&lt;/a&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  
+
+  
+  &lt;div class=&#34;btn-links&#34;&gt;
+    
+
+
+
+
+
+  
+  
+    
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://arxiv.org/abs/2404.06912&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Preprint
+&lt;/a&gt;
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/webis-de/set-encoder&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Code
+&lt;/a&gt;
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Set-Encoder: Permutation-Invariant Inter-Passage Attention for Listwise Passage Re-Ranking with Cross-Encoders</title>
+      <link>//localhost:1313/publication/arxiv2024_setencoder/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/arxiv2024_setencoder/</guid>
+      <description>&lt;p&gt;Cross-encoders are effective passage re-rankers. But when re-ranking multiple passages at once, existing cross-encoders inefficiently optimize the output ranking over several input permutations, as their passage interactions are not permutation-invariant. Moreover, their high memory footprint constrains the number of passages during listwise training. To tackle these issues, we propose the Set-Encoder, a new cross-encoder architecture that (1) introduces inter-passage attention with parallel passage processing to ensure permutation invariance between input passages, and that (2) uses fused-attention kernels to enable training with more passages at a time. In experiments on TREC Deep Learning and TIREx, the Set-Encoder is more effective than previous cross-encoders with a similar number of parameters. Compared to larger models, the Set-Encoder is more efficient and either on par or even more effective.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Zero-shot Generative Large Language Models for Systematic Review Screening Automation</title>
+      <link>//localhost:1313/publication/ecir2024_zero/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/ecir2024_zero/</guid>
+      <description>&lt;p&gt;Systematic reviews are crucial for evidence-based medicine as they comprehensively analyse published research findings on specific questions. Conducting such reviews is often resource- and time-intensive, especially in the screening phase, where abstracts of publications are assessed for inclusion in a review. This study investigates the effectiveness of using zero-shot large language models (LLMs) for automatic screening. We evaluate the effectiveness of eight different LLMs and investigate a calibration technique that uses a predefined recall threshold to determine whether a publication should be included in a systematic review. Our comprehensive evaluation using five standard test collections shows that instruction fine-tuning plays an important role in screening, that calibration renders LLMs practical for achieving a targeted recall, and that combining both with an ensemble of zero-shot models saves significant screening time compared to state-of-the-art approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invited Talk at the University Clinic Leipzig</title>
+      <link>//localhost:1313/post/2024-01-11-ilm/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2024-01-11-ilm/</guid>
+      <description>&lt;p&gt;I gave a joint colloquium talk with &lt;a href=&#34;https://temir.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Martin Potthast&lt;/a&gt; at the &lt;a href=&#34;https://www.uniklinikum-leipzig.de/einrichtungen/labormedizin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institut für Laboratoriumsmedizin, Klinische Chemie und Molekulare Diagnostik (ILM)&lt;/a&gt; in Leipzig at the &lt;a href=&#34;https://www.uniklinikum-leipzig.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University Clinic&lt;/a&gt; entitled &lt;em&gt;ChatGPT and Large Language Models for Medical Applications&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The talk can be downloaded &lt;a href=&#34;//localhost:1313/files/ilm23-talk.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invited Talk at University of Sheffield</title>
+      <link>//localhost:1313/post/2023-11-03-sheffield/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023-11-03-sheffield/</guid>
+      <description>&lt;p&gt;I gave a talk at the &lt;a href=&#34;https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Sheffield Natural Language Processing Research Group&lt;/a&gt; entitled &lt;em&gt;Query Automation for Systematic Reviews&lt;/em&gt;. This talk gave an overview of the papers &lt;a href=&#34;//localhost:1313/post/2023-04-05-sigir&#34;&gt;accepted at SIGIR&#39;23&lt;/a&gt; this year.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Thanks to &lt;a href=&#34;https://twitter.com/hscells?ref_src=twsrc%5Etfw&#34;&gt;@hscells&lt;/a&gt; for today’s excellent &lt;a href=&#34;https://twitter.com/SheffieldNLP?ref_src=twsrc%5Etfw&#34;&gt;@SheffieldNLP&lt;/a&gt; seminar “Query Automation for Systematic Reviews”&lt;/p&gt;&amp;mdash; Mark Stevenson (@drmarkstevenson) &lt;a href=&#34;https://twitter.com/drmarkstevenson/status/1720505087577993430?ref_src=twsrc%5Etfw&#34;&gt;November 3, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; 
+&lt;p&gt;The slides are available for download &lt;a href=&#34;//localhost:1313/files/sheffield23-sysrev-queries-talk.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generating Natural Language Queries for More Effective Systematic Review Screening Prioritisation</title>
+      <link>//localhost:1313/publication/sigirap2023_generating/</link>
+      <pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigirap2023_generating/</guid>
+      <description>&lt;p&gt;Screening prioritisation in medical systematic reviews aims to rank the set of documents retrieved by complex Boolean queries. Prioritising the most important documents ensures that subsequent review steps can be carried out more efficiently and effectively. The current state of the art uses the final title of the review as a query to rank the documents using BERT-based neural rankers. However, the final title is only formulated at the end of the review process, which makes this approach impractical as it relies on ex post facto information. At the time of screening, only a rough working title is available, with which the BERT-based ranker performs significantly worse than with the final title. In this paper, we explore alternative sources of queries for prioritising screening, such as the Boolean query used to retrieve the documents to be screened and queries generated by instruction-based generative large-scale language models such as ChatGPT and Alpaca. Our best approach is not only viable based on the information available at the time of screening, but also has similar effectiveness to the final title.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Attending the 2023 Heidelberg Laureate Forum</title>
+      <link>//localhost:1313/post/2023-09-29-hlf/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023-09-29-hlf/</guid>
+      <description>&lt;p&gt;I was selected to attend the 2023 &lt;a href=&#34;https://www.heidelberg-laureate-forum.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Heidelberg Laureate Forum&lt;/a&gt; as a young researcher in the field of computer science. The event was held from September 24 - 29, 2023 in &lt;a href=&#34;https://en.wikipedia.org/wiki/Heidelberg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Heidelberg&lt;/a&gt;, Germany. Attendees included young researchers and laureates of the Abel Prize, ACM A.M. Turing Award, ACM Prize in Computing, Fields Medal, IMU Abacus Medal and Nevanlinna Prize.&lt;/p&gt;
+&lt;p&gt;The event was a unique mix of academic and cultural exploration, fostering interdisciplinary discussions and encouraging collaboration. Connecting with laureates and fellow young researchers, the forum left a lasting impact on me, providing inspiration and valuable connections.&lt;/p&gt;
+&lt;p&gt;I can absolutely recommend anyone interested to &lt;a href=&#34;https://application.heidelberg-laureate-forum.org/site/index.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apply&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Beyond CO2 Emissions: The Overlooked Impact of Water Consumption of Information Retrieval Models</title>
+      <link>//localhost:1313/publication/ictir2023_c02/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/ictir2023_c02/</guid>
+      <description>&lt;p&gt;As in other fields of artificial intelligence, the information retrieval community has grown interested in investigating the power consumption associated with neural models, particularly models of search. This interest has become particularly relevant as the energy consumption of information retrieval models has risen with new neural models based on large language models, leading to an associated increase of CO2 emissions, albeit relatively low compared to fields such as natural language processing. Consequently, researchers have started exploring the development of a green agenda for sustainable information retrieval research and operation. Previous work, however, has primarily considered energy consumption and associated CO2 emissions alone. In this paper, we seek to draw the information retrieval community&amp;rsquo;s attention to the overlooked aspect of water consumption related to these powerful models. We supplement previous energy consumption estimates with corresponding water consumption estimates, considering both off-site water consumption (required for operating and cooling energy production systems such as carbon and nuclear power plants) and on-site consumption (for cooling the data centres where models are trained and operated). By incorporating water consumption alongside energy consumption and CO2 emissions, we offer a more comprehensive understanding of the environmental impact of information retrieval research and operation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Rankers for Effective Screening Prioritisation in Medical Systematic Review Literature Search</title>
+      <link>//localhost:1313/publication/adcs2022_neural/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/adcs2022_neural/</guid>
+      <description>&lt;p&gt;Medical systematic reviews typically require assessing all the documents retrieved by a search. The reason is two-fold: the task aims for “total recall”; and documents retrieved using Boolean search are an unordered set, and thus it is unclear how an assessor could examine only a subset. Screening prioritisation is the process of ranking the (unordered) set of retrieved documents, allowing assessors to begin the downstream processes of the systematic review creation earlier, leading to earlier completion of the review, or even avoiding screening documents ranked least relevant.&lt;/p&gt;
+&lt;p&gt;Screening prioritisation requires highly effective ranking methods. Pre-trained language models are state-of-the-art on many IR tasks but have yet to be applied to systematic review screening prioritisation. In this paper, we apply several pre-trained language models to the systematic review document ranking task, both directly and fine-tuned. An empirical analysis compares how effective neural methods compare to traditional methods for this task. We also investigate different types of document representations for neural methods and their impact on ranking performance.&lt;/p&gt;
+&lt;p&gt;Our results show that BERT-based rankers outperform the current state-of-the-art screening prioritisation methods. However, BERT rankers and existing methods can actually be complementary, and thus, further improvements may be achieved if used in conjunction.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?</title>
+      <link>//localhost:1313/publication/sigir2023_chatgpt/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2023_chatgpt/</guid>
+      <description>&lt;p&gt;Systematic reviews are comprehensive literature reviews for a highly focused research question. These reviews are considered the highest form of evidence in medicine. Complex Boolean queries are developed as part of the systematic review creation process to retrieve literature, as they permit reproducibility and understandability. However, it is difficult and time-consuming to develop high-quality Boolean queries, often requiring the expertise of expert searchers like librarians. Recent advances in transformer-based generative models have shown their ability to effectively follow user instructions and generate answers based on these instructions. In this paper, we investigate ChatGPT as a means for automatically formulating and refining complex Boolean queries for systematic review literature search. Overall, our research finds that ChatGPT has the potential to generate effective Boolean queries. The ability of ChatGPT to follow complex instructions and generate highly precise queries makes it a tool of potential value for researchers conducting systematic reviews, particularly for rapid reviews where time is a constraint and where one can trade off higher precision for lower recall. We also identify several caveats in using ChatGPT for this task, highlighting that this technology needs further validation before it is suitable for widespread uptake.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>pybool_ir: A Toolkit for Domain-Specific Search Experiments</title>
+      <link>//localhost:1313/publication/sigir2023_pyboolir/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2023_pyboolir/</guid>
+      <description>&lt;p&gt;Undertaking research in domain-specific scenarios such as systematic review literature search, legal search, and patent search can often have a high barrier of entry due to complicated indexing procedures and complex Boolean query syntax. Indexing and searching document collections like PubMed in off-the-shelf tools such as Elasticsearch and Lucene often yields less accurate (and less effective) results than the PubMed search engine, i.e., retrieval results do not match what would be retrieved if one issued the same query to PubMed. Furthermore, off-the-shelf tools have their own nuanced query languages and do not allow directly using the often large and complicated Boolean queries seen in domain-specific search scenarios. The pybool_ir toolkit aims to address these problems and to lower the barrier to entry for developing new methods for domain-specific search. The toolkit is an open source package available at &lt;a href=&#34;https://github.com/hscells/pybool_ir&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/hscells/pybool_ir&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smooth Operators for Effective Systematic Review Queries</title>
+      <link>//localhost:1313/publication/sigir2023_smooth/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2023_smooth/</guid>
+      <description>&lt;p&gt;Effective queries are crucial to minimising the time and cost of medical systematic reviews, as all retrieved documents must be judged for relevance. Boolean queries, developed by expert librarians, are the standard for systematic reviews. They guarantee reproducible and verifiable retrieval and more control than free-text queries. However, the result sets of Boolean queries are unranked and difficult to control due to the strict Boolean operators. We address these problems in a single unified retrieval model by formulating a class of smooth operators that are compatible with and extend existing Boolean operators. Our smooth operators overcome several shortcomings of previous extensions of the Boolean retrieval model. In particular, our operators are independent of the underlying ranking function, so that exact-match and large language model rankers can be combined in the same query. We found that replacing Boolean operators with equivalent or similar smooth operators often improves the effectiveness of queries. Their properties make tuning a query to precision or recall intuitive and allow greater control over how documents are retrieved. This additional control leads to more effective queries and reduces the cost of systematic reviews.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Archive Query Log: Mining Millions of Search Result Pages of Hundreds of Search Engines from 25 Years of Web Archives</title>
+      <link>//localhost:1313/publication/sigir2023_aql/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2023_aql/</guid>
+      <description>&lt;p&gt;The Archive Query Log (AQL) is a previously unused, comprehensive query log collected at the Internet Archive over the last 25 years. Its first version includes 356 million queries, 137 million search result pages, and 1.4 billion search results across 550 search providers. Although many query logs have been studied in the literature, the search providers that own them generally do not publish their logs to protect user privacy and vital business data. Of the few query logs publicly available, none combines size, scope, and diversity. The AQL is the first to do so, enabling research on new retrieval models and (diachronic) search engine analyses. Provided in a privacy-preserving manner, it promotes open research as well as more transparency and accountability in the search industry.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invited Talk at Glasgow University IR Seminar</title>
+      <link>//localhost:1313/post/2023-07-10-glasgow/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023-07-10-glasgow/</guid>
+      <description>&lt;p&gt;I gave a talk at the &lt;a href=&#34;https://samoa.dcs.gla.ac.uk/events/viewtalk.jsp?id=18997&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glasgow University IR Seminar&lt;/a&gt; entitled &lt;em&gt;Query Automation for Systematic Reviews&lt;/em&gt;. This talk gave an overview of the papers &lt;a href=&#34;//localhost:1313/post/2023-04-05-sigir&#34;&gt;accepted at SIGIR&#39;23&lt;/a&gt; this year.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;An excellent talk by Harry Scells &lt;a href=&#34;https://twitter.com/hscells?ref_src=twsrc%5Etfw&#34;&gt;@hscells&lt;/a&gt; to end our 2022-2023 seminar series. Thanks to all our inspiring speakers this year, as well as to &lt;a href=&#34;https://twitter.com/hitarth_08?ref_src=twsrc%5Etfw&#34;&gt;@hitarth_08&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/asash?ref_src=twsrc%5Etfw&#34;&gt;@asash&lt;/a&gt; for coordinating the series. The new seminar series will start in September. Happy summer everyone! &lt;a href=&#34;https://twitter.com/hashtag/IRTalk?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#IRTalk&lt;/a&gt; &lt;a href=&#34;https://t.co/XVvrqXxE4m&#34;&gt;https://t.co/XVvrqXxE4m&lt;/a&gt;&lt;/p&gt;&amp;mdash; Glasgow IR Group (@ir_glasgow) &lt;a href=&#34;https://twitter.com/ir_glasgow/status/1678686426949402627?ref_src=twsrc%5Etfw&#34;&gt;July 11, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; 
+&lt;p&gt;The slides are available for download &lt;a href=&#34;//localhost:1313/files/glasgow23-sysrev-queries-talk.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Four papers accepted to SIGIR 2023</title>
+      <link>//localhost:1313/post/2023-04-05-sigir/</link>
+      <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023-04-05-sigir/</guid>
+      <description>&lt;p&gt;This year, I was fortunate enough to be involved in four papers accepted at SIGIR (2 full papers, 1 resource paper, and 1 demo paper).&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;[resource] &lt;strong&gt;The Archive Query Log: Mining Millions of Search Result Pages of Hundreds of Search Engines from 25 Years of Web Archives&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1145/3539618.3591890&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2304.00413&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv preprint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/webis_de/status/1643366684382621696&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;twitter thread&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[full paper] &lt;strong&gt;Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1145/3539618.3591703&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2302.03495&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv preprint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/hscells/status/1643558762152701954&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;twitter thread&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[demo] &lt;strong&gt;&lt;code&gt;pybool_ir&lt;/code&gt;: A Toolkit for Domain-Specific Search Experiments&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1145/3539618.3591819&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/hscells/status/1642838058188906498&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;twitter thread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hscells/pybool_ir&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[full paper] &lt;strong&gt;Smooth Operators for Effective Systematic Review Queries&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1145/3539618.3591768&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/hscells/status/1643570084693127172&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;twitter thread&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Thank you to all of my co-authors, for which this would not have been possible without you!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invited Talk at Johannes Kepler University Linz </title>
+      <link>//localhost:1313/post/2023-01-19-greenir/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2023-01-19-greenir/</guid>
+      <description>&lt;p&gt;I gave a talk at &lt;a href=&#34;https://www.jku.at/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johannes Kepler University Linz&lt;/a&gt; on Janurary 19, 2023 about my &lt;a href=&#34;//localhost:1313/publication/sigir2022_greenir/&#34;&gt;SIGIR&#39;22 paper&lt;/a&gt; entitled &lt;em&gt;Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/em&gt;. This talk gave an overview of the paper and discussed the current state of Green IR research, as well as some future directions.&lt;/p&gt;
+&lt;p&gt;The slides are available for download &lt;a href=&#34;//localhost:1313/files/green-ir-talk-23.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you very much &lt;a href=&#34;https://navid-rekabsaz.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Navid&lt;/a&gt; for the invitation!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Australia–Germany Joint Research Cooperation Scheme</title>
+      <link>//localhost:1313/project/ua-daad-ppp-23/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/ua-daad-ppp-23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Universities Australia – DAAD Joint Research Co-operation Scheme</title>
+      <link>//localhost:1313/post/2022-11-22-daadppp/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2022-11-22-daadppp/</guid>
+      <description>&lt;p&gt;We are &lt;a href=&#34;https://www.universitiesaustralia.edu.au/wp-content/uploads/2022/11/2022-UA-Website-Update-Successful-Applications.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;one of the 45 projects&lt;/a&gt; awarded funding under the &lt;a href=&#34;https://www.universitiesaustralia.edu.au/policy-submissions/international/australia-germany-joint-research-co-operation-scheme/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Universities Australia – DAAD Joint Research Co-operation Scheme&lt;/a&gt;. This scheme facilitates the exchange of early career researchers in Australia and Germany from early 2023 until the end of 2024. The &lt;a href=&#34;https://ielab.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ielab&lt;/a&gt; and &lt;a href=&#34;https://webis.de&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webis&lt;/a&gt; research groups will be hosting researchers from Australia and Germany for two months at a time. The following researchers will be visiting ielab and webis across the two years:&lt;/p&gt;
+&lt;p&gt;2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wshuai190.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shuai Wang&lt;/a&gt; from The University of Queensland, Australia.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fschlatt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ferdinand Schlatt&lt;/a&gt; from Friedrich-Schiller-Universität Jena, Germany.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2024:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ielab.io/people/xinyu-mao&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xinyu Mao&lt;/a&gt; from The University of Queensland, Australia&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://maik-froebe.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maik Fröbe&lt;/a&gt; from Friedrich-Schiller-Universität Jena, Germany.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The project involves the two groups working together to automate the searching and screening phases of systematic review creation.&lt;/p&gt;
+&lt;p&gt;For news about the project, publications, or other activities, please see the &lt;a href=&#34;//localhost:1313/project/ua-daad-ppp-23&#34;&gt;project website&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Network Meeting of the Alexander von Humboldt Foundation</title>
+      <link>//localhost:1313/post/2022-11-02-avhnet/</link>
+      <pubDate>Wed, 02 Nov 2022 15:37:05 +0100</pubDate>
+      <guid>//localhost:1313/post/2022-11-02-avhnet/</guid>
+      <description>&lt;p&gt;From November 9 - 11 2022, I&amp;rsquo;ll be attending the Network Meeting of the Alexander von Humboldt Foundation where I will give a talk about my AvH fellowship project entitled &amp;ldquo;Finding Answers to Complex Medical Questions&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;//localhost:1313/pdf/avhnet22-complex-questions-talk.pdf&#34;&gt;Click here&lt;/a&gt; to download the slides.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Schloss Dagstuhl Seminar</title>
+      <link>//localhost:1313/post/2022-10-23-dagstuhl/</link>
+      <pubDate>Thu, 20 Oct 2022 10:07:13 +0200</pubDate>
+      <guid>//localhost:1313/post/2022-10-23-dagstuhl/</guid>
+      <description>&lt;p&gt;From October 23 - 28 2022, I attended the &lt;a href=&#34;https://www.dagstuhl.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Schloss Dagstuhl&lt;/a&gt; seminar entitled &lt;a href=&#34;https://www.dagstuhl.de/22432&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Towards a Unified Model of Scholarly Argumentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I volunteered to help edit the seminar report, which can be found &lt;a href=&#34;https://drops.dagstuhl.de/opus/volltexte/2023/17826/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alexander von Humboldt Research Fellowship</title>
+      <link>//localhost:1313/project/alive/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/alive/</guid>
+      <description>&lt;p&gt;How do clinicians become informed to treat their patients? How do governments and institutions make health policy decisions?&lt;/p&gt;
+&lt;p&gt;At heart, the answer to both of these questions is consulting a specific, focused, and comprehensive systematic review of medical literature. In the medical domain, systematic reviews are central to decision-making for both clinical practice (e.g., &amp;ldquo;Does hydrocloroquin treat COVID-19?&amp;rdquo;), as well as institutional and governmental medical policy-making (e.g., &amp;ldquo;Should everyone wear a mask during the COVID-19 pandemic?&amp;rdquo;).  Once a review is published. However, new studies and evidence can arise or be retracted, which may change the review&amp;rsquo;s conclusions. In areas of medicine where there is a priority for decision-making, a level of uncertainty in existing studies, and the frequency of new medical studies is high (e.g., identifying the most effective treatment for COVID-19), systematic reviews are infeasible.&lt;/p&gt;
+&lt;p&gt;This infeasibility is primarily due to the lengthy and costly processes involved in creating these systematic reviews. The most expensive and time-intensive aspect is the manual, critical appraisal of studies, which can take several years and cost upwards of 220,000 Euros to complete. Already, several researchers have highlighted that systematic reviews are not sufficient for the pace at which studies are currently being published. Several studies have spawned to address this problem, such as machine learning methods, summarisation of studies, guidelines for building automation tools, and even proposing a new type of &amp;ldquo;living&amp;rdquo; systematic review. However, I will be taking a radically different approach to answer the initial questions posed above in this project. I plan to focus on synthesising direct answers for highly focused, complex medical questions using NLP methods.&lt;/p&gt;
+&lt;p&gt;To this end, I will investigate, apply, and derive new state-of-the-art methods for direct answer synthesis within the medical domain.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Automated MeSH Term Suggestion for Effective Query Formulation in Systematic Reviews Literature Search</title>
+      <link>//localhost:1313/publication/iswa2022_automated/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/iswa2022_automated/</guid>
+      <description>&lt;p&gt;Medical systematic review query formulation is a highly complex task done by trained information specialists. Complexity comes from the reliance on lengthy Boolean queries, which express a detailed research question. To aid query formulation, information specialists use a set of exemplar documents, called ‘seed studies’, prior to query formulation. Seed studies help verify the effectiveness of a query prior to the full assessment of retrieved studies. Beyond this use of seeds, specific IR methods can exploit seed studies for guiding both automatic query formulation and new retrieval models. One major limitation of work to date is that these methods exploit `pseudo seed studies’ through retrospective use of included studies (i.e., relevance assessments). However, we show pseudo seed studies are not representative of real seed studies used by information specialists. Hence, we provide a test collection with real world seed studies used to assist with the formulation of queries. To support our collection, we provide an analysis, previously not possible, on how seed studies impact retrieval and perform several experiments using seed-study based methods to compare the effectiveness of using seed studies versus pseudo seed studies. We make our test collection and the results of all of our experiments and analysis available at &lt;a href=&#34;http://github.com/ielab/sysrev-seed-collection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github.com/ielab/sysrev-seed-collection&lt;/a&gt;. High-quality medical systematic reviews require comprehensive literature searches to ensure the recommendations and outcomes are sufficiently reliable. Indeed, searching for relevant medical literature is a key phase in constructing systematic reviews and often involves domain (medical researchers) and search (information specialists) experts in developing the search queries. Queries in this context are highly complex, based on Boolean logic, include free-text terms and index terms from standardised terminologies (e.g., the Medical Subject Headings (MeSH) thesaurus), and are difficult and time-consuming to build. The use of MeSH terms, in particular, has been shown to improve the quality of the search results. However, identifying the correct MeSH terms to include in a query is difficult: information experts are often unfamiliar with the MeSH database and unsure about the appropriateness of MeSH terms for a query. Naturally, the full value of the MeSH terminology is often not fully exploited. This article investigates methods to suggest MeSH terms based on an initial Boolean query that includes only free-text terms. In this context, we devise lexical and pre-trained language models based methods. These methods promise to automatically identify highly effective MeSH terms for inclusion in a systematic review query. Our study contributes an empirical evaluation of several MeSH term suggestion methods. We further contribute an extensive analysis of MeSH term suggestions for each method and how these suggestions impact the effectiveness of Boolean queries.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reduce, Reuse, Recycle: Green Information Retrieval Research</title>
+      <link>//localhost:1313/publication/sigir2022_greenir/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2022_greenir/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Awarded Best Paper Honorable Mention!&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Recent advances in Information Retrieval utilise energy-intensive hardware to produce state-of-the-art results. In areas of research highly related to Information Retrieval, such as Natural Language Processing and Machine Learning, there have been efforts to quantify and reduce the power and emissions produced by methods that depend on such hardware. Research that is conscious of the environmental impacts of its experimentation and takes steps to mitigate some of these impacts is considered &amp;lsquo;Green&amp;rsquo;. Given the continuous demand for more data and power-hungry techniques, Green research is likely to become more important within the broader research community. Therefore, within the Information Retrieval community, the consequences of non-Green (in other words, Red) research should at least be considered and acknowledged. As such, the aims of this perspective paper are fourfold: (1) to review the Green literature not only for Information Retrieval but also for related domains in order to identify transferable Green techniques; (2) to provide measures for quantifying the power usage and emissions of Information Retrieval research; (3) to report the power usage and emission impacts for various current IR methods; and (4) to provide a framework to guide Green Information Retrieval research, taking inspiration from &amp;lsquo;reduce, reuse, recycle&amp;rsquo; waste management campaigns, including salient examples from the literature that implement these concepts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From Little Things Big Things Grow: A Collection with Seed Studies for Medical Systematic Review Literature Search</title>
+      <link>//localhost:1313/publication/sigir2022_seed/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2022_seed/</guid>
+      <description>&lt;p&gt;Fine-grained logging of interactions in user studies is important for studying user behaviour, among other reasons. However, in many research scenarios, the way interactions are logged are usually tied to a monolithic system. We present a generic, application-independent service for logging interactions in web-pages, specifically targetting user studies. Our service, Big Brother, can be dropped-in to existing user interfaces with almost no configuration required by researchers. Big Brother has already been used in several user studies to record interactions in a number of user study research scenarios, such as lab-based and crowdsourcing environments. We further demonstrate the ability for Big Brother to scale to very large user studies through benchmarking experiments. Big Brother also provides a number of additional tools for visualising and analysing interactions.&lt;/p&gt;
+&lt;p&gt;Big Brother significantly lowers the barrier to entry for logging user interactions by providing a minimal but powerful, no configuration necessary, service for researchers and practitioners of user studies that can scale to thousands of concurrent sessions. We have made the source code and releases for Big Brother available for download at &lt;a href=&#34;https://github.com/hscells/bigbro&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/hscells/bigbro&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MeSH Term Suggestion for Systematic Review Literature Search</title>
+      <link>//localhost:1313/publication/adcs2021_mesh/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/adcs2021_mesh/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Awarded Best Student Paper!&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;High-quality medical systematic reviews require comprehensive literature searches to ensure the recommendations and outcomes are sufficiently reliable. Indeed, searching for relevant medical literature is a key phase in constructing systematic reviews and often involves domain (medical researchers) and search (information specialists) experts in developing the search queries. Queries in this context are highly complex, based on Boolean logic, include free-text terms and index terms from standardised terminologies (e.g., MeSH), and are difficult and time-consuming to build. The use of MeSH terms, in particular, has been shown to improve the quality of the search results. However, identifying the correct MeSH terms to include in a query is difficult: information experts are often unfamiliar with the MeSH database and unsure about the appropriateness of MeSH terms for a query. Naturally, the full value of the MeSH terminology is often not fully exploited.&lt;/p&gt;
+&lt;p&gt;This paper investigates methods to suggest MeSH terms based on an initial Boolean query that includes only free-text terms. These methods promise to automatically identify highly effective MeSH terms for inclusion in a systematic review query. Our study contributes an empirical evaluation of several MeSH term suggestion methods. We perform an extensive analysis of the retrieval, ranking, and refinement of MeSH term suggestions for each method and how these suggestions impact the effectiveness of Boolean queries.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SDR for Systematic Reviews: A Reproducibility Study</title>
+      <link>//localhost:1313/publication/ecir2022_sdr/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/ecir2022_sdr/</guid>
+      <description>&lt;p&gt;Screening or assessing studies is critical to the quality and outcomes of a systematic review. Typically, a Boolean query retrieves the set of studies to screen. As the set of studies retrieved is unordered, screening all retrieved studies is usually required for high-quality systematic reviews. Screening prioritisation, or in other words, ranking the set of studies, enables downstream activities of a systematic review to begin in parallel. We investigate a method that exploits seed studies – potentially relevant studies used to seed the query formulation process – for screening prioritisation. Our investigation aims to reproduce this method to determine if it is generalisable on recently published datasets and determine the impact of using multiple seed studies on effectiveness. We show that while we could reproduce the original methods, we could not replicate their results exactly. However, we believe this is due to minor differences in document pre-processing, not deficiencies with the original methodology. Our results also indicate that our reproduced screening prioritisation method, (1) is generalisable across datasets of similar and different topicality compared to the original implementation, (2) that when using multiple seed studies, the effectiveness of the method increases using our techniques to enable this, (3) and that the use of multiple seed studies produces more stable rankings compared to single seed studies. Finally, we make our implementation and results publicly available at the following URL: &lt;a href=&#34;https://github.com/ielab/sdr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/ielab/sdr&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Query Automation for Systematic Reviews</title>
+      <link>//localhost:1313/publication/phd_thesis/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/phd_thesis/</guid>
+      <description>&lt;p&gt;This thesis explores and investigates query automation methods and tools to support more effective study retrieval for the creation of medical systematic reviews. A systematic review is a synthesis of very high-quality medical studies with a stringent protocol to guide creation with minimal bias and error. Modern medicine practice and healthcare policies rely heavily on systematic reviews in order to make decisions on the best available evidence.&lt;/p&gt;
+&lt;p&gt;Systematic review creation is often highly time-intensive and costly. Thus there has been much attention to attempt to automate phases in the creation of a systematic review. In this context, the definition of automation is the encoding of manual tasks into computational procedures. Existing automation research has primarily focused on the phase concerned with the critical appraisal of studies. Prior research has attempted to automate this appraisal phase by, for example, simulating human appraisal, (re-)ranking the retrieved studies, and classifying relevant studies, among others. A major drawback of these approaches is that they all rely on the initial search&amp;rsquo;s retrieval effectiveness, which is contingent on the query&amp;rsquo;s quality. We follow a fresh, new direction of research by investigating methods for query automation.&lt;/p&gt;
+&lt;p&gt;In investigating automatic methods for building effective queries for systematic review creation, this thesis develops three main areas of enquiry: (i) query formulation: the development of Boolean queries suitable for systematic review literature search, (ii) query refinement: the iterative process of improving the search effectiveness of a Boolean query suitable for systematic review literature search, and (iii) query exploitation: the application of methods to Boolean queries in order to improve systematic review literature search effectiveness. For each of these query automation areas, this thesis devises computational methods as well as practical tools.&lt;/p&gt;
+&lt;p&gt;This thesis makes contributions across three main areas of enquiry. They comprise of: (i) computational adaptations of human query formulation methodologies to support the automatic development of complex Boolean queries for systematic review literature search, and practical tools built upon them, (ii) a framework for the generation and identification of more effective query variations to support the automatic refinement of high-quality Boolean queries used in systematic review literature search, as well as tools built upon them, and (iii) methods to exploit intrinsic characteristics of Boolean queries in order to improve the retrieval effectiveness of systematic review literature search. We found that for each of these inquiry areas, query automation was able to improve search effectiveness, reducing the amount of time necessary to create systematic reviews.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Big Brother: A Drop-In Website Interaction Logging Service</title>
+      <link>//localhost:1313/publication/sigir2021_bigbro/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2021_bigbro/</guid>
+      <description>&lt;p&gt;Fine-grained logging of interactions in user studies is important for studying user behaviour, among other reasons. However, in many research scenarios, the way interactions are logged are usually tied to a monolithic system. We present a generic, application-independent service for logging interactions in web-pages, specifically targetting user studies. Our service, Big Brother, can be dropped-in to existing user interfaces with almost no configuration required by researchers. Big Brother has already been used in several user studies to record interactions in a number of user study research scenarios, such as lab-based and crowdsourcing environments. We further demonstrate the ability for Big Brother to scale to very large user studies through benchmarking experiments. Big Brother also provides a number of additional tools for visualising and analysing interactions.&lt;/p&gt;
+&lt;p&gt;Big Brother significantly lowers the barrier to entry for logging user interactions by providing a minimal but powerful, no configuration necessary, service for researchers and practitioners of user studies that can scale to thousands of concurrent sessions. We have made the source code and releases for Big Brother available for download at &lt;a href=&#34;https://github.com/hscells/bigbro&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/hscells/bigbro&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PECAN: A Platform for Searching Chat Conversations</title>
+      <link>//localhost:1313/publication/sigir2021_pecan/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2021_pecan/</guid>
+      <description>&lt;p&gt;Often, existing chat services that organisations and individuals use today provide a way to search through previously sent messages. However, many of these chat services provide far-limited search functionalities, typically exact matching on individual messages. In this paper, we introduce a new task for addressing this problem, called \textit{searching for conversations}, whereby the aim is to retrieve and rank groups of related messages given a search query. We promote this task by providing a platform for research and development called PECAN. Our platform provides all the necessary functionality researchers need to conduct experiments on searching for conversations. Our system is also generic so as to support organisations and individuals who wish to search through their chat message archives.&lt;/p&gt;
+&lt;p&gt;We release PECAN to the wider community as an Open Source project available for download at &lt;a href=&#34;https://github.com/ielab/pecan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/ielab/pecan&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>You Can Teach an Old Dog New Tricks - Rank Fusion applied to Coordination Level Matching for Ranking in Systematic Reviews</title>
+      <link>//localhost:1313/publication/ecir2020_clf/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/ecir2020_clf/</guid>
+      <description>&lt;p&gt;Coordination level matching is a ranking method originally proposed to rank documents given Boolean queries that is now several decades old. Rank fusion is a relatively recent method for combining runs from multiple systems into a single ranking, and has been shown to significantly improve the ranking. This paper presents a novel extension to coordination level matching, by applying rank fusion to each sub-clause of a Boolean query. We show that, for the tasks of systematic review screening prioritisation and stopping estimation, our method significantly outperforms the state-of-the-art learning to rank and bag-of-words-based systems for this domain. Our fully automatic, unsupervised method has (i) the potential for significant real-world cost savings (ii) does not rely on any intervention from the user, and (iii) is significantly better at ranking documents given only a Boolean query in the context of systematic reviews when compared to other approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Comparison of Automatic Boolean Query Formulation for Systematic Reviews</title>
+      <link>//localhost:1313/publication/irj2020_comparison/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/irj2020_comparison/</guid>
+      <description>&lt;p&gt;Systematic reviews are comprehensive literature reviews that target a highly focused research question. In the medical domain, complex Boolean queries are used to identify studies. To ensure comprehensiveness, all studies retrieved are screened for inclusion or exclusion in the review. Developing Boolean queries for this task requires the expertise of trained information specialists. However, even for these expert searchers, query formulation can be difficult and lengthy: especially when dealing with areas of medicine that they may not be knowledgeable about. To this end, two computational adaptations of methods information specialists use to formulate Boolean queries have been proposed in prior work.&lt;/p&gt;
+&lt;p&gt;These adaptations can be used to assist information specialists by providing a good starting point for query development. However, a number of limitations with these computational methods have been raised, and a comparison between them has not been made. In this study, we address the limitations of previous work and evaluate the two.&lt;/p&gt;
+&lt;p&gt;We found that, between the two computational adaptions, the objective method is more effective than the conceptual method for query formulation alone, however, the conceptual method provides a better starting point for manual query refinement. This work helps to inform those building search tools that assist with systematic review construction.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Computational Approach for Objectively Derived Systematic Review Search Strategies</title>
+      <link>//localhost:1313/publication/ecir2020_objective/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/ecir2020_objective/</guid>
+      <description>&lt;p&gt;Searching literature for a systematic review begins with a manually constructed search strategy by an expert information specialist. The typical process of constructing search strategies is often undocumented, ad-hoc, and subject to individual expertise, which may introduce bias in the systematic review. A new method for objectively deriving search strategies has arisen from information specialists attempting to address these shortcomings. However, this proposed method still presents a number of manual, ad-hoc interventions, and trial-and-error processes, potentially still introducing bias into systematic reviews. Moreover, this method has not been rigorously evaluated on a large set of systematic review cases, thus its generalisability is unknown. In this work, we present a computational adaptation of this proposed objective method. Our adaptation removes the human-in-the-loop processes involved in the initial steps of creating a search strategy for a systematic review; reducing bias due to human factors and increasing the objectivity of the originally proposed method. Our proposed computational adaptation further enables a formal and rigorous evaluation over a large set of systematic reviews. We find that our computational adaptation of the original objective method provides an effective starting point for information specialists to continue refining. We also identify a number of avenues for extending and improving our adaptation to further promote supporting information specialists.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Boolean Query Formulation for Systematic Review Literature Search</title>
+      <link>//localhost:1313/publication/www2020_conceptual/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/www2020_conceptual/</guid>
+      <description>&lt;p&gt;Formulating Boolean queries for systematic review literature search is a challenging task. Commonly, queries are formulated by information specialists using the protocol specified in the review and interactions with the research team. Information specialists have in-depth experience on how to formulate queries in this domain, but may not have in-depth knowledge about the reviews&amp;rsquo; topics. Query formulation requires a significant amount of time and effort, and is performed interactively; specialists repeatedly formulate queries, attempt to validate their results, and reformulate specific Boolean clauses. In this paper, we investigate the possibility of automatically formulating a Boolean query from the systematic review protocol. We propose a novel five-step approach to automatic query formulation, specific to Boolean queries in this domain, which approximates the process by which information specialists formulate queries. In this process, we use syntax parsing to derive the logical structure of high-level concepts in a query, automatically extract and map concepts to entities in order to perform entity expansion, and finally apply post-processing operations (such as stemming and search filters).&lt;/p&gt;
+&lt;p&gt;Automatic query formulation for systematic review literature search has several benefits: (i) it can provide reviewers with an indication of the types of studies that will be retrieved, without the involvement of an information specialist, (ii) it can provide information specialists with an initial query to begin the formulation process, (iii) it can provide researchers that perform rapid reviews with a method to quickly perform searches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sampling Query Variations for Learning to Rank to Improve Automatic Boolean Query Generation in Systematic Reviews</title>
+      <link>//localhost:1313/publication/www2020_sampling/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/www2020_sampling/</guid>
+      <description>&lt;p&gt;Searching medical literature for synthesis in a systematic review is a complex and labour intensive task. In this context, expert searchers construct lengthy Boolean queries. The universe of possible query variations can be massive: a single query can be composed of hundreds of field-restricted search terms/phrases or ontological concepts, each grouped by a logical operator nested to depths of sometimes five or more levels deep. With the many choices about how to construct a query, it is difficult to both formulate and recognise effective queries. To address this challenge, automatic methods have recently been explored for generating and selecting effective Boolean query variations for systematic reviews. The limiting factor of these methods is that it is computationally infeasible to process all query variations for training the methods. To overcome this, we propose novel query variation sampling methods for training Learning to Rank models to rank queries. Our results show that query sampling methods do directly impact the ability of a Learning to Rank model to effectively identify good query variations. Thus, selecting appropriate query sampling methods is a key problem for the automatic reformulation of effective Boolean queries for systematic review literature search. We find that the best sampling strategies are those which balance the diversity of queries with the quantity of queries.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Attending the Analytics on Medical and Healthcare Data ADMA Workshop</title>
+      <link>//localhost:1313/post/2019-11-24-adma/</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2019-11-24-adma/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Awarded Best Presentation!&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;I attended the 2019 ADMA workshop entitled &amp;ldquo;Analytics on Medical and Healthcare Data&amp;rdquo; in Dalian, China. At the workshop, I gave a talk entitled &amp;ldquo;Improving Systematic Review Creation With Information Retrieval&amp;rdquo;, which won the best presentation award!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;award&#34; srcset=&#34;
+               /post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_4ac7aaca1ba20d6d5f794b83ca10cd67.webp 400w,
+               /post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_9f44a857bfa739c17d62d87dc4bc782d.webp 760w,
+               /post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;//localhost:1313/post/2019-11-24-adma/award_hu7fe191b5eea6fbb3b80b383a3ef156ca_2145452_4ac7aaca1ba20d6d5f794b83ca10cd67.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The slides of the talk can be downloaded &lt;a href=&#34;//localhost:1313/files/adma19-talk.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Boolean Query Refinement for Systematic Review Literature Search</title>
+      <link>//localhost:1313/publication/cc2019_reformulation/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/cc2019_reformulation/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/A1GtoNFWN0c&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt; 
+&lt;p&gt;Background: Within the last decade the rise of digital publishing has become widespread, enabling publications to be edited and updated after-the-fact. In the medical domain, systematic reviews are one type of digital document that is often updated after initial publication. This is usually because new evidence has been discovered and must be re-synthesised into the existing review. A problem, however, is that the initial search strategy used to identify the originally relevant studies may not be sufficient in capturing new studies, or may capture too many irrelevant studies. This means that time and effort must be spent reformulating new or variant search strategies. While this problem may be particularly pronounced in “living systematic reviews”, the problem of finding all relevant studies while minimising irrelevant studies for typical systematic reviews is also difficult. This overarching problem signifies a gap to be filled with a system for automatic search strategy reformulation.&lt;/p&gt;
+&lt;p&gt;Objectives: The development of an automatic, interactive search strategy reformulation tool that assists researchers in updating systematic reviews and to improve existing search strategies.&lt;/p&gt;
+&lt;p&gt;Methods: The system proposed uses a recognised and effective theoretical framework which automatically generates search strategy reformulations and selects the most effective variation. In this work, a user interface (Figure 1) is developed with the goal to insert a human-in-the-loop to drive the selection of the most effective search strategy. This interface is capable of: (i) tracking the effectiveness of reformulations over time, allowing users to manage their reformulation history by backtracking and jumping to previous search strategies, (ii) evaluating the effectiveness of reformulations using standard Information Retrieval measures (e.g., precision, recall, F-measure), and domain-specific evaluation measures (e.g., Work Saved) by loading in a validation set of studies, and (iii) filtering out studies which have already been screened (also by loading separately) in order to only show new studies.&lt;/p&gt;
+&lt;p&gt;Results: The theoretical framework for which the generation and selection of search strategy reformulations is based on is shown to significantly improve the effectiveness of existing queries. Queries are shown to increase in effectiveness upwards of 100-200% and beyond depending on the automatic selection process and evaluation measure.&lt;/p&gt;
+&lt;p&gt;Conclusions: A human-in-the-loop for the selection of search strategy reformulation allows users to have fine-grained control over the reformulation process. Allowing humans to drive the selection process in this framework is a new and novel approach, which has not yet been attempted. Finally, automatically generating reformulations removes possible human bias and error, and reduces the time and effort required to update a review.&lt;/p&gt;
+&lt;p&gt;Patient or healthcare consumer involvement: This has no direct involvement with patients or consumers, although improved efficiency of systematic review searches could be beneficial to both groups.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Boolean Query Refinement for Systematic Review Literature Search</title>
+      <link>//localhost:1313/publication/www2019_boolean/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/www2019_boolean/</guid>
+      <description>&lt;p&gt;In the medical domain, systematic reviews are a highly trustworthy evidence source used to inform clinical diagnosis and treatment, and governmental policy making. Systematic reviews must be complete in that &lt;em&gt;all relevant&lt;/em&gt; literature for the research question of the review must be synthesised in order to produce a recommendation. To identify the literature to screen for inclusion in systematic reviews, information specialists construct complex Boolean queries that capture the information needs defined by the research questions of the systemic review.
+However, in the quest for total recall, these Boolean queries return many non relevant results.&lt;/p&gt;
+&lt;p&gt;In this paper, we propose automatic methods for Boolean query refinement in the context of systematic review literature retrieval with the aim of alleviating this high recall-low precision problem. To do this, we build upon current literature and define additional semantic transformations for Boolean queries in the form of query expansion and reduction. Empirical evaluation is done on a set of real systematic review queries to show how our method performs in a realistic setting.
+We found that query refinement strategies produced queries that were more effective than the original in terms of six information retrieval evaluation measures. In particular, queries were refined  to increase precision, while maintaining, or even increasing, recall &amp;mdash; this, in turn, translates into both time and cost savings when creating laborious and expensive systematic reviews.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualising Systematic Review Search Strategies to Assist Information Specialists</title>
+      <link>//localhost:1313/publication/cc2019_visualisation/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/cc2019_visualisation/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/HPEQWCrMGWw&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Background: Searching for studies to include in systematic reviews involves the construction of complex search strategies. The effectiveness of these search strategies directly impacts the workload associated with conducting a systematic review. More efficient search strategies can reduce the time and resources required to screen studies therefore reducing the total time and cost of the review. Research in Information Retrieval (IR) shows that query visualisation improves the effectiveness of searching for information.&lt;/p&gt;
+&lt;p&gt;Objectives: The development of a visualisation tool that assists information specialists in formulating more effective search strategies.&lt;/p&gt;
+&lt;p&gt;Methods: The visualisation tool (QueryVis) is designed in collaboration with information specialists to cater to the needs of this user group. Currently in QueryVis, it is possible to visualise search strategies using the PubMed database. Searches can be submitted in Ovid MEDLINE format or PubMed format (by automatically translating the Ovid format to PubMed). QueryVis presents queries hierarchically (Figure 1) , showing the impact that each term has on the recall and precision of a search. Recall is shown by the number of studies retrieved from a validation set, loaded via PubMed IDs. Precision is shown by total number of studies found by each term. Search strategies are compared in terms of the overlap in search terms between two searches, the total number of keywords, the total number of each Boolean operator (i.e., AND, OR, NOT), the number of MeSH keywords (and how many are exploded), and the depth in the MeSH ontology in which the MeSH keywords appear (i.e., how broad MeSH keywords are). Furthermore, each search is evaluated in terms of effectiveness: using standard IR evaluation measures (i.e., precision, recall, F-measure) and evaluation measures specific to this domain (e.g., Work Saved), and in terms of efficiency: by recording the total time spent formulating, the number of studies retrieved, and the estimated cost of the search.&lt;/p&gt;
+&lt;p&gt;Results: QueryVis has been tested experimentally in a pilot study. It decreased irrelevant studies by as much as 40% without losing relevant studies. A wider study is planned which aims to involve more participants and capture more data.&lt;/p&gt;
+&lt;p&gt;Conclusions: Improving the query formulation stage can have a significant impact on the rest of the systematic review creation process. An extensive user study will follow using a well-known corpus of systematic reviews with approximately 10 participants to determine precisely what effect visualisation has on the search strategy formulation process. The study will use the aforementioned methods to compare the effect visualisation has on search by comparing search strategies formulated with and without visualisation. If accepted for publication, QueryVis will be demoed during the oral presentation.&lt;/p&gt;
+&lt;p&gt;Patient or healthcare consumer involvement: This has no direct involvement with patients or consumers, although improved efficiency of systematic review searches could be beneficial to both groups.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Information Retrieval Experiment Framework for Domain Specific Applications</title>
+      <link>//localhost:1313/publication/sigir2018_framework/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2018_framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Better Queries for Systematic Reviews</title>
+      <link>//localhost:1313/publication/sigir2018_generating/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2018_generating/</guid>
+      <description>&lt;p&gt;Systematic reviews form the cornerstone of evidence based medicine, aiming to answer complex medical questions based on all evidence currently available. Key to the effectiveness of a systematic review is an (often large) Boolean query used to search large publication repositories. These Boolean queries are carefully crafted by researchers and information specialists, and often reviewed by a panel of experts. However, little is known about the effectiveness of the Boolean queries at the time of formulation.&lt;/p&gt;
+&lt;p&gt;In this paper we investigate whether a better Boolean query than that defined in the protocol of a systematic review, can be created, and we develop methods for the transformation of a given Boolean query into a more effective one. Our approach involves defining possible transformations of Boolean queries and their clauses. It also involves casting the problem of identifying a transformed query that is better than the original into: (i) a classification problem; and (ii) a learning to rank problem. Empirical experiments are conducted on a real set of systematic reviews. Analysis of results shows that query transformations that are better than the original queries do exist, and that our approaches are able to select more effective queries from the set of possible transformed queries so as to maximise different target effectiveness measures.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Query Variation Performance Prediction for Systematic Reviews</title>
+      <link>//localhost:1313/publication/sigir2018_qvpp/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2018_qvpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews</title>
+      <link>//localhost:1313/publication/cikm2018_searchrefiner/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/cikm2018_searchrefiner/</guid>
+      <description>&lt;p&gt;We present an open source tool, searchrefiner, for researchers that conduct medical systematic reviews to assist in formulating, visualising, and understanding Boolean queries. The searchrefiner web interface allows researchers to explore how Boolean queries retrieve citations in existing, popular query syntaxes used in systematic review literature search. The web interface allows researchers to perform tasks such as using validation citations to ensure queries are retrieving a minimum set of known relevant citations, and editing Boolean queries by dragging and dropping clauses in a structured editor. In addition, the tools provided by the searchrefiner interface allow researchers to visualise why the queries they formulate retrieve citations, and ways to understand how to refine queries into more effective ones. searchrefiner is targeted at both experts and novices, as a tool for query formulation and refinement, and as a tool for training users to search for literature to compile systematic reviews.&lt;/p&gt;
+&lt;p&gt;The searchrefiner website located at &lt;a href=&#34;https://ielab.io/searchrefiner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ielab.io/searchrefiner&lt;/a&gt; contains information about how to download, install, and use the tool, as well as a link to an online hosted version for demonstration purposes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Test Collection for Evaluating Retrieval of Studies for Inclusion in Systematic Reviews</title>
+      <link>//localhost:1313/publication/sigir2017_collection/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2017_collection/</guid>
+      <description>&lt;p&gt;We introduce a test collection for evaluating the effectiveness of different methods used to retrieve research studies for inclusion in systematic reviews. Systematic reviews appraise and synthesise studies that meet specific inclusion criteria. Systematic reviews intended for a biomedical science audience use boolean queries with many, often complex, search clauses to retrieve studies; these are then manually screened to determine eligibility for inclusion in the review. This process is expensive and time consuming. The development of systems that improve retrieval effectiveness will have an immediate impact by reducing the complexity and resources required for this process. Our test collection consists of approximately 26 million research studies extracted from the freely available MEDLINE database, 94 review (query) topics extracted from Cochrane systematic reviews, and corresponding relevance assessments. Tasks for which the collection can be used for information retrieval system evaluation are described and the use of the collection to evaluate common baselines within one such task is demonstrated. See the links to this side of this page for links to the paper and to download the collection.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Integrating the Framing of Clinical Questions via PICO into the Retrieval of Medical Literature for Systematic Reviews</title>
+      <link>//localhost:1313/publication/cikm2017_pico/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/cikm2017_pico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QUT ielab at CLEF eHealth 2017 Technology Assisted Reviews Track: Initial Experiments with Learning To Rank</title>
+      <link>//localhost:1313/publication/clef2017_tar/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/clef2017_tar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reducing Workload of Systematic Review Searching and Screening Processes</title>
+      <link>//localhost:1313/publication/fdia2017_essir/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/fdia2017_essir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating Methods Of Annotating Lifelogs For Use In Search</title>
+      <link>//localhost:1313/publication/honours_thesis/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/honours_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QUT at the NTCIR Lifelog Semantic Access Task</title>
+      <link>//localhost:1313/publication/ntcir2016_lifelog/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/ntcir2016_lifelog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

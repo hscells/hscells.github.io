@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sebastian Schmidt | Harry Scells</title><link>/authors/sebastian-schmidt/</link><atom:link href="/authors/sebastian-schmidt/index.xml" rel="self" type="application/rss+xml"/><description>Sebastian Schmidt</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Sebastian Schmidt</title><link>/authors/sebastian-schmidt/</link></image><item><title>The Archive Query Log: Mining Millions of Search Result Pages of Hundreds of Search Engines from 25 Years of Web Archives</title><link>/publication/sigir2023_aql/</link><pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate><guid>/publication/sigir2023_aql/</guid><description>&lt;p>The Archive Query Log (AQL) is a previously unused, comprehensive query log collected at the Internet Archive over the last 25 years. Its first version includes 356 million queries, 137 million search result pages, and 1.4 billion search results across 550 search providers. Although many query logs have been studied in the literature, the search providers that own them generally do not publish their logs to protect user privacy and vital business data. Of the few query logs publicly available, none combines size, scope, and diversity. The AQL is the first to do so, enabling research on new retrieval models and (diachronic) search engine analyses. Provided in a privacy-preserving manner, it promotes open research as well as more transparency and accountability in the search industry.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sebastian Schmidt | Harry Scells</title>
+    <link>//localhost:1313/authors/sebastian-schmidt/</link>
+      <atom:link href="//localhost:1313/authors/sebastian-schmidt/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sebastian Schmidt</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url>
+      <title>Sebastian Schmidt</title>
+      <link>//localhost:1313/authors/sebastian-schmidt/</link>
+    </image>
+    
+    <item>
+      <title>The Archive Query Log: Mining Millions of Search Result Pages of Hundreds of Search Engines from 25 Years of Web Archives</title>
+      <link>//localhost:1313/publication/sigir2023_aql/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/sigir2023_aql/</guid>
+      <description>&lt;p&gt;The Archive Query Log (AQL) is a previously unused, comprehensive query log collected at the Internet Archive over the last 25 years. Its first version includes 356 million queries, 137 million search result pages, and 1.4 billion search results across 550 search providers. Although many query logs have been studied in the literature, the search providers that own them generally do not publish their logs to protect user privacy and vital business data. Of the few query logs publicly available, none combines size, scope, and diversity. The AQL is the first to do so, enabling research on new retrieval models and (diachronic) search engine analyses. Provided in a privacy-preserving manner, it promotes open research as well as more transparency and accountability in the search industry.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
