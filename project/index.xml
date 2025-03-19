@@ -1,35 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Funded Projects | Harry Scells</title>
-    <link>//localhost:1313/project/</link>
-      <atom:link href="//localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Funded Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>//localhost:1313/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url>
-      <title>Funded Projects</title>
-      <link>//localhost:1313/project/</link>
-    </image>
-    
-    <item>
-      <title>Australia–Germany Joint Research Cooperation Scheme</title>
-      <link>//localhost:1313/project/ua-daad-ppp-23/</link>
-      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/ua-daad-ppp-23/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alexander von Humboldt Research Fellowship</title>
-      <link>//localhost:1313/project/alive/</link>
-      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/alive/</guid>
-      <description>&lt;p&gt;How do clinicians become informed to treat their patients? How do governments and institutions make health policy decisions?&lt;/p&gt;
-&lt;p&gt;At heart, the answer to both of these questions is consulting a specific, focused, and comprehensive systematic review of medical literature. In the medical domain, systematic reviews are central to decision-making for both clinical practice (e.g., &amp;ldquo;Does hydrocloroquin treat COVID-19?&amp;rdquo;), as well as institutional and governmental medical policy-making (e.g., &amp;ldquo;Should everyone wear a mask during the COVID-19 pandemic?&amp;rdquo;).  Once a review is published. However, new studies and evidence can arise or be retracted, which may change the review&amp;rsquo;s conclusions. In areas of medicine where there is a priority for decision-making, a level of uncertainty in existing studies, and the frequency of new medical studies is high (e.g., identifying the most effective treatment for COVID-19), systematic reviews are infeasible.&lt;/p&gt;
-&lt;p&gt;This infeasibility is primarily due to the lengthy and costly processes involved in creating these systematic reviews. The most expensive and time-intensive aspect is the manual, critical appraisal of studies, which can take several years and cost upwards of 220,000 Euros to complete. Already, several researchers have highlighted that systematic reviews are not sufficient for the pace at which studies are currently being published. Several studies have spawned to address this problem, such as machine learning methods, summarisation of studies, guidelines for building automation tools, and even proposing a new type of &amp;ldquo;living&amp;rdquo; systematic review. However, I will be taking a radically different approach to answer the initial questions posed above in this project. I plan to focus on synthesising direct answers for highly focused, complex medical questions using NLP methods.&lt;/p&gt;
-&lt;p&gt;To this end, I will investigate, apply, and derive new state-of-the-art methods for direct answer synthesis within the medical domain.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Funded Projects | Harry Scells</title><link>/project/</link><atom:link href="/project/index.xml" rel="self" type="application/rss+xml"/><description>Funded Projects</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Funded Projects</title><link>/project/</link></image><item><title>Australia–Germany Joint Research Cooperation Scheme</title><link>/project/ua-daad-ppp-23/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate><guid>/project/ua-daad-ppp-23/</guid><description/></item><item><title>Alexander von Humboldt Research Fellowship</title><link>/project/alive/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>/project/alive/</guid><description>&lt;p>How do clinicians become informed to treat their patients? How do governments and institutions make health policy decisions?&lt;/p>
+&lt;p>At heart, the answer to both of these questions is consulting a specific, focused, and comprehensive systematic review of medical literature. In the medical domain, systematic reviews are central to decision-making for both clinical practice (e.g., &amp;ldquo;Does hydrocloroquin treat COVID-19?&amp;rdquo;), as well as institutional and governmental medical policy-making (e.g., &amp;ldquo;Should everyone wear a mask during the COVID-19 pandemic?&amp;rdquo;). Once a review is published. However, new studies and evidence can arise or be retracted, which may change the review&amp;rsquo;s conclusions. In areas of medicine where there is a priority for decision-making, a level of uncertainty in existing studies, and the frequency of new medical studies is high (e.g., identifying the most effective treatment for COVID-19), systematic reviews are infeasible.&lt;/p>
+&lt;p>This infeasibility is primarily due to the lengthy and costly processes involved in creating these systematic reviews. The most expensive and time-intensive aspect is the manual, critical appraisal of studies, which can take several years and cost upwards of 220,000 Euros to complete. Already, several researchers have highlighted that systematic reviews are not sufficient for the pace at which studies are currently being published. Several studies have spawned to address this problem, such as machine learning methods, summarisation of studies, guidelines for building automation tools, and even proposing a new type of &amp;ldquo;living&amp;rdquo; systematic review. However, I will be taking a radically different approach to answer the initial questions posed above in this project. I plan to focus on synthesising direct answers for highly focused, complex medical questions using NLP methods.&lt;/p>
+&lt;p>To this end, I will investigate, apply, and derive new state-of-the-art methods for direct answer synthesis within the medical domain.&lt;/p></description></item></channel></rss>

@@ -1,341 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Workshops | Harry Scells</title>
-    <link>//localhost:1313/tag/workshops/</link>
-      <atom:link href="//localhost:1313/tag/workshops/index.xml" rel="self" type="application/rss+xml" />
-    <description>Workshops</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>//localhost:1313/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url>
-      <title>Workshops</title>
-      <link>//localhost:1313/tag/workshops/</link>
-    </image>
-    
-    <item>
-      <title>Keynote at Information Retrieval for Climate Impact Workshop at SIGIR&#39;24</title>
-      <link>//localhost:1313/post/2024-07-18-manila/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/2024-07-18-manila/</guid>
-      <description>&lt;p&gt;I gave a keynote at the &lt;a href=&#34;https://sites.google.com/view/ir-for-climate-impact/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Information Retrieval for Climate Impact Workshop&lt;/a&gt; at &lt;a href=&#34;https://sigir.org/sigir2024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SIGIR&#39;24&lt;/a&gt; entitled &lt;em&gt;Automating Systematic Reviews with Information Retrieval&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;See the links above for more information and to download the slides.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Workshop at Information Retrieval Meeting 2024</title>
-      <link>//localhost:1313/post/2024-04-26-irm/</link>
-      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/2024-04-26-irm/</guid>
-      <description>&lt;p&gt;I ran a workshop at the &lt;a href=&#34;https://www.iqwig.de/en/events/information-retrieval-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IQWiG Information Retrieval Meeting 2024&lt;/a&gt; about using APIs for evidence identification.&lt;/p&gt;
-&lt;p&gt;More and more APIs (application programming interfaces) are used as programmatic interfaces for certain databases or data sets. This workshop explains what an API is and what knowledge is necessary to use them, for example:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;what APIs are and how they work&lt;/li&gt;
-&lt;li&gt;offline versus online APIs&lt;/li&gt;
-&lt;li&gt;using APIs via Python&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The focus of this workshop is to present use cases especially for frequently used APIs. This workshop explains what API use cases exist, what they are used for and how information specialists can use them in their daily workflows.&lt;/p&gt;
-&lt;p&gt;Above, you can find links to the &lt;a href=&#34;https://github.com/hscells/apis-for-evidence-identification/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;supplementary material&lt;/a&gt; for the workshop which contains interactive notebooks that can be run in your browser. The notebooks let you edit and play with the code and data that are used in the workshop.&lt;/p&gt;
-&lt;p&gt;Finally, please find a list of related publications to this workshop below:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-&lt;div class=&#34;view-list view-list-item&#34;&gt;
-  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-  &lt;a href=&#34;//localhost:1313/publication/sigir2023_chatgpt/&#34; &gt;Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/a&gt;
-
-  
-
-  
-  &lt;div class=&#34;article-metadata&#34;&gt;
-    
-
-  &lt;span &gt;
-      &lt;a href=&#34;//localhost:1313/authors/shuai-wang/&#34;&gt;Shuai Wang&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;//localhost:1313/authors/harrisen-scells/&#34;&gt;Harrisen Scells&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;//localhost:1313/authors/bevan-koopman/&#34;&gt;Bevan Koopman&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;//localhost:1313/authors/guido-zuccon/&#34;&gt;Guido Zuccon&lt;/a&gt;&lt;/span&gt;
-  &lt;/div&gt;
-  
-
-  
-  &lt;div class=&#34;btn-links&#34;&gt;
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dl.acm.org/doi/10.1145/3539618.3591703&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  PDF
-&lt;/a&gt;
-
-
-
-
-
-
-
-  
-  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;//localhost:1313/project/ua-daad-ppp-23/&#34;&gt;
-    Project
-  &lt;/a&gt;
-  
-
-
-
-
-
-
-
-
-
-
-
-  &lt;/div&gt;
-  
-
-&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;li&gt;
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-&lt;div class=&#34;view-list view-list-item&#34;&gt;
-  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-  &lt;a href=&#34;//localhost:1313/publication/sigir2023_pyboolir/&#34; &gt;pybool_ir: A Toolkit for Domain-Specific Search Experiments&lt;/a&gt;
-
-  
-
-  
-  &lt;div class=&#34;article-metadata&#34;&gt;
-    
-
-  &lt;span &gt;
-      &lt;a href=&#34;//localhost:1313/authors/harrisen-scells/&#34;&gt;Harrisen Scells&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;//localhost:1313/authors/martin-potthast/&#34;&gt;Martin Potthast&lt;/a&gt;&lt;/span&gt;
-  &lt;/div&gt;
-  
-
-  
-  &lt;div class=&#34;btn-links&#34;&gt;
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dl.acm.org/doi/10.1145/3539618.3591819&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  PDF
-&lt;/a&gt;
-
-
-
-
-  
-  
-    
-  
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/hscells/pybool_ir&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  Code
-&lt;/a&gt;
-
-
-
-
-  
-  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;//localhost:1313/project/alive/&#34;&gt;
-    Project
-  &lt;/a&gt;
-  
-
-
-
-
-
-
-
-
-
-
-
-  &lt;/div&gt;
-  
-
-&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;li&gt;
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-&lt;div class=&#34;view-list view-list-item&#34;&gt;
-  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-  &lt;a href=&#34;//localhost:1313/publication/cikm2018_searchrefiner/&#34; &gt;searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews&lt;/a&gt;
-
-  
-
-  
-  &lt;div class=&#34;article-metadata&#34;&gt;
-    
-
-  &lt;span &gt;
-      &lt;a href=&#34;//localhost:1313/authors/harrisen-scells/&#34;&gt;Harrisen Scells&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;//localhost:1313/authors/guido-zuccon/&#34;&gt;Guido Zuccon&lt;/a&gt;&lt;/span&gt;
-  &lt;/div&gt;
-  
-
-  
-  &lt;div class=&#34;btn-links&#34;&gt;
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dl.acm.org/citation.cfm?id=3269215&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  PDF
-&lt;/a&gt;
-
-
-
-
-  
-  
-    
-  
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/ielab/searchrefiner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  Code
-&lt;/a&gt;
-
-
-
-
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://ielab.io/searchrefiner/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  Project
-&lt;/a&gt;
-
-
-
-
-
-
-
-
-
-
-
-  &lt;/div&gt;
-  
-
-&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workshops | Harry Scells</title><link>/tag/workshops/</link><atom:link href="/tag/workshops/index.xml" rel="self" type="application/rss+xml"/><description>Workshops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Workshops</title><link>/tag/workshops/</link></image><item><title>Keynote at Information Retrieval for Climate Impact Workshop at SIGIR'24</title><link>/post/2024-07-18-manila/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>/post/2024-07-18-manila/</guid><description>&lt;p>I gave a keynote at the &lt;a href="https://sites.google.com/view/ir-for-climate-impact/home" target="_blank" rel="noopener">Information Retrieval for Climate Impact Workshop&lt;/a> at &lt;a href="https://sigir.org/sigir2024" target="_blank" rel="noopener">SIGIR'24&lt;/a> entitled &lt;em>Automating Systematic Reviews with Information Retrieval&lt;/em>.&lt;/p>
+&lt;p>See the links above for more information and to download the slides.&lt;/p></description></item><item><title>Invited Workshop at Information Retrieval Meeting 2024</title><link>/post/2024-04-26-irm/</link><pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate><guid>/post/2024-04-26-irm/</guid><description>&lt;p>I ran a workshop at the &lt;a href="https://www.iqwig.de/en/events/information-retrieval-meeting/" target="_blank" rel="noopener">IQWiG Information Retrieval Meeting 2024&lt;/a> about using APIs for evidence identification.&lt;/p>
+&lt;p>More and more APIs (application programming interfaces) are used as programmatic interfaces for certain databases or data sets. This workshop explains what an API is and what knowledge is necessary to use them, for example:&lt;/p>
+&lt;ul>
+&lt;li>what APIs are and how they work&lt;/li>
+&lt;li>offline versus online APIs&lt;/li>
+&lt;li>using APIs via Python&lt;/li>
+&lt;/ul>
+&lt;p>The focus of this workshop is to present use cases especially for frequently used APIs. This workshop explains what API use cases exist, what they are used for and how information specialists can use them in their daily workflows.&lt;/p>
+&lt;p>Above, you can find links to the &lt;a href="https://github.com/hscells/apis-for-evidence-identification/blob/main/README.md" target="_blank" rel="noopener">supplementary material&lt;/a> for the workshop which contains interactive notebooks that can be run in your browser. The notebooks let you edit and play with the code and data that are used in the workshop.&lt;/p>
+&lt;p>Finally, please find a list of related publications to this workshop below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;div class="view-list view-list-item">
+&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
+&lt;a href="/publication/sigir2023_chatgpt/" >Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?&lt;/a>
+&lt;div class="article-metadata">
+&lt;span >
+&lt;a href="/authors/shuai-wang/">Shuai Wang&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/bevan-koopman/">Bevan Koopman&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
+&lt;/div>
+&lt;div class="btn-links">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3539618.3591703" target="_blank" rel="noopener">
+PDF
+&lt;/a>
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ua-daad-ppp-23/">
+Project
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;div class="view-list view-list-item">
+&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
+&lt;a href="/publication/sigir2023_pyboolir/" >pybool_ir: A Toolkit for Domain-Specific Search Experiments&lt;/a>
+&lt;div class="article-metadata">
+&lt;span >
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>
+&lt;/div>
+&lt;div class="btn-links">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3539618.3591819" target="_blank" rel="noopener">
+PDF
+&lt;/a>
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hscells/pybool_ir" target="_blank" rel="noopener">
+Code
+&lt;/a>
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/alive/">
+Project
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;div class="view-list view-list-item">
+&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
+&lt;a href="/publication/cikm2018_searchrefiner/" >searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews&lt;/a>
+&lt;div class="article-metadata">
+&lt;span >
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
+&lt;/div>
+&lt;div class="btn-links">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/citation.cfm?id=3269215" target="_blank" rel="noopener">
+PDF
+&lt;/a>
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/ielab/searchrefiner" target="_blank" rel="noopener">
+Code
+&lt;/a>
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ielab.io/searchrefiner/" target="_blank" rel="noopener">
+Project
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
