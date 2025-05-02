@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Harry Scells</title><link>/post/</link><atom:link href="/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>/post/</link></image><item><title>Keynote at Information Retrieval for Climate Impact Workshop at SIGIR'24</title><link>/post/2024-07-18-manila/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>/post/2024-07-18-manila/</guid><description>&lt;p>I gave a keynote at the &lt;a href="https://sites.google.com/view/ir-for-climate-impact/home" target="_blank" rel="noopener">Information Retrieval for Climate Impact Workshop&lt;/a> at &lt;a href="https://sigir.org/sigir2024" target="_blank" rel="noopener">SIGIR'24&lt;/a> entitled &lt;em>Automating Systematic Reviews with Information Retrieval&lt;/em>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Harry Scells</title><link>/post/</link><atom:link href="/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu33ac2647be7de12c09d025d9374b4e08_2029_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>/post/</link></image><item><title>Invited Talk at Glasgow University IR Seminar</title><link>/post/2025-04-28-glasgow/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>/post/2025-04-28-glasgow/</guid><description>&lt;p>I gave a talk at the &lt;a href="https://samoa.dcs.gla.ac.uk/events/viewtalk.jsp?id=20063" target="_blank" rel="noopener">Glasgow University IR Seminar&lt;/a> entitled &lt;em>Quantifying and Applying Green IR&lt;/em>. This talk gave an overview of Green IR, how to quantify and measure it, and an application of it for Green and reliable evaluation.&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Today, Harry Scells &lt;a href="https://twitter.com/hscells?ref_src=twsrc%5Etfw">@hscells&lt;/a> from University of Tübingen is giving an &lt;a href="https://twitter.com/hashtag/IRTalk?src=hash&amp;amp;ref_src=twsrc%5Etfw">#IRTalk&lt;/a> entitled &amp;quot;Quantifying and Applying Green IR&amp;quot;. Details: &lt;a href="https://t.co/vy2c3wdJrq">https://t.co/vy2c3wdJrq&lt;/a>&lt;a href="https://twitter.com/GlasgowCS?ref_src=twsrc%5Etfw">@GlasgowCS&lt;/a> &lt;a href="https://twitter.com/ir_glasgow?ref_src=twsrc%5Etfw">@ir_glasgow&lt;/a> &lt;a href="https://t.co/oP44iL7CV6">pic.twitter.com/oP44iL7CV6&lt;/a>&lt;/p>&amp;mdash; Zixuan Yi (@ZixuanYI_) &lt;a href="https://twitter.com/ZixuanYI_/status/1916856910747177292?ref_src=twsrc%5Etfw">April 28, 2025&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>The talk covered details from three papers:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;div class="view-list view-list-item">
+&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
+&lt;a href="/publication/sigir2022_greenir/" >Reduce, Reuse, Recycle: Green Information Retrieval Research&lt;/a>
+&lt;div class="article-metadata">
+&lt;span >
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/shengyao-zhuang/">Shengyao Zhuang&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>
+&lt;/div>
+&lt;div class="btn-links">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3477495.3531766" target="_blank" rel="noopener">
+PDF
+&lt;/a>
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/ielab/green-ir" target="_blank" rel="noopener">
+Code
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;div class="view-list view-list-item">
+&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
+&lt;a href="/publication/ictir2023_water/" >Beyond CO2 Emissions: The Overlooked Impact of Water Consumption of Information Retrieval Models&lt;/a>
+&lt;div class="article-metadata">
+&lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/shengyao-zhuang/">Shengyao Zhuang&lt;/a>&lt;/span>
+&lt;/div>
+&lt;div class="btn-links">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3578337.3605121" target="_blank" rel="noopener">
+PDF
+&lt;/a>
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/ielab/green-ir" target="_blank" rel="noopener">
+Code
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;div class="view-list view-list-item">
+&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
+&lt;a href="/publication/ecir2025_corpus/" >Corpus Subsampling: Estimating the Effectiveness of Neural Retrieval Models on Large Corpora&lt;/a>
+&lt;div class="article-metadata">
+&lt;span >
+&lt;a href="/authors/maik-frobe/">Maik Fröbe&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/andrew-parry/">Andrew Parry&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/shuai-wang/">Shuai Wang&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/shengyao-zhuang/">Shengyao Zhuang&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="/authors/matthias-hagen/">Matthias Hagen&lt;/a>&lt;/span>
+&lt;/div>
+&lt;div class="btn-links">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://downloads.webis.de/publications/papers/froebe_2025c.pdf" target="_blank" rel="noopener">
+Preprint
+&lt;/a>
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://link.springer.com/chapter/10.1007/978-3-031-88708-6_29" target="_blank" rel="noopener">
+PDF
+&lt;/a>
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/webis-de/ecir25-corpus-subsampling" target="_blank" rel="noopener">
+Code
+&lt;/a>
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ua-daad-ppp-23/">
+Project
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;p>The slides are available for download &lt;a href="/files/glasgow25-seminar-slides.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Keynote at Information Retrieval for Climate Impact Workshop at SIGIR'24</title><link>/post/2024-07-18-manila/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>/post/2024-07-18-manila/</guid><description>&lt;p>I gave a keynote at the &lt;a href="https://sites.google.com/view/ir-for-climate-impact/home" target="_blank" rel="noopener">Information Retrieval for Climate Impact Workshop&lt;/a> at &lt;a href="https://sigir.org/sigir2024" target="_blank" rel="noopener">SIGIR'24&lt;/a> entitled &lt;em>Automating Systematic Reviews with Information Retrieval&lt;/em>.&lt;/p>
 &lt;p>See the links above for more information and to download the slides.&lt;/p></description></item><item><title>Invited Workshop at Information Retrieval Meeting 2024</title><link>/post/2024-04-26-irm/</link><pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate><guid>/post/2024-04-26-irm/</guid><description>&lt;p>I ran a workshop at the &lt;a href="https://www.iqwig.de/en/events/information-retrieval-meeting/" target="_blank" rel="noopener">IQWiG Information Retrieval Meeting 2024&lt;/a> about using APIs for evidence identification.&lt;/p>
 &lt;p>More and more APIs (application programming interfaces) are used as programmatic interfaces for certain databases or data sets. This workshop explains what an API is and what knowledge is necessary to use them, for example:&lt;/p>
 &lt;ul>
@@ -100,30 +176,6 @@ Code
 &lt;/div>
 &lt;/li>
 &lt;li>
-&lt;div class="view-list view-list-item">
-&lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
-&lt;a href="/publication/arxiv2024_setencoder/" >Set-Encoder: Permutation-Invariant Inter-Passage Attention for Listwise Passage Re-Ranking with Cross-Encoders&lt;/a>
-&lt;div class="article-metadata">
-&lt;span >
-&lt;a href="/authors/ferdinand-schlatt/">Ferdinand Schlatt&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/maik-frobe/">Maik Fröbe&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/harrisen-scells/">Harrisen Scells&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/shengyao-zhuang/">Shengyao Zhuang&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/bevan-koopman/">Bevan Koopman&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/guido-zuccon/">Guido Zuccon&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/benno-stein/">Benno Stein&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/martin-potthast/">Martin Potthast&lt;/a>&lt;/span>, &lt;span >
-&lt;a href="/authors/matthias-hagen/">Matthias Hagen&lt;/a>&lt;/span>
-&lt;/div>
-&lt;div class="btn-links">
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2404.06912" target="_blank" rel="noopener">
-Preprint
-&lt;/a>
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/webis-de/set-encoder" target="_blank" rel="noopener">
-Code
-&lt;/a>
-&lt;/div>
-&lt;/div>
 &lt;/li>
 &lt;/ul></description></item><item><title>Invited Talk at the University Clinic Leipzig</title><link>/post/2024-01-11-ilm/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>/post/2024-01-11-ilm/</guid><description>&lt;p>I gave a joint colloquium talk with &lt;a href="https://temir.org/" target="_blank" rel="noopener">Martin Potthast&lt;/a> at the &lt;a href="https://www.uniklinikum-leipzig.de/einrichtungen/labormedizin" target="_blank" rel="noopener">Institut für Laboratoriumsmedizin, Klinische Chemie und Molekulare Diagnostik (ILM)&lt;/a> in Leipzig at the &lt;a href="https://www.uniklinikum-leipzig.de/" target="_blank" rel="noopener">University Clinic&lt;/a> entitled &lt;em>ChatGPT and Large Language Models for Medical Applications&lt;/em>.&lt;/p>
 &lt;p>The talk can be downloaded &lt;a href="/files/ilm23-talk.pdf">here&lt;/a>.&lt;/p></description></item><item><title>Invited Talk at University of Sheffield</title><link>/post/2023-11-03-sheffield/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><guid>/post/2023-11-03-sheffield/</guid><description>&lt;p>I gave a talk at the &lt;a href="https://www.sheffield.ac.uk/dcs/research/groups/natural-language-processing" target="_blank" rel="noopener">University of Sheffield Natural Language Processing Research Group&lt;/a> entitled &lt;em>Query Automation for Systematic Reviews&lt;/em>. This talk gave an overview of the papers &lt;a href="/post/2023-04-05-sigir">accepted at SIGIR'23&lt;/a> this year.&lt;/p>
